@@ -8,8 +8,8 @@ Produced by P0 and confirmed by the Managing Editor before research begins.
 ## Identity
 - Series; book number; title
 - Civilisation; window (place, dates)
-- Language; CEFR band
-- Register pack: references/cefr_register_<LANG>.md
+- Language code (en-uk, en-us, fr, it, es, ru, de); CEFR band (B1, B1–B2, B2)
+- Prompt set: prompts/<lang>/ · Language reference: references/per-language/<lang>.md
 - Chat language; reports language
 
 ## Budgets (book_format.md, this band)

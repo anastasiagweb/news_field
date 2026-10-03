@@ -55,7 +55,7 @@ A gripping, alive story that fails here fails. A true story that is dull also fa
 
 ## 4. Clear
 
-The learner reads with pleasure: sentences inside the architecture of `cefr_register_<LANG>.md`, period terms within budget and clear from context, no abstract vocabulary spikes, no fake-archaic or modern-colloquial language.
+The learner reads with pleasure: sentences inside the architecture of `per-language/<lang>.md`, period terms within budget and clear from context, no abstract vocabulary spikes, no fake-archaic or modern-colloquial language.
 
 Clarity is not simplicity of meaning. The native reader should never notice the band. If a passage feels thin, the fix is never to reach up a band — it is to look harder at the world and write a sharper concrete sentence inside the band.
 

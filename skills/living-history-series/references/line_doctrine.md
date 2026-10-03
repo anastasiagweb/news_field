@@ -17,7 +17,7 @@ Every book is written for two readers at once, and must satisfy both completely:
 1. **The native adult reader**, who reads the original simply because it is a good book — gripping, specific, alive, and true. This reader must never feel that the text is "for learners".
 2. **The adult learner at B1–B2** (default; the line also supports B1 and B2 books), who must be able to read it with pleasure and without a dictionary on every line. Annotated editions and glossaries are produced later, by other pipelines; the text we deliver is the clean original.
 
-The two readers want the same thing: a story they cannot put down, set in a world they can touch. Simplicity of language is not simplicity of meaning. See `quality_standard.md` and `cefr_register_<LANG>.md`.
+The two readers want the same thing: a story they cannot put down, set in a world they can touch. Simplicity of language is not simplicity of meaning. See `quality_standard.md` and the language reference `per-language/<lang>.md`.
 
 ## The ten commitments
 
@@ -51,7 +51,7 @@ Every name is plausible for the person's period, region, language, sex, and stat
 After every story, a Historical Note of 120–180 words tells the reader what the story drew on, what is known, what is debated, and — where it matters — what was invented. The Note is written at the same level as the story or slightly above (B2 for a B1–B2 book), never in academic prose. Every sentence of the Note is a checked claim. See `historical_note_craft.md`.
 
 ### 8. Clear language that is still literature
-The text sits inside the declared CEFR band in sentence architecture, tenses, and cohesion — and still reads as real literature: concrete observation, shown emotion, subtext, rhythm, restraint, endings on an image rather than a moral. See `quality_standard.md`, `cefr_register_<LANG>.md`, and `anti_formula.md`.
+The text sits inside the declared CEFR band in sentence architecture, tenses, and cohesion — and still reads as real literature: concrete observation, shown emotion, subtext, rhythm, restraint, endings on an image rather than a moral. See `quality_standard.md`, `per-language/<lang>.md`, and `anti_formula.md`.
 
 ### 9. Honest about hardship, never cruel for effect
 Slavery, war, hunger, disease, violence, and unequal law were part of these worlds, and the line does not hide them. But it does not dwell on gore or suffering for effect, and violence happens mostly off the page. No sexual content beyond the implied. See `respect_and_darkness.md`.
@@ -78,7 +78,7 @@ Full specification: `book_format.md`.
 
 ## Languages
 
-The line is designed to run in several languages. The default is **English (British spelling)**. Each language needs its own register pack, `cefr_register_<LANG>.md`. If a run requests a language whose pack does not exist, the pipeline stops at intake and offers to build the pack first, modelled on the English one.
+The line runs in seven languages: English (United Kingdom) `en-uk`, English (United States) `en-us`, French `fr`, Italian `it`, Spanish (peninsular) `es`, Russian `ru`, German `de`. The default is `en-uk`. Each language has its own prompt set (`prompts/<lang>/`), written in that language, with its own teams of people drawn from that language's publishing, scholarly, and reading culture, and its own reference (`per-language/<lang>.md`): readers, spelling and typography, register by band, period terms, rendering of past worlds, period-neutral language, dialogue, Notes, source tradition. A prompt from one language is never used for a book in another. A run that requests any other language stops at intake.
 
 Working artifacts (bibles, dossiers, frameworks, audits) are written in the book's language. Chat summaries to the user are written in the user's language.
 

@@ -1,6 +1,6 @@
 # Story Craft — Writing a Living History Story
 
-Read before the framework (P2), before drafting (P5), before revising (P7), and before the publish-ready edit (P8). Read with `quality_standard.md`, `story_forms.md`, `anti_formula.md`, `mentalite_doctrine.md`, and `cefr_register_<LANG>.md`.
+Read before the framework (P2), before drafting (P5), before revising (P7), and before the publish-ready edit (P8). Read with `quality_standard.md`, `story_forms.md`, `anti_formula.md`, `mentalite_doctrine.md`, and the language reference `per-language/<lang>.md`.
 
 ---
 
@@ -42,7 +42,7 @@ Apply the plausibility contract (`story_forms.md` §6) in every scene: the troub
 
 ## 6. Dialogue
 
-- Short, natural, period-neutral English (`cefr_register_<LANG>.md`).
+- Short, natural, period-neutral language (`per-language/<lang>.md`).
 - Rank and role shape speech: who may speak first, who explains, who stays silent.
 - Subtext: people say less than they mean, answer another question, change the subject.
 - No dialogue that tells the reader what both speakers already know.

@@ -2,6 +2,8 @@
 
 Read before designing book pitches (series), before the framework and the draft (book), and before final assembly. This is the output contract.
 
+The labels below are the working labels. In the book itself every heading and label (the introduction, the timeline, the note on names, the Historical Note, the afterword) appears in the book's language, in the form fixed by `per-language/<lang>.md`.
+
 ---
 
 ## Shape of a book

@@ -10,7 +10,7 @@ Produced by P0. A normalised record of the commission. No evaluation.
 - Span requested: <… | pipeline proposes>
 - Focus or exclusions:
 - Number of books: <n | pipeline proposes, 8–20>
-- Language: <code; default EN-UK>
+- Language: <code: en-uk (default), en-us, fr, it, es, ru, de> — selects prompts/<lang>/ and references/per-language/<lang>.md
 - CEFR band: <B1-B2 default | B1 | B2>
 - Register pack present: <yes | no — stop>
 - Chat language:

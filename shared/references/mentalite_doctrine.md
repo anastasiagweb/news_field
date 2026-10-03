@@ -52,7 +52,7 @@ Every audit role checks premises and prose against these families. The series bi
 
 ### 8. Time, number, and measurement
 - **Leak:** minutes, seconds, clock hours where no clocks existed; a seven-day week where none existed; our-era dates in dialogue or narration; statistics, averages, percentages; modern or foreign units in narration; birthdays and exact ages where ages were not counted that way.
-- **Period-true:** the period's own divisions of the day and year, or neutral English descriptions of them; the period's units or neutral English quantities. Our-era dates appear only in front matter and Historical Notes.
+- **Period-true:** the period's own divisions of the day and year, or neutral descriptions of them in the book's language; the period's units or neutral quantities. Our-era dates appear only in front matter and Historical Notes.
 
 ### 9. Knowledge of the world
 - **Leak:** germs and hygiene as disease prevention, modern science, modern geography and country names, continental identities, awareness of the scholarly names and labels later given to their own period or culture, awareness of which technology "has a future".
@@ -60,11 +60,11 @@ Every audit role checks premises and prose against these families. The series bi
 
 ### 10. Institutions that did not exist yet
 - **Leak:** institutions placed before their attested date or outside their region — guild-like bodies, police, detectives, intelligence services, banks, universal schooling, hospitals, prisons as punishment where other penalties were used, licences and certifications, organised crime.
-- **Period-true:** the institutions attested for that window, described in the period's own terms or plain English.
+- **Period-true:** the institutions attested for that window, described in the period's own terms or in plain words of the book's language.
 
 ### 11. Language register of narrator and dialogue
-- **Leak:** modern idiom and slang; modern sarcasm patterns and jokes that need modern knowledge; therapy, corporate, and bureaucratic vocabulary; equally, fake-archaic English.
-- **Period-true:** plain, timeless English; images taken from the characters' own world; humour that works from inside their life. See `cefr_register_<LANG>.md` → *Period-neutral English*.
+- **Leak:** modern idiom and slang; modern sarcasm patterns and jokes that need modern knowledge; therapy, corporate, and bureaucratic vocabulary; equally, fake-archaic language (each language's forms are listed in `per-language/<lang>.md`).
+- **Period-true:** plain, timeless language of the book; images taken from the characters' own world; humour that works from inside their life. See the language reference `per-language/<lang>.md` → *Period-neutral* section.
 
 ### 12. Morality and sentiment
 - **Leak:** modern attitudes to animals, to nature as fragile, to violence the period considered normal, to death as unusual; modern cynicism presented as worldly wisdom.

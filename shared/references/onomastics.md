@@ -29,7 +29,7 @@ Each series bible must name its onomastic sources, found and verified during the
 For civilisations whose ordinary names are lost, the bible must choose and declare one of these strategies, in this order of preference:
 
 1. **Names recorded by neighbours** who wrote about this people, used as a small, honest pool.
-2. **Bynames and descriptive names** rendered in plain English, used sparingly where the culture plausibly used such names; better for minor characters than for protagonists.
+2. **Bynames and descriptive names** rendered in plain words of the book's language, used sparingly where the culture plausibly used such names; better for minor characters than for protagonists.
 3. **Rule-based invented names** that follow the sound patterns of attested words or neighbouring languages, declared in the bible with the rule, and acknowledged once per book in the introduction.
 
 Never present a reconstructed or invented name as attested in a Historical Note. Never borrow the names of a later culture that conquered or replaced this one without saying so — and prefer not to.

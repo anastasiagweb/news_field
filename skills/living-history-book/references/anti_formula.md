@@ -33,7 +33,7 @@ Each may appear **at most the number of times shown per book** (0 = never).
 
 ## Part 2 — Banned phrases and phrase families
 
-Never use, in narration or dialogue. Variants and paraphrases count. Each occurrence is a finding (Minor; Major if two or more in one story; Critical if the book shows a pattern).
+Never use, in narration or dialogue. Variants and paraphrases count. The families below are stated in English; each language reference (`per-language/<lang>.md`) lists the same families as they appear in its language, and they are banned in the same way. Each occurrence is a finding (Minor; Major if two or more in one story; Critical if the book shows a pattern).
 
 **Generations and continuity**
 - generation after generation; passed down through generations; from hand to hand; father's father; back beyond counting; a link in a chain; the chain must not break; as it always had, as it always would; the ancient rhythm; the cycle continued

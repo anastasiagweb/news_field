@@ -46,7 +46,7 @@ Coinage or its absence, weighed metal, barter, rations, credit, debts, interest,
 *Typical failures:* coins before coinage; modern financial reasoning; prices with no period basis.
 
 ### 9. Units and measures
-Length, weight, volume, area, distance; their names in this culture or neutral English.
+Length, weight, volume, area, distance; their names in this culture or neutral words of the book's language.
 *Typical failures:* modern or foreign units in narration; a later unit projected back where uncertain.
 
 ### 10. Time and calendar
@@ -60,7 +60,7 @@ Ranks, classes, free and unfree, foreigners, dependants, kinship, household stru
 *Typical failures:* modern equality; status categories from another period; modern life-stage categories.
 
 ### 12. Government, offices, titles
-Rulers, councils, assemblies, officials, scribes, priestly offices; their titles in the period and the correct English rendering.
+Rulers, councils, assemblies, officials, scribes, priestly offices; their titles in the period and the correct rendering in the book's language.
 *Typical failures:* titles from later periods; offices invented as fact; modern bureaucratic roles in period dress.
 
 ### 13. Law, justice, punishment
