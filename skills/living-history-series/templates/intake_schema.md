@@ -13,7 +13,6 @@ Produced by P0. A normalised record of the commission. No evaluation.
 - Language: <code; default EN-UK>
 - CEFR band: <B1-B2 default | B1 | B2>
 - Register pack present: <yes | no — stop>
-- Lineage file present: <yes | no — stop>
 - Chat language:
 - Reports language: <book language default | other>
 

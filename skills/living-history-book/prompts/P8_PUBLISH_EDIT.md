@@ -26,7 +26,7 @@ Follows the draft audit PASS (or the optional checkpoint). Feeds P9.
 ## Inputs (read fresh, in order)
 
 1. The PASS units, `01_dossier.md` (rendering table and onomasticon), `00_spec.md`.
-2. `references/lineage_<LANG>.md`, `references/cefr_register_<LANG>.md`, `references/quality_standard.md`, `references/anti_formula.md`, `references/mentalite_doctrine.md`, `references/book_format.md`, `references/historical_note_craft.md`.
+2. `references/cefr_register_<LANG>.md`, `references/quality_standard.md`, `references/anti_formula.md`, `references/mentalite_doctrine.md`, `references/book_format.md`, `references/historical_note_craft.md`.
 3. `templates/manuscript_schema.md`.
 
 ## Passes (in order)

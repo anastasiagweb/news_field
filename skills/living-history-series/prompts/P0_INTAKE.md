@@ -33,7 +33,7 @@ First phase. Output feeds P1 (Survey). Nothing proceeds until the Managing Edito
 1. **Working directory.** Confirm it (default `living-history/<civilisation-slug>/series/`) and create `inputs/`.
 2. **Civilisation.** Record it as stated. If it is too broad to be one series, or ambiguous, record that as a blocking question.
 3. **Parameters.** Span, focus, exclusions, number of books (or "pipeline proposes 8–20"), language (default EN-UK), CEFR band (default B1–B2), chat language, reports language.
-4. **Language packs.** Verify that `references/cefr_register_<LANG>.md` and `references/lineage_<LANG>.md` exist for the requested language. If either is missing, stop and tell the Managing Editor that the pack must be built first; offer to build it.
+4. **Language pack.** Verify that `references/cefr_register_<LANG>.md` exists for the requested language. If it is missing, stop and tell the Managing Editor that the pack must be built first; offer to build it.
 5. **Materials.** Save every supplied file under `inputs/`, converting documents to Markdown text while keeping the originals. Record type and provenance. Do not evaluate them.
 6. **Line registry.** If supplied, record which series exist and which common concepts have been used.
 7. **Web tools.** Test that web search and page fetch work. Record the result; if they do not, state the consequence plainly: research can proceed, but no gate can pass on unverified load-bearing claims.

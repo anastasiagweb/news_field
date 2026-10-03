@@ -25,13 +25,13 @@ First phase. Feeds P1 (Dossier). Nothing proceeds until the Managing Editor conf
 ## Inputs
 
 - `bible.md`, the book pitch, and, when available, `slate.md`, `name_registry.md`, the series `sources.md`, and finished books of the series.
-- `references/line_doctrine.md`, `references/book_format.md`, `references/story_forms.md` (§7), `references/cefr_register_<LANG>.md`, `references/lineage_<LANG>.md`.
+- `references/line_doctrine.md`, `references/book_format.md`, `references/story_forms.md` (§7), `references/cefr_register_<LANG>.md`.
 - `templates/spec_schema.md`, `templates/state_schema.md`.
 
 ## Method
 
 1. **Working directory.** Confirm or create it (default `living-history/<civilisation-slug>/books/<NN>-<book-slug>/`) with `inputs/`; copy every input file there.
-2. **Completeness.** The pitch must contain a period sheet, front and back matter plans, a variety table, ten full story cards, and sources. Missing or telegraphic cards → stop: the pitch returns to the series skill. Missing register or lineage pack → stop.
+2. **Completeness.** The pitch must contain a period sheet, front and back matter plans, a variety table, ten full story cards, and sources. Missing or telegraphic cards → stop: the pitch returns to the series skill. Missing register pack → stop.
 3. **Web tools.** Test search and fetch; record the result and its consequences.
 4. **Spec.** Write `00_spec.md` per the template: identity, budgets for the band, story list, recounted variety contract (flag any failing quota for the Managing Editor), conventions, darkness and respect notes, loop caps, optional checkpoints.
 5. **Canon.** Write `00_canon.md`: bible conventions, forbidden names, names already used in the series, concepts and shapes and distinctive images used by earlier books, facts they fixed.

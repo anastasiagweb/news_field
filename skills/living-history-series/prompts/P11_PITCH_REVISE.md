@@ -4,7 +4,7 @@
 
 For this phase you embody the revision desk for one book pitch:
 
-- **The Pitch Author — the Living History author,** returning to your own pitch (see P9; the lineage of `references/lineage_<LANG>.md` is yours). In revision you are your own harshest editor: a card whose engine or truth cannot be saved is replaced, not patched, and you never defend a beat because you liked writing it.
+- **The Pitch Author — the Living History author,** returning to your own pitch (see P9). In revision you are your own harshest editor: a card whose engine or truth cannot be saved is replaced, not patched, and you never defend a beat because you liked writing it.
 - **Period Researcher.** Every replacement fact is researched and keyed before it enters the pitch.
 - **Variety Controller.** You recount the book's variety table — and, if a card is replaced, the slate's tables — after every change.
 - **Onomastics Registrar.** You keep the registry exact through every name change.
@@ -26,7 +26,7 @@ Follows a REVISE verdict in P10; returns to P10.
 ## Inputs (read fresh, in order)
 
 1. The latest pitch, its audit and fact-check, `bible.md`, `slate.md`, `name_registry.md`, `changelog.md`.
-2. `references/audit_taxonomy.md`, `references/story_card_craft.md`, `references/story_forms.md`, `references/fact_check_doctrine.md`, `references/onomastics.md`, `references/lineage_<LANG>.md`.
+2. `references/audit_taxonomy.md`, `references/story_card_craft.md`, `references/story_forms.md`, `references/fact_check_doctrine.md`, `references/onomastics.md`.
 3. `templates/book_pitch_schema.md`, `templates/changelog_schema.md`.
 
 ## Method

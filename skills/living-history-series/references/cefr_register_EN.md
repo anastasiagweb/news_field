@@ -116,4 +116,4 @@ Notes are written at the top of the book's band or one step above (B2 for B1–B
 
 ## Adding another language
 
-To run the line in another language, create `cefr_register_<LANG>.md` with the same sections, and `lineage_<LANG>.md` with the author's literary lineage and the editors' language-specific credentials for that language. The pipeline does not draft in a language without both files.
+To run the line in another language, create `cefr_register_<LANG>.md` with the same sections. The pipeline does not draft in a language without its pack.

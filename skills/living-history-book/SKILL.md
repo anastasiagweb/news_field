@@ -1,6 +1,6 @@
 ---
 name: living-history-book
-description: Editorial pipeline that turns a Living History series bible plus one book pitch into a publish-ready, fact-checked collection of ten standalone short stories about ordinary people in one window of a past civilisation, each followed by an honest Historical Note, in clear English (B1-B2 by default) that native adults read for pleasure. Every phase is run by a richly drawn persona - the Living History author with a declared literary lineage, research teams, audit panels, fact-check desks, line editors. Builds a sourced period dossier before writing, plans against variety and plausibility contracts, drafts, loops fiction audits and source-based fact-checks to zero Critical and Major issues, then line-edits. Trigger on living-history, a Living History book, the next book of a civilisation series, or a supplied living-history bible and book pitch; also on phase requests such as build the dossier, plan the book, audit the draft, publish-ready edit. New books only. Not for series design (use living-history-series).
+description: Editorial pipeline that turns a Living History series bible plus one book pitch into a publish-ready, fact-checked collection of ten standalone short stories about ordinary people in one window of a past civilisation, each followed by an honest Historical Note, in clear English (B1-B2 by default) that native adults read for pleasure. Every phase is run by a richly drawn persona - the Living History author, research teams, audit panels, fact-check desks, line editors. Builds a sourced period dossier before writing, plans against variety and plausibility contracts, drafts, loops fiction audits and source-based fact-checks to zero Critical and Major issues, then line-edits. Trigger on living-history, a Living History book, the next book of a civilisation series, or a supplied living-history bible and book pitch; also on phase requests such as build the dossier, plan the book, audit the draft, publish-ready edit. New books only. Not for series design (use living-history-series).
 ---
 
 # Living History — Book Pipeline
@@ -13,9 +13,8 @@ This skill makes **new books** from a pitch. It does not repair legacy books.
 
 ## How this skill works — the persona is the engine
 
-Every phase prompt in `prompts/` opens with **Roles & Qualifications**: the people who do that phase's work, drawn in depth — the Living History author with a career, a literary lineage, tastes, and refusals; research teams of period specialists; audit panels and fact-check desks with real credentials; British line editors. **The first thing you do in every phase is become that persona or team.** Read the persona section slowly and adopt it fully for the whole phase. The methodology that follows is how they work; the persona is why the work is good.
+Every phase prompt in `prompts/` opens with **Roles & Qualifications**: the people who do that phase's work, drawn in depth — the Living History author with a career, convictions, tastes, and refusals; research teams of period specialists; audit panels and fact-check desks with real credentials; British line editors. **The first thing you do in every phase is become that persona or team.** Read the persona section slowly and adopt it fully for the whole phase. The methodology that follows is how they work; the persona is why the work is good.
 
-Authorial personas adopt `references/lineage_<LANG>.md` as their own lineage; editorial personas working in that language adopt its language credentials.
 
 The working documents contain **no examples** — no sample stories, sentences, Notes, or catalogues of past mistakes. Examples get copied. Every phase works from its persona, the doctrine, the sources, and the run's own material.
 
@@ -50,7 +49,7 @@ Each phase is a different mind. An author who audits their own draft in the same
 - **Recommended:** `slate.md`, `name_registry.md`, the series `sources.md`.
 - **Optional:** finished books of the same series, for canon and repetition checks.
 
-If the pitch lacks full story cards, or the language lacks `references/cefr_register_<LANG>.md` or `references/lineage_<LANG>.md`, stop at P0 and say what is missing.
+If the pitch lacks full story cards, or the language lacks `references/cefr_register_<LANG>.md`, stop at P0 and say what is missing.
 
 ## Output (delivered in P9)
 
@@ -107,7 +106,7 @@ Optional (chosen at P0): review the framework after its PASS; review the audit-c
 ## References
 
 Shared doctrine (identical in both Living History skills), in `references/`:
-`line_doctrine.md` (read every run) · `quality_standard.md` · `story_forms.md` · `anti_formula.md` · `mentalite_doctrine.md` · `onomastics.md` · `fact_check_doctrine.md` · `claim_taxonomy.md` · `historical_note_craft.md` · `book_format.md` · `cefr_register_EN.md` · `lineage_EN.md` · `respect_and_darkness.md` · `audit_taxonomy.md`.
+`line_doctrine.md` (read every run) · `quality_standard.md` · `story_forms.md` · `anti_formula.md` · `mentalite_doctrine.md` · `onomastics.md` · `fact_check_doctrine.md` · `claim_taxonomy.md` · `historical_note_craft.md` · `book_format.md` · `cefr_register_EN.md` · `respect_and_darkness.md` · `audit_taxonomy.md`.
 
 Book-specific: `references/dossier_craft.md` · `references/story_craft.md`.
 

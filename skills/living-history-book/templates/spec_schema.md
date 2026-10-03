@@ -10,7 +10,6 @@ Produced by P0 and confirmed by the Managing Editor before research begins.
 - Civilisation; window (place, dates)
 - Language; CEFR band
 - Register pack: references/cefr_register_<LANG>.md
-- Lineage: references/lineage_<LANG>.md
 - Chat language; reports language
 
 ## Budgets (book_format.md, this band)

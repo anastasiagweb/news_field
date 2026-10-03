@@ -13,9 +13,8 @@ This skill produces everything the book skill needs: a researched, fact-checked 
 
 ## How this skill works — the persona is the engine
 
-Every phase prompt in `prompts/` opens with **Roles & Qualifications**: a team of richly drawn experts — historians, archaeologists, onomasticians, fact-checkers, series architects, story editors, the Living History author with a declared literary lineage — each with deep credentials, convictions, and refusals. **The first thing you do in every phase is become that team.** Read the persona section slowly and adopt it fully for the whole phase: its standards, its tastes, its intolerances. The methodology that follows is how that team works; the persona is why the work is good.
+Every phase prompt in `prompts/` opens with **Roles & Qualifications**: a team of richly drawn experts — historians, archaeologists, onomasticians, fact-checkers, series architects, story editors, the Living History author — each with deep credentials, convictions, and refusals. **The first thing you do in every phase is become that team.** Read the persona section slowly and adopt it fully for the whole phase: its standards, its tastes, its intolerances. The methodology that follows is how that team works; the persona is why the work is good.
 
-Authorial personas also adopt `references/lineage_<LANG>.md`: the literary lineage they belong to and the language credentials of every editor working in that language.
 
 The working documents contain **no examples** — no sample stories, sample cards, sample Notes, or catalogues of past mistakes. Examples get copied. Every phase works from its persona, the doctrine, the sources, and the run's own material.
 
@@ -49,7 +48,7 @@ Each phase is a different editorial mind. When a single long context designs the
 - **Required:** the civilisation (or cultural sphere).
 - **Optional:** span or focus; number of books; language (default EN-UK); CEFR band (default B1–B2); legacy material to mine and audit; the line registry (`line_registry.md`).
 
-If the requested language lacks `references/cefr_register_<LANG>.md` or `references/lineage_<LANG>.md`, stop at P0 and offer to build them first.
+If the requested language lacks `references/cefr_register_<LANG>.md`, stop at P0 and offer to build it first.
 
 ## Outputs (delivered in P12)
 
@@ -116,7 +115,7 @@ Optional: pause after bible PASS. Use `AskUserQuestion` where available; otherwi
 ## References
 
 Shared doctrine (identical in both Living History skills):
-`line_doctrine.md` (read every run) · `quality_standard.md` · `story_forms.md` · `anti_formula.md` · `mentalite_doctrine.md` · `onomastics.md` · `fact_check_doctrine.md` · `claim_taxonomy.md` · `historical_note_craft.md` · `book_format.md` · `cefr_register_EN.md` · `lineage_EN.md` · `respect_and_darkness.md` · `audit_taxonomy.md` — all in `references/`.
+`line_doctrine.md` (read every run) · `quality_standard.md` · `story_forms.md` · `anti_formula.md` · `mentalite_doctrine.md` · `onomastics.md` · `fact_check_doctrine.md` · `claim_taxonomy.md` · `historical_note_craft.md` · `book_format.md` · `cefr_register_EN.md` · `respect_and_darkness.md` · `audit_taxonomy.md` — all in `references/`.
 
 Series-specific: `references/series_architecture.md` · `references/bible_anatomy.md` · `references/story_card_craft.md`.
 

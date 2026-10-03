@@ -6,7 +6,7 @@
 2. Shared doctrine copies are identical to shared/.
 3. Every phase prompt opens with a persona section (Roles & Qualifications)
    and carries a Cognitive Discipline section.
-4. No example markers anywhere in the skills (the line contains no examples).
+4. No example markers and no named-author lineage anywhere in the skills.
 
 Usage: python3 tools/check_links.py   (exit code 1 on any problem)
 """
@@ -20,7 +20,8 @@ SKILLS = ["living-history-series", "living-history-book"]
 LINK = re.compile(r"\b(references|templates|prompts)/([A-Za-z0-9_<>\-]+\.md)")
 EXAMPLE_MARKERS = re.compile(
     r"\be\.g\.|\bfor example\b|\bfor instance\b|\bexample\b|\bsample (story|sentence|note|text)\b"
-    r"|failure.gallery|echoes of hellas",
+    r"|failure.gallery|echoes of hellas|lineage|sutcliff|renault|golding|fitzgerald|unsworth|ellis peters"
+    r"|lindsey davis|van gulik|mantel|jim crace|geraldine brooks",
     re.IGNORECASE,
 )
 
