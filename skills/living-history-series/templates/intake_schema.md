@@ -1,19 +1,20 @@
 # Intake Schema — `00_intake.md`
 
-Produced by P0. A normalised record of what the user asked for and supplied. No evaluation here.
+Produced by P0. A normalised record of the commission. No evaluation.
 
 ```
 # Intake — <civilisation> — <date>
 
-## Request
-- Civilisation / cultural sphere: <…>
-- Span the user wants covered (if stated): <… or "pipeline proposes">
-- Focus or exclusions (if stated): <…>
-- Number of books (if stated): <n or "pipeline proposes, 8–20">
-- Language: <EN-UK default>
+## Commission
+- Civilisation / cultural sphere:
+- Span requested: <… | pipeline proposes>
+- Focus or exclusions:
+- Number of books: <n | pipeline proposes, 8–20>
+- Language: <code; default EN-UK>
 - CEFR band: <B1-B2 default | B1 | B2>
-- Register pack available: <yes / no — if no, stop>
-- Chat language: <user's language>
+- Register pack present: <yes | no — stop>
+- Lineage file present: <yes | no — stop>
+- Chat language:
 - Reports language: <book language default | other>
 
 ## Supplied materials
@@ -21,17 +22,25 @@ Produced by P0. A normalised record of what the user asked for and supplied. No 
 |---|---|---|---|
 
 ## Line registry
-- Supplied: <yes/no>; series already in the line: <list>; concepts to avoid repeating: <summary or n/a>
+- Supplied: <yes | no>
+- Series already in the line:
+- Concepts to vary:
 
-## Constraints and preferences stated by the user
-- <verbatim or close paraphrase, each one line>
+## Preferences stated by the Managing Editor
+- <verbatim or close paraphrase, one per line>
 
-## Defaults applied (user may override at checkpoint)
-- <e.g., themed cross-period books: off>
-- <e.g., pitches drafted just-in-time: off — all books>
+## Defaults applied
+- Themed cross-period books: off
+- Real persons: background and cameo only
+- Darkness and respect: per references/respect_and_darkness.md
+- Pitch mode: chosen at the slate checkpoint
+- Pause after bible PASS: <off | on>
 
-## Questions for the user (only if blocking)
-- <…>
+## Web tools
+- Available: <yes | no — consequences>
+
+## Blocking questions
+- <only if any>
 
 ## Working directory
 <path>

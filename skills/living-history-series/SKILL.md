@@ -1,174 +1,145 @@
 ---
 name: living-history-series
-description: Editorial pipeline that turns a past civilisation (Ancient Greece, Egypt, Rome, the Vikings, Edo Japan, the Aztecs and others) into a fact-checked series package for the Living History line of B1-B2 short-story collections about ordinary people - a sourced civilisation survey, a periodisation into 8-20 books, a detailed series bible, a slate of ten standalone story concepts per book, and a detailed pitch per book - audited and source-checked in loops until zero Critical and Major issues. Feeds the living-history-book skill. Trigger on living-history, Living History series, a new civilisation series, daily-life historical story bundles by era, a series bible or slate of books for a civilisation, auditing an old series plan (e.g. Echoes of Hellas), or phase requests such as civilisation survey, periodisation, series bible audit, slate design, book pitch. Not for drafting books (use living-history-book), crime series, or single historical novels.
+description: Editorial pipeline that turns a past civilisation into a fact-checked series package for the Living History line of B1-B2 short-story collections about ordinary people - a sourced civilisation survey, a periodisation into 8-20 books, a detailed series bible, a slate of ten standalone story concepts per book, and a detailed pitch per book - with every phase run by a richly drawn expert persona team, multi-role audits, and source-based fact-checks looped until zero Critical and Major issues. Feeds the living-history-book skill. Trigger on living-history, Living History series, a new civilisation series, daily-life historical story collections by era, a series bible or slate of books for a civilisation, auditing an old series plan, or phase requests such as civilisation survey, periodisation, series bible audit, slate design, book pitch. Not for drafting books (use living-history-book), crime series, or single historical novels.
 ---
 
 # Living History — Series Pipeline
 
 Turn a civilisation into a series of books for the **Living History** line: collections of ten standalone short stories about ordinary people in one world-window of that civilisation, each story followed by an honest Historical Note, written in clear English (default B1–B2) that a native adult reads for pleasure.
 
-This skill produces everything the book skill needs: a researched, fact-checked **series bible**; a **slate** of ten story concepts for every book; and a detailed **pitch** for each book. It does not draft stories — that is `living-history-book`.
+This skill produces everything the book skill needs: a researched, fact-checked **series bible**, a **slate** of ten story concepts for every book, and a detailed **pitch** for each book. It does not draft stories — that is `living-history-book`.
 
 ---
 
+## How this skill works — the persona is the engine
+
+Every phase prompt in `prompts/` opens with **Roles & Qualifications**: a team of richly drawn experts — historians, archaeologists, onomasticians, fact-checkers, series architects, story editors, the Living History author with a declared literary lineage — each with deep credentials, convictions, and refusals. **The first thing you do in every phase is become that team.** Read the persona section slowly and adopt it fully for the whole phase: its standards, its tastes, its intolerances. The methodology that follows is how that team works; the persona is why the work is good.
+
+Authorial personas also adopt `references/lineage_<LANG>.md`: the literary lineage they belong to and the language credentials of every editor working in that language.
+
+The working documents contain **no examples** — no sample stories, sample cards, sample Notes, or catalogues of past mistakes. Examples get copied. Every phase works from its persona, the doctrine, the sources, and the run's own material.
+
+## The fresh-phase principle
+
+Each phase is a different editorial mind. When a single long context designs the bible, audits it, and revises it, the audit is not fresh: it has watched the choices go in and is soft on them. So:
+
+- Enter every phase by re-reading its prompt from the top, adopting its persona anew, and treating its input files as if seen for the first time.
+- Never consult your own earlier reasoning from another phase; consult only the artifacts on disk.
+- Auditors never revise; revisers never audit.
+- When subagents are available, run each phase (and each audit role, if useful) as a fresh subagent given only the phase prompt, the references it lists, and the input artifacts.
+
 ## Philosophy — hold this before any phase
 
-**Read `references/line_doctrine.md` first, every run.** It defines the line: ordinary people, standalone stories, wide variety of genres (including plausible intrigue, theft, mystery, adventure), true to the record, no modern minds, names that belong, honest Notes, clear language that is still literature, honest about hardship without cruelty, respectful.
+**Read `references/line_doctrine.md` first, every run.** Ordinary people at the centre; standalone stories; a wide palette of genres, plotted ones included, never contrived; true to the record; no modern minds; names that belong; honest Notes; clear language that is still literature; honest about hardship without cruelty; respect.
 
-**Truth is built in from the start.** The earlier generation of this kind of series failed most at the plan level: the plan itself put Solon in a 10th-century colony, Socrates and Cleopatra at the centre, and collapsed into fragments in later volumes. This pipeline researches before it designs and fact-checks every layer — bible, slate anchors, book pitches. See `references/failure_gallery.md`.
+**Truth is built in from the start.** The survey is researched before anything is designed, and every layer — bible, slate, pitches — is fact-checked against real sources.
 
-**A book is a world-window, not a theme.** One civilisation, one period, one region or social world. See `references/series_architecture.md`.
+**A book is a world-window, not a theme** (`references/series_architecture.md`).
 
-**Variety is designed, not hoped for.** Every book's ten stories are spread across forms, shapes, openings, endings, and people by contract. See `references/story_forms.md`.
+**Variety is designed, not hoped for** (`references/story_forms.md`).
 
-**Cognitive separation.** Each phase is a different editorial mind. Read the phase prompt fresh when entering it; do not let one phase's enthusiasm leak into the next. Auditors never revise; revisers never audit.
+**Everything on disk; no silent edits.** Every phase writes a complete artifact before advancing; every revision is logged against a finding. Chat carries short status reports to the Managing Editor in her language.
 
-**Everything on disk.** Every phase writes a complete artifact before advancing. Chat carries status, not content. No silent edits — every revision is logged against a finding.
-
-**Zero-tolerance gates.** Audits pass only with zero Critical and zero Major on the axes declared in each audit prompt. "Nearly passes" is REVISE.
+**Zero-tolerance gates.** Audits pass only with zero Critical and zero Major on the axes each audit declares.
 
 ---
 
 ## Inputs
 
 - **Required:** the civilisation (or cultural sphere).
-- **Optional:** span or focus; desired number of books; language (default EN-UK); CEFR band (default B1–B2); legacy material (an old plan or old books to mine and audit); a line registry (`line_registry.md`) listing series already produced.
+- **Optional:** span or focus; number of books; language (default EN-UK); CEFR band (default B1–B2); legacy material to mine and audit; the line registry (`line_registry.md`).
 
-If the requested language has no register pack (`references/cefr_register_<LANG>.md`), stop at P0 and offer to build the pack first.
+If the requested language lacks `references/cefr_register_<LANG>.md` or `references/lineage_<LANG>.md`, stop at P0 and offer to build them first.
 
 ## Outputs (delivered in P12)
 
 ```
 <working dir>/
-├── bible.md                      — the series bible (finalised)
+├── bible.md                      — the series bible
 ├── slate.md                      — all books × ten story concepts, with variety tables
-├── pitches/bookNN_<slug>.md      — one detailed pitch per book (all, a batch, or just-in-time)
+├── pitches/bookNN_<slug>.md      — detailed pitch per book (all, a batch, or just-in-time)
 ├── name_registry.md              — every name allocated, with attestation
-├── sources.md                    — all sources, by tier, with keys
-├── changelog.md                  — every revision, tied to findings
+├── sources.md                    — all sources by tier, keyed
+├── changelog.md                  — every revision tied to findings
+├── delivery_note.md              — summary for the Managing Editor
 ├── 00_state.md                   — pipeline state
-└── (history) 00_intake.md, 01_survey.md, 01_sources.md, 02_concept.md, [02_legacy_audit.md],
+└── history: 00_intake.md, 01_survey.md, 01_sources.md, 02_concept.md, [02_legacy_audit.md],
     bible.vN.md, bible_audit.vN.md, bible_factcheck.vN.md, slate.vN.md, slate_audit.vN.md,
     slate_factcheck.vN.md, pitches/*.vN.md, pitch_audits/*.vN.md, pitch_factchecks/*.vN.md
 ```
-
-The bible plus one pitch are the complete input for one run of `living-history-book`.
 
 ---
 
 ## Phase map
 
-| Phase | Mind | Prompt | Output |
+| Phase | Persona team | Prompt | Output |
 |---|---|---|---|
-| P0 | Intake Editor | `prompts/P0_INTAKE.md` | `00_intake.md`, `00_state.md` — **user checkpoint** |
-| P1 | Research Historian | `prompts/P1_SURVEY.md` | `01_survey.md`, `01_sources.md` |
-| P2 | Series Architect | `prompts/P2_CONCEPT.md` | `02_concept.md` [+ `02_legacy_audit.md`] — **user checkpoint** |
-| P3 | Bible Author | `prompts/P3_BIBLE_DRAFT.md` | `bible.v1.md` |
-| P4 | Bible Audit Panel + Fact-Checker | `prompts/P4_BIBLE_AUDIT.md` | `bible_audit.vN.md`, `bible_factcheck.vN.md` |
-| P5 | Bible Reviser | `prompts/P5_BIBLE_REVISE.md` | `bible.v<N+1>.md` → back to P4 |
-| P6 | Slate Designer | `prompts/P6_SLATE_DESIGN.md` | `slate.v1.md`, `name_registry.md` |
-| P7 | Slate Audit Panel + Fact-Checker | `prompts/P7_SLATE_AUDIT.md` | `slate_audit.vN.md`, `slate_factcheck.vN.md` |
-| P8 | Slate Reviser | `prompts/P8_SLATE_REVISE.md` | `slate.v<N+1>.md` → back to P7; at PASS **user checkpoint** |
-| P9 | Pitch Author | `prompts/P9_PITCH_DRAFT.md` | `pitches/bookNN_<slug>.v1.md` |
-| P10 | Pitch Audit Panel + Fact-Checker | `prompts/P10_PITCH_AUDIT.md` | `pitch_audits/bookNN.vN.md`, `pitch_factchecks/bookNN.vN.md` |
-| P11 | Pitch Reviser | `prompts/P11_PITCH_REVISE.md` | `pitches/bookNN_<slug>.v<N+1>.md` → back to P10 |
-| P12 | Delivery Editor | `prompts/P12_DELIVERY.md` | finalised package — **user checkpoint** |
+| P0 | Series Production Desk | `prompts/P0_INTAKE.md` | `00_intake.md`, `00_state.md` — **checkpoint** |
+| P1 | Research Team | `prompts/P1_SURVEY.md` | `01_survey.md`, `01_sources.md` |
+| P2 | Series Architecture Board | `prompts/P2_CONCEPT.md` | `02_concept.md` [+ `02_legacy_audit.md`] — **checkpoint** |
+| P3 | Bible Writers' Room | `prompts/P3_BIBLE_DRAFT.md` | `bible.v1.md` |
+| P4 | Bible Audit Panel + Fact-Check Desk | `prompts/P4_BIBLE_AUDIT.md` | `bible_audit.vN.md`, `bible_factcheck.vN.md` |
+| P5 | Bible Revision Desk | `prompts/P5_BIBLE_REVISE.md` | `bible.v<N+1>.md` → P4 |
+| P6 | Story Room | `prompts/P6_SLATE_DESIGN.md` | `slate.v1.md`, `name_registry.md` |
+| P7 | Slate Audit Panel + Fact-Check Desk | `prompts/P7_SLATE_AUDIT.md` | `slate_audit.vN.md`, `slate_factcheck.vN.md` |
+| P8 | Story Room, revision session | `prompts/P8_SLATE_REVISE.md` | `slate.v<N+1>.md` → P7; at PASS **checkpoint** |
+| P9 | Pitch Author and research partners | `prompts/P9_PITCH_DRAFT.md` | `pitches/bookNN_<slug>.v1.md` |
+| P10 | Pitch Audit Panel + Fact-Check Desk | `prompts/P10_PITCH_AUDIT.md` | `pitch_audits/bookNN.vN.md`, `pitch_factchecks/bookNN.vN.md` |
+| P11 | Pitch Revision Desk | `prompts/P11_PITCH_REVISE.md` | `pitches/bookNN_<slug>.v<N+1>.md` → P10 |
+| P12 | Production and Delivery Desk | `prompts/P12_DELIVERY.md` | finalised package — **checkpoint** |
 
 ### Loop caps
-- Bible P4↔P5: 5 passes.
-- Slate P7↔P8: 4 passes.
-- Pitch P10↔P11: 3 passes per book.
-- Stuck-loop rule at every loop (`references/audit_taxonomy.md`): the same root cause blocking twice in a row → pause and ask the user.
+- Bible P4↔P5: 5. Slate P7↔P8: 4. Pitch P10↔P11: 3 per book.
+- Stuck-loop rule everywhere (`references/audit_taxonomy.md`).
 
 ### Pitches at scale
-Twenty detailed pitches are a large body of work. At the P8 checkpoint the user chooses:
-- **All books now** (default for short series), or
-- **A batch** (e.g., books 1–3), or
-- **Just-in-time**: deliver bible + slate now; draft each pitch when that book is about to be written (re-enter at P9 for one book).
+At the slate checkpoint the Managing Editor chooses: all books now; a batch; or just-in-time (bible and slate now, each pitch when its book is about to be written).
 
----
+## Checkpoints with the Managing Editor
 
-## User checkpoints
+1. End of P0 — the commission.
+2. End of P2 — number of books, book list, legacy decisions.
+3. Any stuck loop.
+4. End of P8 — slate review and pitch mode.
+5. End of P12 — delivery.
 
-1. **End of P0** — confirm civilisation, span, language, band, defaults, materials.
-2. **End of P2** — approve the number of books, the book list, and (if legacy material) the legacy audit decisions.
-3. **Stuck loop** — whenever triggered.
-4. **End of P8 (slate PASS)** — review the slate; choose pitch mode (all / batch / just-in-time).
-5. **End of P12** — delivery.
-
-Optional (user may opt in at P0): pause after bible PASS before slate design.
-
-Use the `AskUserQuestion` tool at checkpoints where available; otherwise ask in chat and wait.
-
----
+Optional: pause after bible PASS. Use `AskUserQuestion` where available; otherwise ask in chat and wait.
 
 ## Research and fact-checking
 
-- Research uses the web tools of the session (search and fetch). Every load-bearing fact is verified per `references/fact_check_doctrine.md` (two independent Tier A–C sources; Wikipedia for navigation only; no Tier E).
-- If web tools are unavailable, say so at P0. The pipeline may proceed with claims marked `UNVERIFIED (offline)`, but no audit gate can PASS while load-bearing claims are unverified; the user is told exactly what remains unchecked.
-- Fact-checks run at P4 (bible), P7 (slate anchors and premises), and P10 (each pitch). Each produces a report per `templates/fact_check_report_schema.md`.
-
-## Subagents
-
-When the environment supports subagents, long phases may be parallelised: the survey by period (P1), audit roles (P4, P7, P10), and pitches by book (P9–P11). Each subagent receives the phase prompt path and the list of references to read itself, writes its artifact to disk, and returns a short status. The orchestrator merges, applies gates, and updates `00_state.md`. Never let a subagent revise what it audited.
+- Research uses the session's web tools to the standard of `references/fact_check_doctrine.md`: load-bearing facts on two independent Tier A–C sources; Wikipedia for navigation only; no Tier E; no invented sources.
+- Without web tools, claims are marked `UNVERIFIED (offline)` and no gate passes on an unverified load-bearing claim; the Managing Editor is told exactly what remains unchecked.
+- Fact-checks run at P4, P7, and P10, each reported per `templates/fact_check_report_schema.md`.
 
 ---
 
-## References — read when the phase prompt says so
+## References
 
-Shared line doctrine (identical in both Living History skills):
-- `references/line_doctrine.md` — the line's promise and hierarchy of authority. **Read every run.**
-- `references/quality_standard.md` — the five tests (Gripping, Alive, True, Clear, Standalone).
-- `references/story_forms.md` — genre palette, shapes, openings, endings, links, plausibility contract, variety contract.
-- `references/anti_formula.md` — banned moves, phrases, quotas.
-- `references/mentalite_doctrine.md` — no modern minds.
-- `references/onomastics.md` — names.
-- `references/fact_check_doctrine.md` — sources, evidence status, verdicts.
-- `references/claim_taxonomy.md` — what to research and check.
-- `references/historical_note_craft.md` — the Notes.
-- `references/book_format.md` — the book's output contract.
-- `references/cefr_register_EN.md` — English register and period terms.
-- `references/respect_and_darkness.md` — darkness ceiling, respect floor.
-- `references/audit_taxonomy.md` — severities, findings, gates, loops.
-- `references/failure_gallery.md` — calibration from the earlier generation.
+Shared doctrine (identical in both Living History skills):
+`line_doctrine.md` (read every run) · `quality_standard.md` · `story_forms.md` · `anti_formula.md` · `mentalite_doctrine.md` · `onomastics.md` · `fact_check_doctrine.md` · `claim_taxonomy.md` · `historical_note_craft.md` · `book_format.md` · `cefr_register_EN.md` · `lineage_EN.md` · `respect_and_darkness.md` · `audit_taxonomy.md` — all in `references/`.
 
-Series-specific:
-- `references/series_architecture.md` — world-windows, number of books, periodisation, distinctness.
-- `references/bible_anatomy.md` — what the bible contains.
-- `references/story_card_craft.md` — anchors, engines, slate entries, pitch cards.
+Series-specific: `references/series_architecture.md` · `references/bible_anatomy.md` · `references/story_card_craft.md`.
 
 ## Templates
 
-Shared: `templates/audit_report_schema.md`, `templates/fact_check_report_schema.md`, `templates/changelog_schema.md`, `templates/state_schema.md`, `templates/name_registry_schema.md`.
-Series: `templates/intake_schema.md`, `templates/survey_schema.md`, `templates/concept_schema.md`, `templates/bible_schema.md`, `templates/slate_schema.md`, `templates/book_pitch_schema.md`, `templates/line_registry_schema.md`.
+Shared: `templates/audit_report_schema.md` · `templates/fact_check_report_schema.md` · `templates/changelog_schema.md` · `templates/state_schema.md` · `templates/name_registry_schema.md`.
+Series: `templates/intake_schema.md` · `templates/survey_schema.md` · `templates/concept_schema.md` · `templates/bible_schema.md` · `templates/slate_schema.md` · `templates/book_pitch_schema.md` · `templates/line_registry_schema.md`.
 
 ---
 
 ## Execution protocol
 
 1. Read this file and `references/line_doctrine.md`.
-2. Ask for (or confirm) the working directory. Default: `living-history/<civilisation-slug>/series/`.
-3. Read `prompts/P0_INTAKE.md`; execute; checkpoint.
-4. P1 → P2; checkpoint.
-5. P3 → (P4 ↔ P5 until PASS or stuck).
-6. P6 → (P7 ↔ P8 until PASS or stuck); checkpoint; choose pitch mode.
-7. For each book in the chosen set: P9 → (P10 ↔ P11 until PASS or stuck).
-8. P12; checkpoint.
+2. Confirm the working directory (default `living-history/<civilisation-slug>/series/`).
+3. For each phase in order: read the phase prompt from the top; adopt its Roles & Qualifications fully; read the references it lists; read its inputs; execute its method; write its artifacts; update `00_state.md`; report to the Managing Editor in 3–6 lines in her language; stop at checkpoints.
+4. Loops and gates as above.
 
-At every phase: read the phase prompt fresh, read the references it lists, write the artifact, update `00_state.md`, post a 3–6 line status in the user's language.
+Resume from `00_state.md` if it exists. Never redo a passed phase unless asked.
 
-## Resuming
+## No shortcuts
 
-If `00_state.md` exists in the working directory, read it and resume at `next_phase`. Never redo a passed phase unless the user asks.
-
-## Anti-patterns
-
-- Designing books before the survey.
-- Themed cross-period books by default.
-- Story concepts without anchors; anchors without sources.
-- Famous people as protagonists; mythic names on ordinary people.
-- A slate where every book has the same shapes in a different costume.
-- Telegraphic fragments in any card or pitch.
-- Bible facts from memory.
-- Accepting a Major because "it's only the plan" — plan errors become book errors.
-- Revising in chat instead of on disk.
+- No phase output abbreviated, summarised "for space", or carried only in chat.
+- No telegraphic fragments in any bible section, slate entry, or pitch card.
+- No fact from memory; no source invented.
+- No Major accepted "because it is only the plan".
+- No revision in chat; every revision on disk with a changelog.

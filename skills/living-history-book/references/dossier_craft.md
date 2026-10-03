@@ -1,53 +1,54 @@
 # Dossier Craft — The Period Dossier Behind One Book
 
-Read before building the dossier (P1), before the framework (P2), and before every fact-check. The dossier is the book's private encyclopedia: every fact a story uses comes from it, and every fact in it has a source. It is built **before** a single scene is planned, so that truth shapes the stories instead of correcting them afterwards.
-
-The earlier generation of this kind of book wrote first and checked later (or never). Its stories then had to be bent around facts — or kept their errors. Here, the order is reversed.
+Read before building the dossier (P1), before the framework (P2), and before every fact-check. The dossier is the book's private encyclopedia: every fact a story uses comes from it, and every fact in it has a source. It is built **before** any scene is planned, so that truth shapes the stories instead of correcting them afterwards.
 
 ---
 
 ## Principles
 
-1. **Research for these ten stories.** The bible covers the civilisation; the dossier goes deeper into exactly what these ten stories touch: this workshop, this harbour, this festival, this law, this season's work.
-2. **Everything is keyed.** Each entry has an ID (`D-001`…), an evidence status, and source keys. The framework cites dossier IDs scene by scene; the fact-check traces text back to them.
-3. **Status first.** ATTESTED / INFERRED / CONTESTED / UNKNOWN / NOT-YET / MYTH (`fact_check_doctrine.md`). UNKNOWN entries are just as valuable as ATTESTED ones: they mark the spaces where invention is free.
-4. **Concrete over general.** "Women worked in palace textile workshops" is the bible's job. The dossier's job: what a loom of this type looked like, what the weights were made of, how long a cloth took, what the workers ate, how the tablets counted them.
-5. **The NOT-YET list is the most valuable page.** Build it story by story, scene type by scene type.
-6. **Sensory truth.** Smells, sounds, textures, light, temperature, food tastes — checked like any other fact (no "lavender fields" or "cinnamon" without evidence for this place and time).
+1. **Research for these ten stories.** The bible covers the civilisation; the dossier goes deeper into exactly what these ten stories touch.
+2. **Everything is keyed.** Each entry has an ID (`D-001`, `D-002`, …), an evidence status, and source keys. The framework cites dossier IDs scene by scene; the fact-check traces text back to them.
+3. **Status first.** ATTESTED, INFERRED, CONTESTED, UNKNOWN, NOT-YET, MYTH (`fact_check_doctrine.md`). UNKNOWN entries matter as much as ATTESTED ones: they mark where invention is free, and how far it may go.
+4. **Concrete over general.** The dossier records the physical, practical, and sensory facts a scene needs — what a thing looked like, was made of, cost, weighed, smelled of; how a task was done step by step; who was allowed to do it.
+5. **The NOT-YET list is the most valuable page.** Built story by story and scene type by scene type.
+6. **Sensory facts are facts.** Sounds, smells, textures, light, temperature, tastes are checked like anything else.
 
-## What the dossier contains
+## Contents
 
 ### Book level
-- **Setting:** geography (with what can be seen from where), settlements, buildings and interiors, roads and sea routes, distances and travel times.
+- **Setting:** geography and what can be seen from where; settlements; buildings and interiors; routes; distances and travel times.
 - **Social order** in this window: ranks, households, unfree people, foreigners; who could do what.
-- **Daily round:** waking hours, meals and foods, water, light, fire, sleep, cleaning, clothing by status and season, hair, footwear.
-- **Work:** every occupation in the ten stories — tools, materials, techniques, products, who controlled them, how they were paid or provisioned.
+- **Daily round:** hours, meals and foods, water, light, fire, sleep, cleaning, clothing by status and season, hair, footwear.
+- **Work:** for every occupation in the book — tools, materials, steps, products, control, provisioning or payment.
 - **Exchange:** money or its absence, weights and measures, rations, gifts, debts, prices where known.
 - **Religion and ritual:** gods attested here and now, places of worship, festivals in the stories' seasons, offerings, divination, purity, oaths, death rites.
-- **Law and conflict:** disputes, authorities, procedures, penalties, raids, piracy.
-- **Time:** how days, months, seasons, years were reckoned; the agricultural and sailing calendar.
+- **Law and conflict:** disputes, authorities, procedures, penalties, raiding, piracy.
+- **Time:** reckoning of days, months, seasons, years; the agricultural and sailing calendar.
 - **Body and medicine:** illness, injury, birth, remedies, healers.
 - **Writing and records:** who wrote, on what, what was recorded.
-- **Nature:** plants, animals (wild and domestic) present; climate; season-by-season landscape.
-- **Mentalité sheet:** beliefs and values that will drive these stories; framing of feelings; humour; a story-specific leak list.
-- **Onomasticon:** names in this book (from the pitch and registry), reserve names, naming customs (patronymics, bynames, slave names).
-- **Rendering table:** how each period thing is named in the text (one thing, one name).
-- **NOT-YET list:** at least 60 entries for a book; each with earliest attestation in this region and keys.
-- **Myths to avoid** that touch this book's subjects.
+- **Nature:** plants, animals wild and domestic present here then; climate; landscape by season.
+- **Mentalité sheet:** beliefs and values that drive these stories; framing of feeling; humour; a story-specific leak list of at least fifteen items.
+- **Onomasticon:** names in this book and a reserve; naming customs.
+- **Rendering table:** one thing, one name, for everything the stories touch.
+- **NOT-YET list:** at least sixty entries, each with earliest attestation in this region (or never), the period-true alternative, and keys.
+- **Myths** that touch this book's subjects.
 
 ### Story level — one fact pack per story
-For each of the ten stories, a pack of **at least 12 entries** the story will need: the anchor(s) in detail; the protagonist's work and tools; the setting's physical details; the season's tasks and weather; the rite or law the plot uses; plausible consequences and penalties; what is UNKNOWN (free for invention) and how far invention can go; the story's specific traps.
+At least twelve keyed entries per story: the anchor in detail; the work and its tools; the setting's physical details; the season's tasks and weather; the rite, law, or custom the plot uses; plausible consequences and penalties; sensory facts; the UNKNOWN spaces and the limits of invention; the story's specific traps.
+
+### Front and back matter facts
+Every claim the introduction, timeline, and afterword will make.
 
 ### Sources
-The full list (key, tier, reference, URL, access date), continuing the series numbering.
+Key, tier, full reference, URL, access date — continuing the series numbering.
 
 ## Verification standard
 
-- Load-bearing entries (anything a plot turn or a Note sentence depends on; every NOT-YET entry; every anchor): two independent Tier A–C sources, at least one Tier A/B.
-- Context entries: one Tier A/B source.
-- Contested entries: both sides keyed.
-- Wikipedia: navigation only. Tier E: never.
-- Without web tools: `UNVERIFIED (offline)`, and the framework may not build a plot turn or a Note sentence on such an entry.
+Load-bearing entries (anything a turn, a clue, a resolution, a Note sentence, or front/back matter depends on; every NOT-YET entry; every anchor): two independent Tier A–C sources, at least one Tier A/B. Context entries: one Tier A/B. Contested entries: both sides keyed. Wikipedia only to navigate; Tier E never. Without web tools: `UNVERIFIED (offline)`, and nothing load-bearing may rest on such an entry.
+
+## Pitch conflicts
+
+When research contradicts the pitch, the dossier opens with a "Pitch conflicts" section: the card, the problem, the sources, and two or three period-true alternatives that keep the story's engine.
 
 ## Size
 

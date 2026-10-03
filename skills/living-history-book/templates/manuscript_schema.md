@@ -1,38 +1,43 @@
-# Manuscript Schema — draft files and the final book
+# Manuscript Schema — draft units and the final book
 
-## Draft files (P5–P7)
+## Draft units (P5–P7)
 
 One file per unit and version, so revisions touch only what failed:
 
 ```
 draft/
-├── front.v1.md      — About this book + timeline (+ note on names)
-├── s01.v1.md        — Story 1 + its Historical Note
-├── s02.v1.md
+├── front.v<N>.md      — About this book, timeline, note on names
+├── s01.v<N>.md        — Story 1 and its Historical Note
 ├── …
-├── s10.v1.md
-└── back.v1.md       — What came next
+├── s10.v<N>.md
+├── back.v<N>.md       — What came next
+└── new_claims.v<N>.md — facts in the text that are not in the dossier
 ```
 
-Each story file:
+Story unit layout:
 
 ```
-<!-- unit: S01 | version: v1 | words: story <n>, note <n> | framework: 02_framework.vN.md -->
+<!-- unit: S<nn> | version: v<N> | words: story <n>, note <n> | framework: 02_framework.v<N>.md -->
 
-## 1. <Title>
+## <n>. <Title>
 
-<story text>
+<story>
 
 ### Historical Note
 
-<note text>
+<note>
 ```
 
-Each draft version also writes `draft/new_claims.vN.md`: facts used in the text that are not in the dossier (each with unit and paragraph), for the fact-checker.
+`new_claims.v<N>.md`:
+
+```
+| Unit | Paragraph | Claim | Category |
+|---|---|---|---|
+```
 
 ## Assembled publish-ready file (P8)
 
-`08_book.pr.md` — the whole book in reading order, front matter YAML per `references/book_format.md`.
+`08_book.pr.md`: the whole book in reading order, with YAML front matter per `references/book_format.md`.
 
 ## Final file (P9)
 
@@ -40,32 +45,20 @@ Each draft version also writes `draft/new_claims.vN.md`: facts used in the text 
 
 ```
 ---
-title: <book title>
-series: <series title>
-book: <NN>
-civilisation: <…>
-window: <place, c. dates>
-language: EN-UK
-cefr: B1-B2
-word_count: <whole book>
-stories:
-  - "1. <Title> — <words> — <form>"
-  - …
-content_notes: <…>
+<YAML front matter per references/book_format.md>
 ---
 
 # <Book title>
 
 ## About this book
 
-<text>
+<introduction>
 
 **Timeline**
 
 - <entry>
-- …
 
-<optional note on names>
+<note on names, if needed>
 
 ## 1. <Title>
 
@@ -75,12 +68,11 @@ content_notes: <…>
 
 <note>
 
-## 2. <Title>
-…
+(… stories 2–10 …)
 
 ## What came next
 
-<text>
+<afterword>
 ```
 
-Nothing else: no audit marks, no scene numbers, no word counts in the text, no glossaries or annotations.
+Nothing else in the final file: no audit marks, scene numbers, word counts in the running text, glossaries, or annotations.

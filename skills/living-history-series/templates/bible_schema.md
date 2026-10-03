@@ -1,16 +1,16 @@
-# Series Bible Schema — `bible.vN.md`
+# Series Bible Schema — `bible.vN.md` → `bible.md`
 
-Produced by P3, revised by P5, finalised as `bible.md` in P12. Section contents are defined in `references/bible_anatomy.md`. Use these headings exactly; book runs navigate by them.
+Section contents: `references/bible_anatomy.md`. Use these headings exactly; book runs navigate by them.
 
 ```
 ---
-series_title: <…>
-civilisation: <…>
-span: <…>
-language: <EN-UK>
-cefr: <B1-B2>
-books: <N>
-bible_version: v<N>
+series_title:
+civilisation:
+span:
+language:
+cefr:
+books:
+bible_version:
 ---
 
 # <Series title> — Series Bible
@@ -47,7 +47,5 @@ bible_version: v<N>
 ## §14 Sources
 ```
 
-**Inline evidence markup** (use throughout §3–§13):
-`[ATT S03,S07]` attested; `[INF S12]` inferred; `[CON S04 vs S09]` contested; `[UNK]` unknown — free for invention within plausibility; `[NOT-YET S15]` absent in window.
-
-Example line: "Women worked in large palace textile workshops, and tablets list them with their children [ATT S03,S07]; whether they were captives, purchased, or free dependants varies by group and is debated [CON S07 vs S11]."
+**Inline evidence markup** throughout §3–§13:
+`[ATT <keys>]` attested · `[INF <keys>]` inferred · `[CON <keys> vs <keys>]` contested · `[UNK]` unknown, free for plausible invention · `[NOT-YET <keys>]` absent in the window.

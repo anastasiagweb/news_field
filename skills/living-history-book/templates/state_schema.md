@@ -1,6 +1,6 @@
 # Pipeline State Schema
 
-Every run keeps `00_state.md` in its working directory. Update it after every phase. If a session is interrupted, the next session reads this file first and resumes from `next_phase`.
+Every run keeps `00_state.md` in its working directory, updated after every phase. An interrupted run resumes from `next_phase`.
 
 ```
 # State — <skill> — <series slug> [— <book slug>]
@@ -8,7 +8,7 @@ Every run keeps `00_state.md` in its working directory. Update it after every ph
 ## Parameters
 - skill: <living-history-series | living-history-book>
 - civilisation: <…>
-- language: <EN-UK>
+- language: <code>
 - cefr: <B1 | B1-B2 | B2>
 - working_directory: <path>
 - chat_language: <user's language>
@@ -17,18 +17,15 @@ Every run keeps `00_state.md` in its working directory. Update it after every ph
 ## Progress
 | Phase | Status | Artifact(s) | Version | Gate | Date |
 |---|---|---|---|---|---|
-| P0 | done | 00_intake.md | — | user-confirmed | … |
-| P1 | done | 01_survey.md | v1 | — | … |
-| P4 | in loop | bible_audit.v2.md | v2 | REVISE (C1, M3) | … |
-| … | | | | | |
 
 ## Loop counters
-- <loop name>: <n> of <cap>
+| Loop | Count | Cap |
+|---|---|---|
 
 ## Open user decisions
-- <decision needed, with options>
+- <decision and options>
 
 ## Next
-- next_phase: <P…>
+- next_phase: <code>
 - next_action: <one line>
 ```

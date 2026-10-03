@@ -1,59 +1,49 @@
-# Series Concept Schema — `02_concept.md`
+# Series Concept Schema — `02_concept.md` (and `02_legacy_audit.md`)
 
-Produced by P2. The proposal the user approves before the bible is written.
+Produced by P2 and approved by the Managing Editor before the bible is written.
 
 ```
-# Series Concept — <working series title>
+# Series Concept — <working title>
 
-## Series in one paragraph
-Promise, span, what makes this series worth reading for a native adult and accessible for a B1–B2 learner. No superlatives.
+## The series in one paragraph
 
 ## Parameters
-- Civilisation; span; language; CEFR band; number of books N (with reasoning).
+Civilisation; span; language; CEFR band; number of books N with reasoning.
 
-## Periodisation and book list
-| # | Working title | Window (dates) | Place / region | Social world | What makes it distinct | Evidence density | Anchors available | Risks |
+## Book list
+| # | Working title | Window (dates) | Place / region | Social world | Distinct flavour | Evidence density | Anchors available | Risks |
 |---|---|---|---|---|---|---|---|---|
-| 01 | … | … | … | … | … | 4 | 23 | thin onomastics |
-
-For each book, two to four sentences: the world-window, its flavour, the kinds of stories it invites.
+For each book: two to four sentences of flavour, in full sentences.
 
 ## Coverage
-- How the books together cover the civilisation's arc; turning points inside/between books.
-- What is deliberately left out, and why.
+How the books cover the civilisation's arc; turning points inside and between books; what is left out and why.
 
-## Distinctness check
-A matrix showing that each pair of books differs in at least three dimensions (`series_architecture.md`).
+## Distinctness matrix
+Pairwise check that every two books differ in at least three dimensions.
 
-## Names strategy
-Per window: attested sources or the declared invention rule.
+## Names strategy by window
+
+## Title options
 
 ## Legacy audit summary (if legacy material was supplied)
-Full audit in `02_legacy_audit.md`. Here: what is kept, what is dropped, why.
 
-## Decisions for the user
-- Approve N and the book list.
-- Any themed book (off by default).
-- Pitches: all books now, a batch, or just-in-time.
+## Decisions for the Managing Editor
 ```
-
-# Legacy Audit Schema — `02_legacy_audit.md` (only if legacy material supplied)
 
 ```
 # Legacy Audit — <material>
 
 ## Summary
-What the material is; overall verdict; what is reusable.
-
-## Concepts worth keeping
-| Legacy item | Why it works | How the new series uses it (seed only; rewritten) |
-
+## Concepts worth keeping (seed only)
+| Legacy item | Why it works | How the new series may use it |
+|---|---|---|
 ## Concepts to drop or transform
-| Legacy item | Problem (formula / contrivance / mentalité / names / fact / duplication / celebrity) | Severity | Decision |
-
-## Factual errors found (calibration)
+| Legacy item | Problem type | Severity | Decision |
+|---|---|---|---|
+## Factual errors found
 | Legacy claim | Verdict | Correct information | Source keys |
-
-## Names found and their status
-| Name | Problem | Replacement policy |
+|---|---|---|---|
+## Names and their problems
+| Name | Problem | Policy |
+|---|---|---|
 ```

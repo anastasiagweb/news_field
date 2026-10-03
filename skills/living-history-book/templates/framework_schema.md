@@ -1,59 +1,60 @@
 # Framework Schema — `02_framework.vN.md`
 
-Produced by P2, revised by P4. The complete plan of the book. The draft follows it; auditors check the draft against it.
+Produced by P2, revised by P4. The complete plan of the book; the draft follows it and the audits check the draft against it.
 
 ```
 # Framework — <series> — Book <NN>: <title> — v<N>
 
+## Pitch-conflict resolutions
+| Card | Conflict | Decision | Dossier IDs |
+|---|---|---|---|
+
 ## A. Book level
 
 ### A.1 Variety matrix
-| # | Title | Protagonist (sex, age, status, occupation) | Form | Shape | Setting type | Season | Opening device | Ending type | POV / tense | Words (target) | Link |
+| # | Title | Protagonist (sex, age, status, occupation) | Form | Shape | Setting type | Season | Opening device | Ending type | POV / tense | Target words | Link |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 
-### A.2 Variety contract check
-(The full quota table from story_forms.md §7 — required / actual / PASS-FAIL.)
+### A.2 Variety contract
+The full quota table of story_forms.md §7 — required, actual, PASS/FAIL.
 
 ### A.3 Anti-formula pre-check
-| Banned move (anti_formula.md Part 1) | Planned occurrences | Max | OK? |
-- First-sentence plans side by side (structures must differ).
-- Last-image plans side by side (must differ).
+| Banned move (anti_formula.md Part 1) | Planned occurrences | Limit | OK? |
+|---|---|---|---|
+First-sentence plans of the ten stories, side by side.
+Final-image plans of the ten stories, side by side.
 
 ### A.4 Links
-| Link | Stories | Why it is invisible to single-story readers |
+| Link | Stories | Why invisible to the single-story reader |
+|---|---|---|
 
-### A.5 Front matter plan
-- About this book: orientation items, evidence named, note on names (if needed); claims with dossier IDs.
-- Timeline: entries with dossier IDs.
+### A.5 Order of stories and its reasoning
 
-### A.6 Back matter plan
-- What came next: claims with dossier IDs; closing image (checked).
+### A.6 Front matter plan
+Orientation items, evidence to be named, note on names if needed — each claim with dossier IDs. Timeline entries with dossier IDs.
 
-## B. Story plans (one per story)
+### A.7 Back matter plan
+What came next — each claim with dossier IDs; closing detail with ID.
 
-### S01 — <Title>
-- Logline:
-- Form / shape:
-- POV and tense:
-- Word budget:
-- Cast (≤5 named): name — role — physical detail — speech habit — want
-- Protagonist's taken-for-granted belief and the choice it drives:
-- Orientation plan (first 150–200 words): body, two world details (dossier IDs), engine:
-- Engine question (where posed):
+## B. Story plans
+
+### S<nn> — <Title>
+- Logline
+- Form / shape; POV and tense; target words
+- Cast (≤5): name — role — physical detail — speech habit — want
+- Taken-for-granted belief and the choice it drives
+- Orientation plan (first 150–200 words): body; two world details (IDs); engine
+- Engine question; where posed
 - Scenes:
-  | # | Purpose | What happens | Turn / change | Mode | Dossier IDs used | Words |
+  | # | Purpose | What happens | Turn / change | Mode | Dossier IDs | Words |
   |---|---|---|---|---|---|---|
-- Turns: turn 1 = …; turn 2 = …
-- Decisive choice by the protagonist:
+- Turn 1; turn 2; the protagonist's decisive choice
 - Plausibility chain (plotted forms): trouble (realism anchor ID) → discovery means → complication → resolution means → coincidence (if any) → cost
-- Clues (mysteries/intrigues): clue — scene placed — scene used
-- Ending: type; final image/act/line (planned):
-- Period terms (≤ budget): term — how context clarifies it
-- Mentalité watch: three lines in this story most at risk of modern thinking, and how to keep them period-true
-- Fact traps for this story (from dossier):
-- Note plan: evidence (IDs); known; debated; invented; optional echo — each sentence planned with IDs
-- Darkness/respect notes:
-
-### S02 — …
-(… to S10)
+- Clues (mysteries and intrigues): clue — scene placed — scene used
+- Ending: type; planned final image, act, or line
+- Period terms (within budget): term — how context makes it clear
+- Mentalité watch: the three most exposed moments and how they stay period-true
+- Fact traps (from the dossier)
+- Note plan: each planned sentence with dossier IDs (evidence; known; debated; invented; optional closing detail)
+- Darkness and respect handling
 ```
