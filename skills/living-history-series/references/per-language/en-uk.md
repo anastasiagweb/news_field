@@ -135,7 +135,23 @@ These are kinds of Tier A and Tier B sources (tiers as in `fact_check_doctrine.m
 
 ---
 
-## 13. What the register auditor samples
+## 13. Banned phrase families in English
+
+The families of `anti_formula.md` Part 2 are stated there in English and apply to this line as written, with every variant and paraphrase. In British English, also watch for the heritage register that makes a phrase sound like a museum caption: "steeped in", "shrouded in mystery", "the dawn of", "a bygone age", "the mists of time", "since time immemorial".
+
+## 14. Book labels in English (United Kingdom)
+
+| Working label | In the book |
+|---|---|
+| About this book | About this book |
+| Timeline | Timeline |
+| Note on names | A note on names |
+| Historical Note | Historical Note |
+| What came next | What came next |
+
+---
+
+## 15. What the register auditor samples
 
 - Three passages of about 200 words per story (opening, middle, ending): sentence-length distribution against the band.
 - Every sentence over the band's maximum.
@@ -151,6 +167,6 @@ These are kinds of Tier A and Tier B sources (tiers as in `fact_check_doctrine.m
 
 ---
 
-## 14. Languages of the line
+## 16. Languages of the line
 
 Each language of the line has its own prompt set (`prompts/<lang>/`) written in that language, with its own teams, and its own reference file here (`per-language/<lang>.md`) with these sections. A prompt from one language is never used for a book in another.
