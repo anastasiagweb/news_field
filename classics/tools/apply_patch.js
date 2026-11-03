@@ -8,6 +8,8 @@ const warn = [];
 const byId = new Map(d.books.map(b => [b.id, b]));
 const order = new Map(d.books.map(b => [b.id, b.id]));
 
+if (pt.meta) Object.assign(d, pt.meta);
+if (pt.upcoming) d.upcoming = pt.upcoming;
 for (const f of pt.fixes || []) {
   const b = byId.get(f.id);
   if (!b) { warn.push(`fix: no id ${f.id}`); continue; }

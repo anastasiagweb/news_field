@@ -38,6 +38,7 @@ const tags = b => {
 const bookLine = b => `${num[b.id]}. ${b.title} — ${b.author_ru}`;
 
 // ---------- intro ----------
+const up = (d.upcoming || []).slice().sort((a, b) => a.free_eu - b.free_eu || a.author_ru.localeCompare(b.author_ru));
 const total = books.length;
 const cnt = f => books.filter(f).length;
 const isCollection = b => /сборник|сказки|новеллы|очерки/.test(b.form) || (b.contents && b.contents.length);
@@ -138,11 +139,11 @@ const children = [
   h('Логика списка', HeadingLevel.HEADING_1),
   p(d.intro),
   h('Как читать карточки', HeadingLevel.HEADING_2),
-  p([label('ТЕПЛО', C.warm), r(' — уютное, доброе, утешительное чтение.  '), label('ЮМОР', C.humor), r(' — смешно по-настоящему.  '), label('ЖЕМЧУЖИНА', C.gem), r(' — подзабытая или малоизвестная в России книга, которую можно «открыть» читателю.')]),
+  p([label('ТЕПЛО', C.warm), r(' — уютное, доброе, утешительное чтение.  '), label('ЮМОР', C.humor), r(' — смешно по-настоящему.  '), label('ЖЕМЧУЖИНА', C.gem), r(' — настоящая находка: забытый бестселлер, книга, известная у себя на родине, но почти неизвестная за её пределами, или неожиданный жанр у знаменитого автора.')]),
   p('Уровень указан для оригинального неадаптированного текста и примерный: B1 — читается со словарём без мучений, B2 — нужен уверенный средний уровень, C1 — для продвинутых. Объём — оценка в словах. Номера идут по порядку выпуска: первая очередь, затем вторая и третья; внутри очереди — по убыванию приоритета.'),
   h('Авторское право', HeadingLevel.HEADING_2),
   p(d.rights_note),
-  p('Сроки указаны на 2026 год. Перед выпуском каждой книги права стоит перепроверить для тех стран, где она будет продаваться, и брать текст из старого издания, а не из современной редакции с собственными правами.'),
+  p('Права указаны на 2026 год для Австрии и ЕС; отдельно отмечены США (для мировых продаж через Amazon) и исключения внутри ЕС (Испания, Франция). Текст берём из старого издания, а не из современной научной редакции.'),
   h('Цифры', HeadingLevel.HEADING_2),
   statsTable,
   new Paragraph({ children: [new PageBreak()] }),
@@ -153,6 +154,7 @@ const children = [
     ['С юмором', `${cnt(b => b.humor)} изданий; отдельно — тепло и юмор вместе (${cnt(b => b.warm && b.humor)})`],
     ['Подзабытые жемчужины', `${cnt(b => b.gem)} изданий`],
     ['Готовые наборы', `${d.bundles.length} наборов: ` + d.bundles.map(x => x.name).join(' · ')],
+    ...(up.length ? [['Скоро станут свободными', `${up.length} авторов, свободных в ЕС с 2027–2029 годов`]] : []),
     ['Карточки книг', 'по очередям: о чём, почему, состав сборника, что учесть, права'],
   ].map(([a, b]) => bullet([r(a, { bold: true }), r(` — ${b}`, { color: C.muted })])),
   new Paragraph({ children: [new PageBreak()] }),
@@ -173,6 +175,20 @@ const children = [
   h('Готовые наборы', HeadingLevel.HEADING_1),
   p('Наборы из нескольких книг для серий, бандлов и подписки. Одна книга может входить в несколько наборов.'),
   ...d.bundles.flatMap(bundleBlock),
+  ...(up.length ? [
+    new Paragraph({ children: [new PageBreak()] }),
+    h('Скоро станут свободными', HeadingLevel.HEADING_1),
+    p('Авторы, которые станут общественным достоянием в Австрии и ЕС в ближайшие годы, — чтобы готовить издания заранее и выпускать их 1 января.'),
+    ...[...new Set(up.map(u => u.free_eu))].sort().flatMap(y => [
+      h(`Свободны с 1 января ${y}`, HeadingLevel.HEADING_2),
+      ...up.filter(u => u.free_eu === y).flatMap(u => [
+        new Paragraph({ heading: HeadingLevel.HEADING_3, children: [r(`${u.author_ru}`), r(`  ${u.author}, ум. ${u.died}`, { color: C.muted, bold: false })] }),
+        ...u.titles.map(t => bullet([r(t)])),
+        field('Почему', u.why),
+        ...(u.notes ? [field('Учесть', u.notes)] : []),
+      ]),
+    ]),
+  ] : []),
   new Paragraph({ children: [new PageBreak()] }),
   h('Карточки книг', HeadingLevel.HEADING_1),
 ];
@@ -185,7 +201,6 @@ for (const t of [1, 2, 3]) {
 const doc = new Document({
   creator: 'Classics',
   title: `Библиотека Classics — ${d.language}`,
-  features: { updateFields: true },
   styles: {
     default: { document: { run: { font: FONT, size: 20 } } },
     paragraphStyles: [
