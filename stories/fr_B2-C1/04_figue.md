@@ -1,0 +1,47 @@
+# L'Automne à Versailles
+
+Il y a, dans l'odeur d'une feuille de figuier froissée entre les doigts, quelque chose qui n'appartient pas tout à fait au fruit : une note verte et laiteuse, presque de noix de coco, que les parfumeurs envient et que les jardiniers ne remarquent plus. Lucien Darnaud la sentit monter de sa paume, ce matin d'octobre, dans le brouillard qui recouvrait encore le Potager du Roi, et il pensa, comme chaque automne, qu'aucun roi n'avait jamais respiré autre chose que cela en venant ici, à quelques centaines de pas du Château : une feuille rêche, une sève blanche qui piquait la peau, et la promesse sucrée de fruits qui ne voulaient pas mûrir.
+
+Il était depuis onze ans le conservateur de ces neuf hectares enclos de murs que Jean-Baptiste de La Quintinie avait arrachés entre 1678 et 1683 à un marécage que l'on appelait l'étang puant. On avait comblé le marais avec la terre retirée de la pièce d'eau des Suisses, toute proche ; on avait élevé des terrasses, bâti des murs pour réverbérer la chaleur, planté des poiriers en espalier, des pêchers, des vignes, et des figuiers, par centaines, dans des caisses de bois que l'on rentrait l'hiver. Lucien connaissait tout cela comme on connaît la biographie d'un ancêtre : par cœur, et sans y croire tout à fait.
+
+C'est pourquoi la feuille de papier qu'on lui apporta ce jour-là, tirée d'un carton de la Maison du Roi aux Archives nationales, le laissa d'abord plus méfiant qu'ému. Une jeune archiviste, Mathilde Ferrand, l'avait trouvée glissée entre deux mémoires de maçonnerie, et elle la posa sur la table de la bibliothèque avec la délicatesse qu'on réserve aux choses qui peuvent mentir.
+
+C'était un plan à l'encre brune, rehaussé de lavis, daté de 1685. Il montrait un jardin circulaire, en contrebas des terrasses, sous lequel courait, tracée en pointillé, une galerie voûtée qui en épousait le cercle. Le titre, d'une écriture penchée, disait : *Figuerie. Ordre des caisses pour l'hiver.* Dans la galerie, des dizaines de petits carrés numérotés, chacun accompagné d'une lettre, B ou V, et parfois, plus rarement, deux lettres serrées, F.F.
+
+« Une fantaisie d'architecte, dit Lucien. On en dessinait beaucoup. Le Roi aimait qu'on lui montre des projets qu'on ne construirait jamais.
+
+— Peut-être, répondit Mathilde. Mais un architecte aurait-il pris la peine de numéroter des caisses ? »
+
+Il ne répondit pas. Elle avait raison, et il le savait ; c'est une chose que l'on pardonne mal aux gens jeunes.
+
+Ce soir-là, il relut La Quintinie. L'*Instruction pour les jardins fruitiers et potagers*, publiée en 1690, deux ans après la mort de son auteur, était posée sur son bureau comme un bréviaire. Le vieux jardinier y parlait des figuiers avec une tendresse qu'il réservait d'ordinaire aux poires. Il y disait la nécessité des caisses, du soleil, de l'abri contre les gelées. Il distinguait la figue blanche, qu'il tenait pour la meilleure, de la violette. B, V. Lucien posa le livre et regarda longtemps le plan, et il comprit qu'il ne s'agissait pas d'une fantaisie, mais d'un calendrier.
+
+Car la figue est un fruit qui ment sur sa nature. Ce que l'on croque n'est pas un fruit, au sens où le botaniste l'entend, mais une fleur retournée, une coupe de chair refermée sur des centaines de minuscules fleurs qui ne verront jamais le jour ; les grains qui craquent sous la dent en sont les fruits véritables. Dans les pays chauds, une guêpe minuscule entre par l'œil de la figue pour la féconder ; sous le ciel de Versailles, les variétés que l'on cultivait mûrissaient sans elle, par une sorte de grâce stérile. Et certaines d'entre elles, que l'on dit bifères, donnent deux récoltes. La première, celle des figues-fleurs, naît à la fin de l'été sur le bois de l'année : de petits boutons, à peine gros comme un pois, qui doivent traverser tout l'hiver sur la branche nue avant de grossir au printemps et de mûrir en juin ou en juillet. La seconde, celle des figues d'automne, se forme sur les pousses nouvelles et mûrit en août, en septembre, jusqu'en octobre si le temps est clément.
+
+Or le gel, bien souvent, ne tue pas le figuier ; il tue ces boutons. Un seul hiver un peu dur, et la récolte de juin disparaît, sans que l'arbre en paraisse affecté. Voilà pourquoi La Quintinie rentrait ses caisses : non pour sauver les arbres, qui se seraient souvent contentés d'un paillage, mais pour sauver une promesse, ces quelques figues précoces qu'il pourrait porter au Roi avant que Paris en ait vu une seule.
+
+Les lettres F.F. ne désignaient donc pas une variété. Elles désignaient une fonction : figues-fleurs. Ces caisses-là contenaient les arbres bifères dont on attendait la première récolte, et c'était à eux que tout l'ordre de la galerie était subordonné.
+
+Il savait ce que savent tous les jardiniers qui ont un jour rangé une serre : ce qui doit sortir le premier se range près de la porte. Au printemps, il faudrait remonter d'abord les figuiers à figues-fleurs, pour que leurs boutons, déjà gonflés, profitent du premier soleil contre les murs ; les autres, ceux qui ne donneraient qu'en automne, pouvaient attendre au fond. Il chercha donc, sur le plan, l'endroit où se pressaient les F.F., certain d'y trouver l'entrée de la galerie.
+
+Ils n'étaient pas près de l'entrée. L'escalier marqué sur le dessin, celui qui débouchait au pied de la terrasse et dont il restait aujourd'hui quelques marches murées que tout le monde prenait pour une ancienne glacière, n'était entouré que de caisses sans autre marque qu'une lettre, des arbres qui ne donneraient qu'en automne. Les F.F., eux, s'accumulaient à l'opposé, dans un segment de la courbe qui, sur le plan, s'arrêtait net contre un double trait.
+
+Il resta un long moment devant ce double trait. Un dessinateur négligent aurait pu se tromper d'une caisse, non d'une logique entière. Le jardinier qui avait réglé cet ordre ne rangeait pas ses figuiers au hasard ; il les rangeait près d'une autre porte. Et cette porte, quelqu'un avait voulu qu'elle ne figurât pas.
+
+Il fallut trois semaines, une lettre à l'École nationale supérieure de paysage, qui a la garde du Potager, l'avis d'un archéologue et une patience que Lucien ne se connaissait pas, pour obtenir le droit d'ouvrir. On creusa sous la terrasse sud, là où le cercle du plan, rapporté sur le cadastre, rencontrait le mur. À deux mètres, la pioche heurta un parement de pierre calcaire. Derrière, une maçonnerie plus récente, grossière, liée d'un mortier de chaux qui s'effritait sous l'ongle.
+
+Quand on eut retiré les dernières pierres, une odeur sortit de l'ouverture, et Lucien la reconnut avant même que la lampe eût éclairé quoi que ce soit : terre froide, bois mort, et, très loin au fond, presque imaginaire, quelque chose de vert et de sucré, comme si une feuille de figuier avait été froissée là trois siècles plus tôt et que l'air se fût obstiné à la retenir.
+
+La galerie était basse, voûtée en berceau, et elle s'achevait sur une petite salle carrée, au sol de brique. Au pied d'un escalier comblé de terre — l'autre porte, celle du printemps — s'alignaient les restes de six caisses de chêne, effondrées, cerclées de fer rouillé. Contre le mur du fond, une niche. Et dans la niche, rangées sur des planchettes devenues presque noires, des médailles.
+
+Il y en avait plus de quatre-vingts. Les unes étaient de plomb, ternes, grises comme un ciel d'hiver, percées d'un trou et frappées de lettres : *Blanche*, *Violette*, et sur quelques-unes *Fleurs*, avec un numéro. Lucien comprit aussitôt que c'étaient les étiquettes des caisses, celles qu'on accrochait aux arbres pour ne pas les confondre dans la pénombre ; le numéro de chacune correspondait à un carré du plan. Les autres étaient de bronze. Il en approcha une de la lampe. Le profil du Roi, la perruque, le laurier ; au revers, une allégorie qu'il ne déchiffra pas sur-le-champ, et une date.
+
+« L'histoire métallique, murmura Mathilde. Les médailles que l'Académie faisait frapper pour chaque événement du règne. Qu'est-ce qu'elles font sous un figuier ? »
+
+Lucien ne répondit pas tout de suite. Il pensait à l'homme qui avait choisi ce lieu, quel qu'il fût, et à la ruse modeste de son choix : une galerie que personne ne visitait, sauf les jardiniers, deux fois l'an, pour rentrer et sortir des arbres ; une porte que l'on pouvait murer sans éveiller de curiosité, puisqu'une autre restait ouverte ; et, pour qui saurait lire, un plan qui ne mentait pas, mais qui disait la vérité dans la seule langue que les courtisans ne parlaient pas, celle des saisons.
+
+« On dit que La Quintinie avait obtenu du Roi des faveurs que d'autres lui enviaient, dit-il enfin. On raconte aussi que le Roi recevait ses premières figues avant les dépêches de ses ministres. Ce sont des légendes. Mais un jardinier sait qu'on ne cache bien que ce qu'on est sûr de retrouver au printemps. »
+
+Il remonta seul, tandis que l'équipe photographiait la niche. Le brouillard s'était levé. Sur l'espalier du mur sud, un vieux figuier, qui n'avait jamais connu de caisse, portait encore trois figues d'automne, molles, fendues, entourées de guêpes ivres. Au bout des rameaux, à peine visibles, de petits boutons verts attendaient déjà l'hiver.
+
+Lucien en effleura un du doigt. Il ne savait pas si celui-là survivrait au gel. Il savait seulement que trois siècles plus tôt, un homme avait parié sur la même chose que lui : qu'une promesse peut traverser l'hiver si l'on se souvient de l'endroit où on l'a rangée.

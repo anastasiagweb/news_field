@@ -1,0 +1,43 @@
+# La Dernière Note de Grasse
+
+Ce fut un matin de mars, en ouvrant le flacon de bergamote comme il l'ouvrait depuis quarante ans pour s'accorder la tête, qu'Augustin Méry comprit qu'il n'y avait plus rien. Pas une odeur affaiblie, pas une note voilée par un rhume : rien. Le verre brun, le bouchon émeri, la goutte qui perlait au col, tout était là, sauf le monde. Il reboucha le flacon avec le soin qu'on met à fermer les yeux d'un mort, s'assit devant l'orgue de la maison Duval — trois gradins de fioles disposés en demi-cercle, quatre cents matières qu'il eût reconnues dans le noir — et il attendit que cela revînt.
+
+Cela ne revint pas.
+
+Le médecin de Nice prononça le mot d'anosmie, parla de nerf olfactif, de récupération possible, de patience. Augustin écouta poliment, comme on écoute un diplomate annoncer une guerre. La patience, il ne l'avait pas. Dans trente et un jours, la maison Duval, qui distillait la rose et le jasmin à Grasse depuis 1868, devait présenter le parfum sur lequel reposait son indépendance. Un groupe de luxe parisien attendait l'échec avec la courtoisie des créanciers : un parfum manqué, et l'on rachèterait l'entreprise, les champs de rose centifolia, les alambics de cuivre et le nom, surtout le nom.
+
+Le parfum s'appelait *Dernière Note*. Son cœur était achevé, une rose de mai sur un fond d'iris et de ciste. Il manquait la tête, ce premier éclat qui saisit la peau avant de s'envoler en quelques minutes et qui décide pourtant de tout. Augustin la voulait citronnée, mais d'un citron qui n'existait plus dans les catalogues : celui qu'il avait senti, à dix-neuf ans, dans le laboratoire de son maître Lucien Achard, un matin où le vieil homme lui avait tendu une mouillette en disant seulement : « Voilà ce que c'est, un fruit qui se souvient de l'arbre. »
+
+Il ne dit rien à personne. Pas même à Inès, son assistante, qui avait vingt-six ans, un nez prometteur et la franchise des gens qui n'ont pas encore appris à mentir. Il ferma la porte du laboratoire et descendit aux archives.
+
+Les cahiers d'Achard dormaient dans une armoire de noyer, quarante volumes reliés de toile noire, écrits d'une encre violette qui avait pâli jusqu'au mauve. Augustin les avait lus jadis pour les formules ; il les relut cette fois pour les chiffres que, jeune homme, il avait sautés comme on saute les notes d'un livre. Car Achard, qui avait été chimiste avant d'être parfumeur, ne se fiait pas tout à fait à son nez. En marge de chaque lot d'essence, il avait consigné trois valeurs : la densité, l'indice de réfraction, le pouvoir rotatoire. *Citron, Menton, pressé à l'éponge, octobre 1961 : d = 0,853 ; n = 1,4748 ; α = + 64° 30′.* Et plus bas, souligné deux fois : *Le meilleur. Ne pas laisser vieillir.*
+
+Augustin resta longtemps devant cette ligne. Il savait ce qu'elle voulait dire, et il ne l'avait jamais su avec cette netteté. L'essence de citron que l'on obtient non par distillation mais par expression à froid, en pressant l'écorce, est faite aux deux tiers de limonène, une molécule qui fait tourner vers la droite le plan de la lumière polarisée. C'est elle qui donne au citron son éclat, avec le citral, plus rare, plus fragile, qui lui donne son acidité verte. Mais l'essence vit. Exposée à l'air et à la lumière, elle s'oxyde ; les terpènes se transforment, l'odeur s'alourdit, prend un relent de térébenthine, et les constantes physiques se déplacent avec elle : l'angle de rotation baisse, la densité et l'indice montent. Le nez perçoit cette dérive ; les instruments la mesurent. Ce que son maître avait écrit en chiffres, c'était le portrait exact d'un citron à son instant de grâce.
+
+Si le nez d'Augustin était mort, ses yeux, eux, voyaient encore.
+
+Dans le placard du fond, sous une housse de feutre, attendait le réfractomètre d'Achard : un instrument d'Abbe sorti des ateliers Zeiss d'Iéna à la fin du XIXᵉ siècle, laiton noirci, double prisme, lunette et secteur gradué. À côté reposait un polarimètre de Laurent, construit à Paris, avec son tube de verre de deux décimètres et son oculaire où deux demi-disques de lumière devaient paraître égaux. Augustin les nettoya un dimanche entier, avec l'application qu'on prête aux horlogers et aux confesseurs. Il fit circuler l'eau du thermostat à vingt degrés, car un indice de réfraction ne signifie rien sans sa température. Pour le polarimètre, il lui fallait la lumière jaune du sodium ; il la retrouva comme on la produisait autrefois, en jetant un peu de sel dans la flamme d'un bec Bunsen. Le laboratoire se remplit d'une clarté d'or pâle, une lumière de citron, et il trouva cela, sur le moment, d'une ironie presque tendre.
+
+Puis il fit venir les essences. De Menton, d'abord, où quelques producteurs pressent encore à froid le citron que les Mentonnais disent le plus parfumé du monde, sous ce climat sans gel où la côte se tourne vers le soleil d'hiver. De Corse ensuite, où, dans les vallons de Balagne, de vieux citronniers à demi abandonnés donnent des fruits que personne ne greffe plus. Onze échantillons arrivèrent, onze flacons d'un jaune qui allait du soufre au vieil or.
+
+Il travailla la nuit. Une goutte sur le prisme, le prisme refermé, et dans la lunette le champ partagé en deux : une moitié claire, une moitié sombre, et cette ligne de séparation qu'il fallait amener exactement à la croisée des fils. Il lisait l'indice sur le secteur, l'inscrivait, essuyait le verre à l'éthanol. Puis le tube du polarimètre, rempli sans une bulle, et la lente rotation de l'analyseur jusqu'à ce que les deux demi-disques se fondissent dans la même pénombre. Enfin la densité, au pycnomètre, sur une balance de précision. Trois chiffres par flacon. Trois chiffres qu'il comparait à ceux de 1961, comme on compare la photographie d'un inconnu au portrait d'un disparu.
+
+Aucun ne coïncidait. Les citrons de Menton tournaient trop haut, trop jeunes ; l'un des corses, mal conservé, avait déjà perdu quatre degrés. Augustin comprit alors ce que ni le nez ni les instruments ne lui avaient appris seuls : le lot de 1961 n'était pas pur. Achard, dans une autre colonne, avait noté un assemblage, deux parts de Menton pour une part de Corse. Il refit le calcul, mélangea au compte-gouttes, attendit que l'essence reposât, mesura. *n = 1,4751.* Trop haut encore. Il retira une goutte de l'essence corse, en ajouta une de Menton, mesura de nouveau. La ligne d'ombre glissa d'un rien dans la lunette. *1,4748.* Le polarimètre donna soixante-quatre degrés et demi. La densité, 0,853.
+
+Il était quatre heures du matin. Il n'éprouva aucune joie, seulement une immense fatigue, et le sentiment étrange d'avoir composé une phrase dans une langue qu'il ne pouvait plus entendre.
+
+Le reste fut affaire de balance. Il posa la tête sur le cœur, selon les proportions qu'il avait arrêtées des semaines plus tôt, du temps où il sentait encore, et laissa le flacon mûrir dans l'obscurité. Puis, le dernier jour, il appela Inès.
+
+Elle trempa une mouillette, l'agita deux fois, la porta à son nez. Il la regardait, lui qui ne pouvait plus que regarder. Il vit ses paupières se fermer, ses narines se dilater à peine ; il vit, dans la deuxième seconde, quelque chose passer sur son visage, une surprise d'enfant, puis une gravité.
+
+« C'est le citron d'avant, dit-elle. Celui des vieux flacons. Comment avez-vous fait ? »
+
+Il aurait pu mentir. Il en avait l'habitude ; on ne dirige pas quarante ans un laboratoire de Grasse sans apprendre l'art de ne rien dire en parlant beaucoup. Mais il était las, et elle avait vingt-six ans.
+
+« Je ne l'ai pas senti, répondit-il. Je l'ai regardé. »
+
+Elle ne comprit pas tout de suite. Puis son regard alla de la mouillette au réfractomètre, du réfractomètre à la flamme éteinte du bec Bunsen, et revint vers lui. Elle ne posa pas d'autre question. Elle eut seulement ce geste qu'il n'oublierait pas : elle reprit la mouillette, la sentit encore, longuement, comme si elle sentait pour deux.
+
+*Dernière Note* fut présentée le mois suivant. Les journalistes parlèrent d'une tête « lumineuse », d'un citron « qui semble cueilli à la main ». Le groupe parisien retira son offre avec la même courtoisie qu'il avait mise à la faire. Personne ne sut que le parfumeur n'avait rien senti de son chef-d'œuvre, et Augustin ne le dit jamais.
+
+L'odorat lui revint en partie, l'automne suivant, de manière capricieuse : le café, le pain grillé, jamais la rose. Un soir de novembre, rangeant le laboratoire, il trouva sur la paillasse une mouillette oubliée, sèche depuis des mois. Il la porta à son visage sans y croire. Le citron s'était envolé depuis longtemps, comme s'envolent toujours les notes de tête. Mais au fond du papier, très loin, il crut percevoir quelque chose de clair et d'acide qui ressemblait à une voix.
