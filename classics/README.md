@@ -4,12 +4,12 @@
 
 | Файл | Изданий | Наборов |
 |---|---|---|
-| `Classics_EN_Английский.docx` | 141 | 22 |
-| `Classics_FR_Французский.docx` | 139 | 22 |
-| `Classics_DE_Немецкий.docx` | 137 | 22 |
-| `Classics_ES_Испанский.docx` | 131 | 22 |
-| `Classics_RU_Русский.docx` | 125 | 22 |
-| `Classics_IT_Итальянский.docx` | 119 | 22 |
+| `Classics_EN_Английский.docx` | 184 | 28 |
+| `Classics_FR_Французский.docx` | 179 | 30 |
+| `Classics_DE_Немецкий.docx` | 175 | 27 |
+| `Classics_ES_Испанский.docx` | 171 | 30 |
+| `Classics_RU_Русский.docx` | 163 | 28 |
+| `Classics_IT_Итальянский.docx` | 160 | 28 |
 
 Что внутри каждого файла:
 
@@ -21,7 +21,7 @@
 
 ## Как обновить
 
-Данные лежат в `data/<код>.json`, требования к списку — в `tools/SPEC.md`. После правки JSON пересоберите файл:
+Данные лежат в `data/<код>.json`, требования к списку — в `tools/SPEC.md`. Вторая проверка шла по `tools/AUDIT.md`: правки и дополнения каждого языка сохранены в `data/<код>.patch.json` (поле `report` — отчёт), применяются скриптом `tools/apply_patch.js`. После правки JSON пересоберите файл:
 
 ```bash
 node tools/build.js data/ru.json Classics_RU_Русский.docx
