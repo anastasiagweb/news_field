@@ -2,11 +2,13 @@
   "use strict";
   var D = window.EO;
   var $ = function (s, r) { return (r || document).querySelector(s); };
+  var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   // ---------- State ----------
   var params = new URLSearchParams(location.search);
+  var codes = D.LANGS.map(function (l) { return l.code; });
   var state = {
-    lang: pick(params.get("lang") || params.get("sprache"), D.LANGS.map(function (l) { return l.code; }), "it"),
+    lang: pick(params.get("lang") || params.get("sprache"), codes, "it"),
     edition: pick(params.get("ausgabe") || params.get("edition"), ["frank", "wort"], "frank"),
     setFormat: "print",
     giftAudio: "online",
@@ -17,9 +19,12 @@
   function E(id) { return D.editions[id || state.edition]; }
 
   // ---------- Helpers ----------
-  function eur(n) { return n.toFixed(2).replace(".", ",") + "\u00a0€"; }
+  function eur(n) { return n.toFixed(2).replace(".", ",") + " €"; }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
   function fmt(key) { return D.formats.filter(function (f) { return f.key === key; })[0]; }
+  var ICON_CART = '<svg aria-hidden="true"><use href="#i-cart"/></svg>';
+  var ICON_CHEV = '<svg aria-hidden="true"><use href="#i-chev"/></svg>';
+  var ICON_PLAY = '<svg aria-hidden="true"><use href="#i-play"/></svg>';
 
   // UTM / fbclid aus der Anzeige an den Shop weiterreichen
   var passKeys = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "fbclid"];
@@ -29,12 +34,9 @@
     return out.length ? "&" + out.join("&") : "";
   }
   function cartUrlVariation(parentId, variationId, formatKey) {
-    return D.shop + D.cartPath + "?add-to-cart=" + parentId + "&variation_id=" + variationId +
-      "&attribute_pa_buch-ebook=" + fmt(formatKey).slug + passthrough();
+    return D.shop + D.cartPath + "?add-to-cart=" + parentId + "&variation_id=" + variationId + "&attribute_pa_buch-ebook=" + fmt(formatKey).slug + passthrough();
   }
   function cartUrlSimple(id) { return D.shop + D.cartPath + "?add-to-cart=" + id + passthrough(); }
-
-  var cartIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h16l-1.4 11H5.4L4 9zm4 0V7a4 4 0 018 0v2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>';
 
   // ---------- Meta Pixel (nur nach Zustimmung) ----------
   var CONSENT_KEY = "eo_consent_meta";
@@ -65,25 +67,29 @@
     $("#consent-yes").addEventListener("click", function () { setConsent("yes"); box.hidden = true; loadPixel(); });
     $("#consent-no").addEventListener("click", function () { setConsent("no"); box.hidden = true; });
   }
-
-  // Kauf-Klick: Pixel-Event, dann zum Shop
   function wireBuy(a, info) {
     a.addEventListener("click", function () {
-      track("AddToCart", { content_ids: [String(info.id)], content_name: info.name, content_type: "product", value: info.value, currency: "EUR" });
+      var i = typeof info === "function" ? info() : info;
+      track("AddToCart", { content_ids: [String(i.id)], content_name: i.name, content_type: "product", value: i.value, currency: "EUR" });
     });
   }
 
-  // ---------- Language tabs (3 synchronised groups) ----------
+  // ---------- Language choice ----------
+  function renderPostcards() {
+    $("#postcards").innerHTML = D.LANGS.map(function (l) {
+      return '<button class="postcard" type="button" role="tab" data-lang="' + l.code + '" style="--c:' + l.color + '" aria-selected="' + (l.code === state.lang) + '">' +
+        '<img src="' + l.cover + '" alt="" width="520" height="780">' +
+        '<span class="postcard__stamp">' + l.code + '</span>' +
+        '<span class="postcard__txt"><span class="postcard__greet" lang="' + l.code + '">' + esc(l.greeting) + '</span>' +
+        '<span class="postcard__name">' + esc(l.country) + '</span>' +
+        '<span class="postcard__places">' + esc(l.places) + '</span></span></button>';
+    }).join("");
+  }
   function renderTabs(el) {
     el.innerHTML = D.LANGS.map(function (l) {
       return '<button class="langtab" type="button" role="tab" data-lang="' + l.code + '" style="--c:' + l.color + '" aria-selected="' + (l.code === state.lang) + '">' +
-        '<span class="langtab__dot">' + l.code + '</span>' + esc(l.name) + ' <small lang="' + l.code + '">' + esc(l.greeting) + '</small></button>';
+        '<span class="langtab__dot">' + l.code + '</span>' + esc(l.name) + '</button>';
     }).join("");
-    el.addEventListener("click", function (e) {
-      var b = e.target.closest("[data-lang]");
-      if (!b) return;
-      setLang(b.getAttribute("data-lang"));
-    });
   }
   function setLang(code) {
     if (code === state.lang) return;
@@ -97,14 +103,11 @@
     track("Ausgabewahl", { ausgabe: id });
     renderAll();
   }
-
-  // ---------- Edition switch ----------
-  function renderEdSwitch() {
-    $("#edswitch").innerHTML = ["frank", "wort"].map(function (id) {
+  function edSwitchHtml() {
+    return ["frank", "wort"].map(function (id) {
       var e = E(id);
       return '<button class="edopt" type="button" role="radio" data-ed="' + id + '" aria-checked="' + (id === state.edition) + '">' +
-        '<span class="edopt__top"><span class="edopt__name">' + e.name + '</span><span class="edopt__lvl">' + e.level + '</span></span>' +
-        '<span class="edopt__line">' + e.line + '</span></button>';
+        '<span class="edopt__name">' + e.name + '</span><span class="edopt__lvl">' + e.level + '</span></button>';
     }).join("");
   }
 
@@ -113,69 +116,76 @@
     var l = L(), e = E(), prices = D.setPrices[state.edition], set = l.set[state.edition];
     var price = prices[state.setFormat];
     var isDigital = state.setFormat === "pdf" || state.setFormat === "epub";
-    var shipTxt = isDigital ? '<span class="ship">Sofort als Download, ohne Versandkosten</span>'
+    var ship = isDigital ? '<span class="ship">Als Download, ohne Versandkosten</span>'
       : (price > D.freeShippingFrom ? '<span class="ship">✓ Versandkostenfrei in der EU</span>' : '<span class="ship ship--no">zzgl. 6,90 € Versand</span>');
-    var url = cartUrlVariation(set.id, set.vars[state.setFormat], state.setFormat);
+    var vid = set.vars[state.setFormat];
+    var open = $("#setcard details") && $("#setcard details").open;
     $("#setcard").innerHTML =
       '<div class="setcard__img"><img src="img/set-' + l.code + '-' + state.edition + '.webp" alt="' + esc(l.setName) + ' – ' + e.name + ' ' + e.level + ', drei Bücher" width="900" height="900"></div>' +
       '<div class="setcard__body">' +
-        '<p class="badge">Set · 3 Bücher · 30 Geschichten</p>' +
+        '<p class="setcard__greet" lang="' + l.code + '">' + esc(l.greeting) + '</p>' +
         '<h3>' + esc(l.setName) + '</h3>' +
         '<p class="setcard__claim">' + esc(l.claim) + '</p>' +
-        '<p class="setcard__meta">' + esc(l.places) + ' · ' + e.name + ' ' + e.level + '</p>' +
+        '<div class="chips"><span class="chip chip--lang">' + e.name + ' · ' + e.level + '</span><span class="chip">3 Bücher · 30 Geschichten</span><span class="chip">' + esc(l.places) + '</span></div>' +
+        '<details class="more"' + (open ? " open" : "") + '><summary>Worum geht es im Set?' + ICON_CHEV + '</summary><div class="more__body">' +
+          l.intro.map(function (p) { return '<p>' + esc(p) + '</p>'; }).join("") +
+          '<p class="cast"><b>Enthalten:</b>' + l.books.map(function (b) { return '<span class="chip" lang="' + l.code + '">' + esc(b.title) + '</span>'; }).join("") + '</p>' +
+        '</div></details>' +
         '<fieldset class="formats"><legend>Format</legend>' +
           D.formats.map(function (f) {
             return '<label class="fmt"><input type="radio" name="setfmt" id="setfmt-' + f.key + '" value="' + f.key + '"' + (f.key === state.setFormat ? " checked" : "") + '>' +
               '<span>' + f.label + ' <b>' + eur(prices[f.key]) + '</b></span></label>';
           }).join("") +
         '</fieldset>' +
-        '<div class="buy">' +
-          '<div class="price"><span class="price__v">' + eur(price) + '</span>' + shipTxt + '</div>' +
-          '<a class="btn btn--lang" id="set-buy" href="' + url + '">' + cartIcon + 'In den Warenkorb</a>' +
-          '<p class="buy__hint">Weiter zum Warenkorb auf easyoriginal.com</p>' +
-        '</div>' +
+        '<div class="buy"><div class="price"><span class="price__v">' + eur(price) + '</span>' + ship + '</div>' +
+          '<a class="btn btn--lang" id="set-buy" href="' + cartUrlVariation(set.id, vid, state.setFormat) + '">' + ICON_CART + 'Set in den Warenkorb</a>' +
+          '<p class="buy__hint">Weiter zum Warenkorb auf easyoriginal.com</p></div>' +
       '</div>';
-    wireBuy($("#set-buy"), { id: set.vars[state.setFormat], name: l.setName + " " + e.name, value: price });
+    wireBuy($("#set-buy"), { id: vid, name: l.setName + " " + e.name, value: price });
   }
 
   // ---------- Single books ----------
   function renderBooks() {
     var l = L(), e = E(), prices = D.bookPrices[state.edition];
     $("#single-head").textContent = "Oder einzeln: E-Book " + eur(prices.pdf) + ", Taschenbuch " + eur(prices.print);
-    var host = $("#books");
-    host.innerHTML = l.books.map(function (b, i) {
-      var fk = state.bookFormat[b.key] || "print";
-      var p = b[state.edition];
+    $("#books").innerHTML = l.books.map(function (b, i) {
+      var fk = state.bookFormat[b.key] || "print", p = b[state.edition];
       return '<article class="book">' +
-        '<div class="book__cover"><img loading="lazy" src="img/cover-' + l.code + '-' + b.key + '-' + state.edition + '.webp" alt="Cover: ' + esc(b.title) + ' – ' + esc(b.de) + ', ' + e.level + '" width="520" height="780"></div>' +
+        '<div class="book__cover"><span class="book__num" aria-hidden="true">' + (i + 1) + '</span><img loading="lazy" src="img/cover-' + l.code + '-' + b.key + '-' + state.edition + '.webp" alt="Cover: ' + esc(b.title) + ', ' + e.level + '" width="520" height="780"></div>' +
         '<div class="book__body">' +
           '<p class="book__place">Band ' + (i + 1) + ' · ' + esc(b.place) + '</p>' +
           '<h4 lang="' + l.code + '">' + esc(b.title) + '</h4>' +
           '<p class="book__de">' + esc(b.de) + '</p>' +
           '<p class="book__hook">' + esc(b.hook) + '</p>' +
-          '<div class="book__row"><span class="book__price" id="bp-' + b.key + '">' + eur(prices[fk]) + '</span></div>' +
-          '<div class="book__row">' +
-            '<select id="bf-' + b.key + '" data-book="' + b.key + '" aria-label="Format für ' + esc(b.title) + '">' +
-              D.formats.map(function (f) { return '<option value="' + f.key + '"' + (f.key === fk ? " selected" : "") + '>' + f.label + ' – ' + eur(prices[f.key]) + '</option>'; }).join("") +
-            '</select>' +
-            '<a class="btn btn--lang" id="bb-' + b.key + '" href="' + cartUrlVariation(p.id, p.vars[fk], fk) + '">' + cartIcon + 'Kaufen</a>' +
-          '</div>' +
+        '</div>' +
+        '<details class="more book__wide"><summary>Worum geht’s?' + ICON_CHEV + '</summary><div class="more__body">' +
+          b.desc.map(function (t) { return '<p>' + esc(t) + '</p>'; }).join("") +
+          '<p class="cast"><b>Mit:</b>' + b.cast.map(function (c) { return '<span class="chip">' + esc(c) + '</span>'; }).join("") + '</p>' +
+        '</div></details>' +
+        '<div class="book__buy book__wide">' +
+          '<span class="book__price" id="bp-' + b.key + '">' + eur(prices[fk]) + '</span>' +
+          '<select id="bf-' + b.key + '" data-book="' + b.key + '" aria-label="Format für ' + esc(b.title) + '">' +
+            D.formats.map(function (f) { return '<option value="' + f.key + '"' + (f.key === fk ? " selected" : "") + '>' + f.label + '</option>'; }).join("") +
+          '</select>' +
+          '<a class="btn btn--lang" id="bb-' + b.key + '" href="' + cartUrlVariation(p.id, p.vars[fk], fk) + '">' + ICON_CART + 'In den Warenkorb</a>' +
         '</div></article>';
     }).join("");
     l.books.forEach(function (b) {
-      var a = $("#bb-" + b.key);
-      wireBuy(a, { get id() { return b[state.edition].vars[state.bookFormat[b.key] || "print"]; }, name: b.title, get value() { return D.bookPrices[state.edition][state.bookFormat[b.key] || "print"]; } });
+      wireBuy($("#bb-" + b.key), function () {
+        var fk = state.bookFormat[b.key] || "print";
+        return { id: b[state.edition].vars[fk], name: b.title, value: D.bookPrices[state.edition][fk] };
+      });
     });
   }
   function onBookFormat(sel) {
-    var key = sel.getAttribute("data-book"), fk = sel.value, l = L();
+    var key = sel.getAttribute("data-book"), fk = sel.value;
+    var b = L().books.filter(function (x) { return x.key === key; })[0], p = b[state.edition];
     state.bookFormat[key] = fk;
-    var b = l.books.filter(function (x) { return x.key === key; })[0], p = b[state.edition];
     $("#bp-" + key).textContent = eur(D.bookPrices[state.edition][fk]);
     $("#bb-" + key).href = cartUrlVariation(p.id, p.vars[fk], fk);
   }
 
-  // ---------- Sample pages ----------
+  // ---------- Sample spread ----------
   var audio = new Audio();
   audio.preload = "none";
   var playing = null;
@@ -189,17 +199,15 @@
     }).join("");
     var wortHtml = esc(s.wort).replace(/\[(\d+)\]/g, "<sup>$1</sup>");
     var notesHtml = s.notes.map(function (n, i) { return n ? '<li><sup>' + (i + 1) + '</sup>' + esc(n) + '</li>' : ""; }).join("");
-
     function page(id, body) {
       var e = E(id), p = D.setPrices[id];
       return '<article class="page">' +
         '<div class="page__head"><span class="page__ed">' + e.name + '</span><span class="page__lvl">' + e.level + '</span></div>' +
         '<div class="page__paper" lang="' + l.code + '"><p class="page__chap">' + esc(s.title) + '</p>' + body + '</div>' +
-        '<button class="play" type="button" data-audio="' + id + '" aria-pressed="false"><span class="play__i"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg></span><span class="play__t">Hörprobe anhören</span></button>' +
+        '<button class="play" type="button" data-audio="' + id + '" aria-pressed="false"><span class="play__i">' + ICON_PLAY + '</span><span class="play__t">Hörprobe anhören</span></button>' +
         '<ul class="page__pts">' + e.points.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join("") + '</ul>' +
         '<p class="page__fit"><b>Passt, wenn …</b>' + esc(e.fit) + '</p>' +
-        '<div class="page__price"><span>Set ab ' + eur(p.pdf) + ' · Einzelband ab ' + eur(D.bookPrices[id].pdf) + '</span>' +
-        '<a href="#buecher" data-pick-ed="' + id + '">Diese Ausgabe wählen →</a></div>' +
+        '<div class="page__price"><span>Set ab ' + eur(p.pdf) + ' · Einzelband ab ' + eur(D.bookPrices[id].pdf) + '</span><a href="#buecher" data-pick-ed="' + id + '">Diese Ausgabe wählen →</a></div>' +
         '</article>';
     }
     $("#pages").innerHTML =
@@ -219,39 +227,32 @@
     audio.play().then(function () {
       playing = btn; btn.setAttribute("aria-pressed", "true"); btn.querySelector(".play__t").textContent = "Pause";
       track("Hoerprobe", { sprache: L().name, ausgabe: btn.getAttribute("data-audio") });
-    }).catch(function () {
-      btn.querySelector(".play__t").textContent = "Hörprobe nicht verfügbar";
-    });
+    }).catch(function () { btn.querySelector(".play__t").textContent = "Hörprobe nicht verfügbar"; });
   }
   audio.addEventListener("ended", stopAudio);
 
   // ---------- Gift ----------
   function renderGift() {
-    var l = L(), e = E(), gp = D.giftPrices[state.edition], gid = l.gift[state.edition][state.giftAudio];
-    var price = gp[state.giftAudio];
+    var l = L(), e = E(), gp = D.giftPrices[state.edition], gid = l.gift[state.edition][state.giftAudio], price = gp[state.giftAudio];
+    var open = $("#gift details") && $("#gift details").open;
     $("#gift").innerHTML =
       '<div class="gift__img"><img loading="lazy" src="img/gift-' + l.code + '-' + state.edition + '.webp" alt="Geschenkset ' + esc(l.setName) + ' mit drei Büchern und Schreibset ' + esc(l.gift.schreibset) + '" width="900" height="900"></div>' +
       '<div class="gift__body">' +
-        '<p class="badge">Geschenkset · ' + e.name + ' ' + e.level + '</p>' +
-        '<h3>' + esc(l.setName) + ' + Notiz\u2011Set</h3>' +
-        '<ul class="gift__list">' + D.giftContents.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join("") + '</ul>' +
+        '<p class="badge">Geschenkset · ' + esc(l.country) + '</p>' +
+        '<h3>' + esc(l.setName) + ' + Notiz‑Set</h3>' +
         '<div class="gift__set"><img loading="lazy" src="' + l.gift.schreibsetImg + '" alt="Schreibset ' + esc(l.gift.schreibset) + ' Deluxe" width="900" height="900">' +
-          '<p><b>Schreibset „' + esc(l.gift.schreibset) + '“ Deluxe</b>Zwei Notizbücher, ein Notizheft, Lesezeichen und Stifte im passenden Design – für neue Wörter und Leseeindrücke.</p></div>' +
-        '<div class="edswitch edswitch--gift" role="radiogroup" aria-label="Ausgabe im Geschenkset" style="margin:0">' +
-          ["frank", "wort"].map(function (id) {
-            var x = E(id);
-            return '<button class="edopt" type="button" role="radio" data-ed="' + id + '" aria-checked="' + (id === state.edition) + '"><span class="edopt__top"><span class="edopt__name">' + x.name + '</span><span class="edopt__lvl">' + x.level + '</span></span></button>';
-          }).join("") +
-        '</div>' +
+          '<p><b>Schreibset „' + esc(l.gift.schreibset) + '“ Deluxe</b>' + esc(l.gift.schreibsetText) + '</p></div>' +
+        '<details class="more"' + (open ? " open" : "") + '><summary>Was ist im Geschenkset?' + ICON_CHEV + '</summary><div class="more__body">' +
+          '<ul class="gift__list">' + D.giftContents.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join("") + '</ul>' +
+        '</div></details>' +
+        '<div class="edswitch" role="radiogroup" aria-label="Ausgabe im Geschenkset">' + edSwitchHtml() + '</div>' +
         '<fieldset class="formats seg"><legend>Audio</legend>' +
           '<label class="fmt"><input type="radio" name="giftaudio" id="giftaudio-online" value="online"' + (state.giftAudio === "online" ? " checked" : "") + '><span>Audio-Online <small>' + eur(gp.online) + '</small></span></label>' +
           '<label class="fmt"><input type="radio" name="giftaudio" id="giftaudio-cd" value="cd"' + (state.giftAudio === "cd" ? " checked" : "") + '><span>Mit Audio-CDs <small>' + eur(gp.cd) + '</small></span></label>' +
         '</fieldset>' +
-        '<div class="buy">' +
-          '<div class="price"><span class="price__v">' + eur(price) + '</span><span class="ship">✓ Versandkostenfrei in der EU</span></div>' +
-          '<a class="btn btn--lang" id="gift-buy" href="' + cartUrlSimple(gid) + '">' + cartIcon + 'Geschenkset in den Warenkorb</a>' +
-          '<p class="buy__hint">Weiter zum Warenkorb auf easyoriginal.com</p>' +
-        '</div>' +
+        '<div class="buy"><div class="price"><span class="price__v">' + eur(price) + '</span><span class="ship">✓ Versandkostenfrei in der EU</span></div>' +
+          '<a class="btn btn--lang" id="gift-buy" href="' + cartUrlSimple(gid) + '">' + ICON_CART + 'Geschenkset in den Warenkorb</a>' +
+          '<p class="buy__hint">Weiter zum Warenkorb auf easyoriginal.com</p></div>' +
       '</div>';
     wireBuy($("#gift-buy"), { id: gid, name: "Geschenkset " + l.setName + " " + e.name, value: price });
   }
@@ -263,32 +264,103 @@
     }).join("");
   }
 
-  // ---------- Countdown ----------
+  // ---------- Advent grid & countdown ----------
+  function renderAdvent() {
+    var now = new Date(), today = now.getMonth() === 11 ? now.getDate() : 0, html = "";
+    for (var d = 1; d <= 30; d++) {
+      var band = d <= 10 ? 1 : d <= 20 ? 2 : 3;
+      html += '<li class="d' + band + (d === today ? " is-today" : "") + '" title="Band ' + band + ', Geschichte ' + (((d - 1) % 10) + 1) + '">' + d + '</li>';
+    }
+    $("#advent").innerHTML = html;
+  }
   function renderCountdown() {
-    var now = new Date();
-    var eve = new Date(now.getFullYear(), 11, 24);
-    if (now > new Date(now.getFullYear(), 11, 26)) eve = new Date(now.getFullYear() + 1, 11, 24);
-    var days = Math.ceil((eve - new Date(now.getFullYear(), now.getMonth(), now.getDate())) / 864e5);
+    var now = new Date(), y = now.getFullYear();
+    var eve = new Date(y, 11, 24);
+    if (now > new Date(y, 11, 26)) eve = new Date(y + 1, 11, 24);
+    var days = Math.ceil((eve - new Date(y, now.getMonth(), now.getDate())) / 864e5);
     var t = days > 1 ? "Noch " + days + " Tage bis Heiligabend" : days === 1 ? "Morgen ist Heiligabend" : "Frohe Weihnachten!";
     $("#xmas-count").textContent = t;
-    $("#xmas-count-2").textContent = days > 1 ? t + " – genug Zeit, um noch ein paar Geschichten zu lesen." : t;
+    $("#xmas-count-2").textContent = days > 1 ? t + " – genug Zeit für ein paar Geschichten." : t;
   }
+
+  // ---------- Garland ----------
+  var BULBS = ["#FFD36B", "#FF6B5E", "#FFF1C9", "#7FE0A0", "#FFB547"];
+  function buildGarland(el, seed) {
+    if (!el) return;
+    var w = el.clientWidth || window.innerWidth, h = 70;
+    var span = w < 600 ? 150 : 230, n = Math.max(2, Math.round(w / span)), seg = w / n;
+    var wire = "", bulbs = "", k = seed || 0, gid = "glow" + (seed || 0);
+    for (var i = 0; i < n; i++) {
+      var x0 = i * seg, x1 = x0 + seg, cx = x0 + seg / 2, cy = 52;
+      wire += "M" + x0.toFixed(1) + " 2 Q" + cx.toFixed(1) + " " + cy + " " + x1.toFixed(1) + " 2 ";
+      [0.18, 0.39, 0.61, 0.82].forEach(function (t) {
+        var x = (1 - t) * (1 - t) * x0 + 2 * (1 - t) * t * cx + t * t * x1;
+        var y = (1 - t) * (1 - t) * 2 + 2 * (1 - t) * t * cy + t * t * 2;
+        var c = BULBS[k % BULBS.length], delay = ((k * 0.73) % 3.2).toFixed(2);
+        bulbs += '<g class="bulb" style="animation-delay:-' + delay + 's">' +
+          '<circle cx="' + x.toFixed(1) + '" cy="' + (y + 9).toFixed(1) + '" r="13" fill="' + c + '" opacity=".3" filter="url(#' + gid + ')"/>' +
+          '<rect x="' + (x - 2.5).toFixed(1) + '" y="' + (y - 1).toFixed(1) + '" width="5" height="5" rx="1" fill="#3B3221"/>' +
+          '<ellipse cx="' + x.toFixed(1) + '" cy="' + (y + 9).toFixed(1) + '" rx="5" ry="7" fill="' + c + '"/>' +
+          '<ellipse cx="' + (x - 1.3).toFixed(1) + '" cy="' + (y + 7).toFixed(1) + '" rx="1.2" ry="2" fill="#fff" opacity=".7"/></g>';
+        k++;
+      });
+    }
+    el.innerHTML = '<svg viewBox="0 0 ' + w + ' ' + h + '" aria-hidden="true"><defs><filter id="' + gid + '" x="-1" y="-1" width="3" height="3"><feGaussianBlur stdDeviation="4"/></filter></defs>' +
+      '<path d="' + wire + '" fill="none" stroke="#6B5A36" stroke-width="1.4"/>' + bulbs + '</svg>';
+  }
+
+  // ---------- Snow ----------
+  function initSnow() {
+    var c = $("#snow"); if (!c || !c.getContext) return;
+    var ctx = c.getContext("2d"), flakes = [], W = 0, H = 0, running = true, dpr = Math.min(window.devicePixelRatio || 1, 2);
+    function size() {
+      W = c.clientWidth; H = c.clientHeight; c.width = W * dpr; c.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var n = Math.round(W / (reduceMotion ? 40 : 14));
+      flakes = [];
+      for (var i = 0; i < n; i++) flakes.push({ x: Math.random() * W, y: Math.random() * H, r: Math.random() * 1.8 + .6, s: Math.random() * .5 + .25, d: Math.random() * Math.PI * 2, o: Math.random() * .5 + .35 });
+    }
+    function draw() {
+      ctx.clearRect(0, 0, W, H);
+      for (var i = 0; i < flakes.length; i++) {
+        var f = flakes[i];
+        ctx.beginPath(); ctx.arc(f.x, f.y, f.r, 0, 6.283); ctx.fillStyle = "rgba(255,250,235," + f.o + ")"; ctx.fill();
+      }
+    }
+    function step() {
+      if (!running) return;
+      for (var i = 0; i < flakes.length; i++) {
+        var f = flakes[i]; f.d += .01; f.y += f.s; f.x += Math.sin(f.d) * .3;
+        if (f.y > H + 4) { f.y = -4; f.x = Math.random() * W; }
+      }
+      draw(); requestAnimationFrame(step);
+    }
+    size(); draw();
+    window.addEventListener("resize", debounce(function () { size(); draw(); }, 200));
+    if (reduceMotion) return;
+    if ("IntersectionObserver" in window) {
+      new IntersectionObserver(function (en) {
+        var v = en[0].isIntersecting;
+        if (v && !running) { running = true; step(); } else if (!v) running = false;
+      }).observe(c);
+    }
+    step();
+  }
+  function debounce(fn, ms) { var t; return function () { clearTimeout(t); t = setTimeout(fn, ms); }; }
 
   // ---------- Render all ----------
   function renderAll() {
     document.documentElement.style.setProperty("--lang", L().color);
-    ["#langtabs", "#langtabs2", "#langtabs3"].forEach(function (id) {
+    ["#postcards", "#langtabs2", "#langtabs3"].forEach(function (id) {
       Array.prototype.forEach.call($(id).children, function (b) { b.setAttribute("aria-selected", String(b.getAttribute("data-lang") === state.lang)); });
     });
-    renderEdSwitch();
-    renderSet();
-    renderBooks();
-    renderPages();
-    renderGift();
+    $("#edswitch").innerHTML = edSwitchHtml();
+    renderSet(); renderBooks(); renderPages(); renderGift();
   }
 
   // ---------- Events ----------
   document.addEventListener("click", function (e) {
+    var lb = e.target.closest("[data-lang]");
+    if (lb) { setLang(lb.getAttribute("data-lang")); return; }
     var ed = e.target.closest("[data-ed]");
     if (ed) { setEdition(ed.getAttribute("data-ed")); return; }
     var pickEd = e.target.closest("[data-pick-ed]");
@@ -300,39 +372,42 @@
   });
   document.addEventListener("change", function (e) {
     var t = e.target;
-    if (t.name === "setfmt") { state.setFormat = t.value; renderSet(); var el = $("#setfmt-" + t.value); if (el) el.focus(); }
+    if (t.name === "setfmt") { state.setFormat = t.value; renderSet(); var a = $("#setfmt-" + t.value); if (a) a.focus(); }
     else if (t.name === "giftaudio") { state.giftAudio = t.value; renderGift(); var g = $("#giftaudio-" + t.value); if (g) g.focus(); }
     else if (t.hasAttribute && t.hasAttribute("data-book")) onBookFormat(t);
   });
 
-  // Mobile Leiste erst nach dem Hero zeigen, im Kaufbereich ausblenden
+  // Mobile Leiste: nicht über dem Hero und nicht in den Kaufbereichen
   function initMbar() {
-    var bar = $("#mbar"), hero = $(".hero"), books = $("#buecher"), gift = $("#geschenksets");
+    var bar = $("#mbar"), watch = [$(".hero"), $("#buecher"), $("#geschenksets")];
     if (!("IntersectionObserver" in window)) { bar.classList.add("is-on"); return; }
-    var vis = { hero: true, buy: false };
+    var vis = watch.map(function () { return false; });
+    vis[0] = true;
     var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        if (en.target === hero) vis.hero = en.isIntersecting;
-        else vis.buy = en.isIntersecting;
-      });
-      bar.classList.toggle("is-on", !vis.hero && !vis.buy);
-    }, { threshold: 0.05 });
-    io.observe(hero); io.observe(books); io.observe(gift);
+      entries.forEach(function (en) { vis[watch.indexOf(en.target)] = en.isIntersecting; });
+      bar.classList.toggle("is-on", !vis.some(Boolean));
+    }, { threshold: 0.02 });
+    watch.forEach(function (el) { io.observe(el); });
   }
 
   // ---------- Init ----------
-  renderTabs($("#langtabs"));
+  renderPostcards();
   renderTabs($("#langtabs2"));
   renderTabs($("#langtabs3"));
   renderFaq();
+  renderAdvent();
   renderCountdown();
   renderAll();
+  function garlands() { buildGarland($("#garland"), 0); buildGarland($("#garland2"), 2); }
+  garlands();
+  window.addEventListener("resize", debounce(garlands, 200));
+  initSnow();
   initMbar();
   initConsent();
 
-  // Direktlink aus der Anzeige: ?lang=fr#geschenksets usw.
-  if (params.get("lang") && !location.hash) {
+  // Direktlink aus der Anzeige: ?lang=fr, ?ziel=geschenk
+  if ((params.get("lang") || params.get("ziel")) && !location.hash) {
     var target = params.get("ziel") === "geschenk" ? "#geschenksets" : "#buecher";
-    setTimeout(function () { var el = $(target); if (el) el.scrollIntoView(); }, 50);
+    setTimeout(function () { var el = $(target); if (el) el.scrollIntoView(); }, 60);
   }
 })();
