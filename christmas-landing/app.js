@@ -264,15 +264,7 @@
     }).join("");
   }
 
-  // ---------- Advent grid & countdown ----------
-  function renderAdvent() {
-    var now = new Date(), today = now.getMonth() === 11 ? now.getDate() : 0, html = "";
-    for (var d = 1; d <= 30; d++) {
-      var band = d <= 10 ? 1 : d <= 20 ? 2 : 3;
-      html += '<li class="d' + band + (d === today ? " is-today" : "") + '" title="Band ' + band + ', Geschichte ' + (((d - 1) % 10) + 1) + '">' + d + '</li>';
-    }
-    $("#advent").innerHTML = html;
-  }
+  // ---------- Countdown ----------
   function renderCountdown() {
     var now = new Date(), y = now.getFullYear();
     var eve = new Date(y, 11, 24);
@@ -309,41 +301,20 @@
       '<path d="' + wire + '" fill="none" stroke="#6B5A36" stroke-width="1.4"/>' + bulbs + '</svg>';
   }
 
-  // ---------- Snow ----------
-  function initSnow() {
-    var c = $("#snow"); if (!c || !c.getContext) return;
-    var ctx = c.getContext("2d"), flakes = [], W = 0, H = 0, running = true, dpr = Math.min(window.devicePixelRatio || 1, 2);
-    function size() {
-      W = c.clientWidth; H = c.clientHeight; c.width = W * dpr; c.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      var n = Math.round(W / (reduceMotion ? 40 : 14));
-      flakes = [];
-      for (var i = 0; i < n; i++) flakes.push({ x: Math.random() * W, y: Math.random() * H, r: Math.random() * 1.8 + .6, s: Math.random() * .5 + .25, d: Math.random() * Math.PI * 2, o: Math.random() * .5 + .35 });
+  // ---------- Hero slideshow ----------
+  function initSlides() {
+    var imgs = document.querySelectorAll("#slides img"), dots = document.querySelectorAll("[data-slide]"), cur = 0, timer = null;
+    if (!imgs.length) return;
+    function show(i) {
+      cur = (i + imgs.length) % imgs.length;
+      Array.prototype.forEach.call(imgs, function (im, k) { im.classList.toggle("is-on", k === cur); });
+      Array.prototype.forEach.call(dots, function (d, k) { d.setAttribute("aria-pressed", String(k === cur)); });
     }
-    function draw() {
-      ctx.clearRect(0, 0, W, H);
-      for (var i = 0; i < flakes.length; i++) {
-        var f = flakes[i];
-        ctx.beginPath(); ctx.arc(f.x, f.y, f.r, 0, 6.283); ctx.fillStyle = "rgba(255,250,235," + f.o + ")"; ctx.fill();
-      }
-    }
-    function step() {
-      if (!running) return;
-      for (var i = 0; i < flakes.length; i++) {
-        var f = flakes[i]; f.d += .01; f.y += f.s; f.x += Math.sin(f.d) * .3;
-        if (f.y > H + 4) { f.y = -4; f.x = Math.random() * W; }
-      }
-      draw(); requestAnimationFrame(step);
-    }
-    size(); draw();
-    window.addEventListener("resize", debounce(function () { size(); draw(); }, 200));
-    if (reduceMotion) return;
-    if ("IntersectionObserver" in window) {
-      new IntersectionObserver(function (en) {
-        var v = en[0].isIntersecting;
-        if (v && !running) { running = true; step(); } else if (!v) running = false;
-      }).observe(c);
-    }
-    step();
+    function start() { if (!reduceMotion) { clearInterval(timer); timer = setInterval(function () { show(cur + 1); }, 4500); } }
+    Array.prototype.forEach.call(dots, function (d) {
+      d.addEventListener("click", function () { show(+d.getAttribute("data-slide")); start(); });
+    });
+    start();
   }
   function debounce(fn, ms) { var t; return function () { clearTimeout(t); t = setTimeout(fn, ms); }; }
 
@@ -395,13 +366,12 @@
   renderTabs($("#langtabs2"));
   renderTabs($("#langtabs3"));
   renderFaq();
-  renderAdvent();
   renderCountdown();
   renderAll();
-  function garlands() { buildGarland($("#garland"), 0); buildGarland($("#garland2"), 2); }
+  function garlands() { buildGarland($("#garland2"), 2); }
   garlands();
   window.addEventListener("resize", debounce(garlands, 200));
-  initSnow();
+  initSlides();
   initMbar();
   initConsent();
 

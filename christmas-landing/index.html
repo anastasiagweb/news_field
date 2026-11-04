@@ -44,7 +44,7 @@
       <a href="#geschenksets">Geschenksets</a>
       <a href="#fragen">Fragen</a>
     </nav>
-    <a class="btn btn--small btn--gold header__cta" href="#buecher" data-track="header">Jetzt wählen</a>
+    <a class="btn btn--small btn--pine header__cta" href="#buecher" data-track="header">Jetzt wählen</a>
   </div>
 </header>
 
@@ -52,8 +52,6 @@
 
   <!-- HERO -->
   <section class="hero">
-    <div class="garland" id="garland" aria-hidden="true"></div>
-    <canvas class="snow" id="snow" aria-hidden="true"></canvas>
     <div class="wrap hero__in">
       <div class="hero__text">
         <p class="script hero__greet"><span lang="it">Buon Natale</span> <span lang="fr">Joyeux Noël</span> <span lang="es">¡Feliz Navidad!</span></p>
@@ -61,7 +59,7 @@
         <p class="hero__lead">30 humorvolle Weihnachtsgeschichten pro Sprache, mit deutscher Lesehilfe und Audio. Für gemütliche Winterabende – oder als Geschenk für alle, die eine Sprache lieben.</p>
         <div class="hero__cta">
           <a class="btn btn--gold" href="#buecher" data-track="hero_books">Sprache wählen</a>
-          <a class="btn btn--ghost" href="#geschenksets" data-track="hero_gifts">Geschenksets ansehen</a>
+          <a class="btn btn--line" href="#geschenksets" data-track="hero_gifts">Geschenksets ansehen</a>
         </div>
         <ul class="hero__facts">
           <li><b>3 Bücher</b><span>30 Geschichten je Sprache</span></li>
@@ -69,17 +67,19 @@
           <li><b>Mit Audio</b><span>online oder auf CD</span></li>
         </ul>
       </div>
-      <div class="hero__art" aria-hidden="true">
-        <div class="halo"></div>
-        <div class="fan">
-          <img class="fan__b fan__b--1" src="img/cover-fr-marche-frank.webp" alt="" width="520" height="780">
-          <img class="fan__b fan__b--2" src="img/cover-it-suocera-frank.webp" alt="" width="520" height="780">
-          <img class="fan__b fan__b--3" src="img/cover-es-belen-frank.webp" alt="" width="520" height="780">
+      <div class="hero__art">
+        <div class="slides" id="slides">
+          <img class="is-on" src="img/gift-it-frank.webp" alt="Geschenkset Weihnachten in Italien: drei Bücher und Notiz-Set" width="900" height="900">
+          <img src="img/gift-fr-frank.webp" alt="Geschenkset Weihnachten in Frankreich: drei Bücher und Notiz-Set" width="900" height="900" loading="lazy">
+          <img src="img/gift-es-frank.webp" alt="Geschenkset Weihnachten in Spanien: drei Bücher und Notiz-Set" width="900" height="900" loading="lazy">
         </div>
-        <div class="tag tag--hero"><span class="tag__hole"></span><b>30</b><span>Geschichten<br>je Sprache</span></div>
+        <div class="slides__dots" role="group" aria-label="Land im Bild">
+          <button type="button" data-slide="0" aria-pressed="true" style="--c:var(--it)">Italien</button>
+          <button type="button" data-slide="1" aria-pressed="false" style="--c:var(--fr)">Frankreich</button>
+          <button type="button" data-slide="2" aria-pressed="false" style="--c:var(--es)">Spanien</button>
+        </div>
       </div>
     </div>
-    <div class="hero__edge" aria-hidden="true"></div>
   </section>
 
   <!-- INTRO -->
@@ -95,14 +95,6 @@
         <p class="script letter__sign">Frohe Weihnachten!</p>
         <p class="letter__from">Ihr easyOriginal-Team</p>
       </article>
-      <aside class="advent" aria-label="30 Geschichten, eine pro Abend">
-        <p class="advent__t">Eine Geschichte pro Abend</p>
-        <ol class="advent__grid" id="advent"></ol>
-        <ul class="advent__legend">
-          <li><i class="d1"></i>Band 1</li><li><i class="d2"></i>Band 2</li><li><i class="d3"></i>Band 3</li>
-        </ul>
-        <p class="advent__note">Drei Bücher à zehn Geschichten – das reicht für jeden Abend im Dezember.</p>
-      </aside>
     </div>
   </section>
 
@@ -175,12 +167,11 @@
         <p class="eyebrow">Geschenkideen</p>
         <h2>Für wen ist das?</h2>
       </header>
-      <div class="string" aria-hidden="true"></div>
-      <ul class="tags">
-        <li class="tag tag--card" style="--c:var(--gold)"><span class="tag__hole"></span><h3>Für sich selbst</h3><p>Der gute Vorsatz, die Sprache wieder aufzunehmen, bekommt einen Anlass: eine Geschichte pro Abend.</p></li>
-        <li class="tag tag--card" style="--c:var(--it)"><span class="tag__hole"></span><h3>Für alle, die von Italien träumen</h3><p>Verona, Ligurien, Comer See – Weihnachtsstimmung auf Italienisch, nicht nur im Urlaub.</p></li>
-        <li class="tag tag--card" style="--c:var(--fr)"><span class="tag__hole"></span><h3>Für Eltern und Großeltern</h3><p>Ideal für Wiedereinsteiger: Mit der Frank-Lesemethode kommt das Schulfranzösisch schnell zurück.</p></li>
-        <li class="tag tag--card" style="--c:var(--es)"><span class="tag__hole"></span><h3>Für Sprachkurs und Wichteln</h3><p>Ein Einzelband ab 6,99 € ist ein Geschenk mit Inhalt, das garantiert gelesen wird.</p></li>
+      <ul class="who">
+        <li style="--c:var(--gold)"><h3>Für sich selbst</h3><p>Der gute Vorsatz, die Sprache wieder aufzunehmen, bekommt einen Anlass: eine Geschichte pro Abend.</p></li>
+        <li style="--c:var(--it)"><h3>Für alle, die von Italien träumen</h3><p>Verona, Ligurien, Comer See – Weihnachtsstimmung auf Italienisch, nicht nur im Urlaub.</p></li>
+        <li style="--c:var(--fr)"><h3>Für Eltern und Großeltern</h3><p>Ideal für Wiedereinsteiger: Mit der Frank-Lesemethode kommt das Schulfranzösisch schnell zurück.</p></li>
+        <li style="--c:var(--es)"><h3>Für Sprachkurs und Wichteln</h3><p>Ein Einzelband ab 6,99 € ist ein Geschenk mit Inhalt, das garantiert gelesen wird.</p></li>
       </ul>
       <ul class="why">
         <li><svg aria-hidden="true"><use href="#i-star"/></svg><b>Zum Lachen</b><span>Schwiegermütter, Nachbarn mit größeren Bäumen, Schwager mit Expertenmeinung.</span></li>
