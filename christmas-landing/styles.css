@@ -132,16 +132,6 @@ button { font: inherit; color: inherit; }
 .divider span:last-child { background: linear-gradient(90deg, var(--gold), transparent); }
 .divider svg { width: 16px; height: 16px; fill: var(--gold); }
 
-/* ---------- Intro letter ---------- */
-.intro { padding-top: 4.5rem; }
-.intro__in { display: grid; grid-template-columns: minmax(0, 1fr); max-width: 820px; margin-inline: auto; }
-.letter { position: relative; background: var(--card); padding: 2.75rem 2.5rem 2.25rem; border-radius: 4px; box-shadow: 0 30px 60px -40px rgba(31, 26, 21, .5), 0 0 0 1px var(--line); display: grid; gap: 1rem; }
-.letter::before { content: ""; position: absolute; inset: 10px; border: 1px solid rgba(201, 151, 63, .45); pointer-events: none; border-radius: 2px; }
-.letter h2 { font-size: clamp(1.75rem, 3.2vw, 2.4rem); margin-bottom: .25rem; }
-.letter__p { color: #3F3830; font-size: 1.04rem; }
-.letter__sign { font-size: 2.4rem; color: var(--berry); line-height: 1.1; margin-top: .4rem; }
-.letter__from { font-weight: 700; color: var(--muted); font-size: .92rem; margin-top: -.6rem; }
-.seal { position: absolute; right: 1.6rem; top: -1.6rem; width: 74px; height: 74px; border-radius: 50%; display: grid; place-items: center; color: rgba(255,255,255,.85); font-family: var(--font-display); font-style: italic; font-size: 1.5rem; background: radial-gradient(circle at 35% 30%, #B2283C, var(--berry) 55%, var(--berry-2)); box-shadow: 0 10px 20px -8px rgba(94, 15, 28, .7), inset 0 0 0 6px rgba(0,0,0,.08), inset 0 0 0 8px rgba(255,255,255,.08); text-shadow: 0 -1px 0 rgba(0,0,0,.35); }
 
 /* ---------- Postcards (language choice) ---------- */
 .postcards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1.75rem; }
@@ -354,7 +344,6 @@ button { font: inherit; color: inherit; }
   .hero__in { grid-template-columns: minmax(0, 1fr); gap: 1.75rem; padding-block: 2.5rem 3.5rem; }
   .hero__art { order: -1; }
   .slides { width: min(100%, 440px); }
-  .intro__in { grid-template-columns: minmax(0, 1fr); gap: 2.5rem; }
   .setcard, .gift { grid-template-columns: minmax(0, 1fr); }
   .setcard__body { padding: .25rem .4rem .4rem; }
   .who { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -380,7 +369,6 @@ button { font: inherit; color: inherit; }
   .book__hook { font-size: 1.02rem; }
   .book__cover { grid-row: auto; }
   .book__wide { grid-column: 1 / -1; }
-  .letter { padding: 2.4rem 1.4rem 1.8rem; }
   .footer__in { grid-template-columns: minmax(0, 1fr); }
   .footer__links { justify-content: flex-start; }
   .edbar__t { display: none; }
@@ -401,7 +389,6 @@ button { font: inherit; color: inherit; }
   .page { padding: 1.4rem 1.2rem 1.25rem; }
   .gift__body { padding: 1.25rem; }
   .consent { font-size: .82rem; padding: .8rem .9rem; gap: .6rem; }
-  .seal { width: 60px; height: 60px; font-size: 1.2rem; top: -1.3rem; right: 1rem; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
