@@ -207,7 +207,7 @@ window.EO = {
       color: "#D2691E",
       setName: "Weihnachten in Spanien",
       claim: "30 humorvolle Weihnachtsgeschichten von Ricardo Melero.",
-      tint: "#F4A65E", cover: "img/cover-es-belen-frank.webp",
+      tint: "#F4A65E", cover: "img/cover-es-primo-frank.webp",
       places: "Sevilla · Krippen · Familienfeste",
       set: {
         frank: { id: 19116, vars: { print: 19118, cd: 19119, pdf: 19120, epub: 19121 } },
