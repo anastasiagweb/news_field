@@ -1,791 +1,803 @@
 # Small Fruit, Big Trouble
 
-## 1. The Lemon Challenge
+## 1. The Lemon Tree
 
-Bill is seventy-four. He has a white moustache and a lot of opinions.
+Maureen is sixty-three. She has a small garden, a large husband called Ron, and very strong opinions about plants.
 
-His grandson Leo is nine. Leo has a phone and a lot of ideas.
+In March, she buys a lemon tree from the garden centre. It is in a pot. It has four leaves and one tiny green lemon.
 
-It is Sunday lunch at Bill's house. Leo is watching a video.
+"It will never grow," says Ron. "This is Wolverhampton."
 
-"Grandad, look," he says. "People eat a lemon and make a funny face."
+"It will grow," says Maureen. "I have read a book."
 
-Bill watches. A young man eats a slice of lemon. His face goes small, like a paper bag.
+She puts the tree in the sunniest corner of the kitchen. She gives it water every day. She talks to it.
 
-"Ridiculous," says Bill. "I can eat a lemon with no face at all."
+"You're doing very well," she tells the tree on Tuesday.
 
-"Nobody can do that, Grandad."
+"You're talking to a tree," says Ron.
 
-"I was in the Navy for twenty years. I have eaten worse things than a lemon."
+"It helps them grow."
 
-Grandma Pat looks up from the gravy. "Bill. No."
+"It doesn't."
 
-But it is too late. Leo is already in the kitchen. He comes back with a lemon and a knife.
+"How do you know? When was the last time you talked to a plant?"
 
-The whole family comes to watch. Leo's mum, Sarah, sits down. Leo's little sister, Ruby, stands on a chair. Pat holds up her phone.
+Ron does not answer.
 
-Leo cuts one thin slice. "Okay, Grandad. No face."
+By June, the tree has twelve leaves and three lemons. They are still green and very hard. Maureen checks them every morning.
 
-Bill puts the slice in his mouth. He chews. His face does not move. Not one little bit.
+"Not ready," she says. "Not ready. Not ready."
 
-"Wow," says Ruby.
+Ron makes the mistake of touching one.
 
-"Easy," says Bill. "Next."
+"Don't touch it!" Maureen shouts from across the kitchen.
 
-Leo cuts a thicker slice. Bill eats it. His left eye moves a little. Only a little.
+"I only—"
 
-"Your eye moved!" Leo shouts.
+"Your hands are cold! You'll shock it!"
 
-"It did not. There is something in it."
+The tree moves into the living room for the summer. It sits next to the television. It watches Strictly Come Dancing with Maureen. Ron sits on the other side.
 
-"What is in it?"
+"There are three of us in this marriage," he tells his brother on the phone.
 
-"Lemon," says Bill.
+In September, one lemon turns yellow. Maureen takes a photo. She sends it to everyone she knows. Her sister in Bristol replies: "It's a lemon, Maureen. Not a grandchild."
 
-Everyone laughs. But Bill is not finished. He points at the lemon. "Half," he says.
+Two days later, the lemon is ready.
 
-"Dad," says Sarah. "You are seventy-four."
+Maureen picks it very carefully. She holds it with both hands, like a small gold egg. She puts it on a plate.
 
-"I am seventy-four and a half. Give me the half."
+"What are we going to do with it?" asks Ron.
 
-Leo gives him half a lemon. The room is very quiet. Ruby holds her breath. Pat moves the phone closer.
+This is a very good question. They only have one lemon. One lemon, after six months.
 
-Bill bites. He chews slowly. His moustache goes up. His ears go red. His eyes are wet. But his mouth stays in a straight line.
+"We could make lemon drizzle cake," says Maureen. "But that needs three lemons."
 
-He swallows. He looks at Leo.
+"Lemonade?"
 
-"Delicious," he says in a very small voice.
+"Ron. You need ten lemons for lemonade."
 
-Leo jumps up. "Grandad! That was amazing! You're a legend!"
+They look at the lemon. The lemon sits on the plate. It is very small and very yellow and very alone.
 
-Ruby claps. Sarah shakes her head, but she is smiling.
+"We could just eat it," says Ron.
 
-"I'm sending this to the family group," says Pat.
+"Just eat it? After six months?"
 
-"Good," says Bill. "Everyone should see it."
+"With some sugar."
 
-Then he stands up. "Excuse me," he says politely. "I need to check something in the kitchen."
+Maureen cuts the lemon in half. She puts sugar on each half. They each take one.
 
-He walks very calmly to the kitchen. He closes the door.
+Maureen bites. The juice is sharp and sweet. It is better than any lemon from any shop. It tastes like sunshine and victory.
 
-Through the door, the family hears the fridge open. They hear a glass. Then another glass. Then a third glass.
+Ron bites. His eyes close. "That," he says, "is a good lemon."
 
-Ten minutes later, Bill comes back. He sits down and picks up his knife and fork.
+They stand in the kitchen and eat their halves very slowly. Nobody talks. There is nothing to say. It is perfect.
 
-"Where's the milk?" Pat asks later. "There was a full bottle."
+The next morning, Maureen goes back to the garden centre. She buys two more lemon trees.
 
-Bill eats his roast potatoes and says nothing.
+"Two?" says Ron.
 
-That evening, the video has forty-two likes. Bill's brother in Leeds writes: "LEGEND." Bill reads it six times.
+"One is for the bedroom," says Maureen.
 
-Leo writes the last comment: "Next Sunday: two lemons."
+Ron does not argue. The lemon was very good.
 
-Bill turns off his phone.
-
-Bill: 1. Lemon: 0. Milk: gone.
+*Word count: 453*
 
 ---
 
-## 2. Blood at School
+## 2. Mrs Patil and the Blood Orange
 
-Mia is six. Every day after school, her dad, James, asks the same question.
+Every Friday, Mrs Patil takes a bag of fruit to the staff room at Greenfield Primary School.
 
-"What did you do today?"
+She is the school secretary. She has worked there for twenty-two years. The fruit is her idea.
 
-Usually Mia says, "Nothing." Today, she says something different.
+"Healthy snacks," she says. "For everyone."
 
-"We ate blood."
+Usually, she brings apples. Sometimes, bananas. The teachers eat them. Nobody is excited.
 
-James stops the car at the traffic lights. He turns around.
+This Friday, she brings blood oranges.
 
-"You ate what?"
+She puts them in a bowl on the staff room table. They look like normal oranges, only smaller and darker. She does not leave a note. She does not explain.
 
-"Blood," says Mia happily. "Mrs Atkins gave it to us. At fruit time."
+At break time, Mr Harris, the PE teacher, picks one up. He cuts it open.
 
-"Blood. At fruit time."
+"What the—"
 
-"Yes. It was red. It was nice. Can we have blood for dinner?"
+Inside, it is dark red. Deep, deep red. Like someone has painted it.
 
-The lights go green. The car behind them beeps. James drives home very slowly.
+"Mrs Patil!" he shouts. "There's something wrong with these oranges!"
 
-At home, he tells his wife, Kate.
+Mrs Patil appears in the doorway. "They're blood oranges. Eat it."
 
-"Mia says they ate blood at school."
+"But it's red!"
 
-Kate laughs. "She's six. She means jam. Or ketchup."
+"I can see that, Mr Harris. Eat it."
 
-"She said it was fruit."
+He eats it. His face changes. He eats the second half.
 
-Kate stops laughing. She opens the class WhatsApp group on her phone. It is called "Year One Parents ☀️". It has thirty members. It is never quiet.
+"That's incredible," he says. "Why have we been eating normal oranges all this time?"
 
-Kate writes: "Strange question. Did your children eat 'blood' at school today?"
+By lunchtime, four teachers have tried them. They all love them. They all have red fingers. The Year Three class thinks there has been an accident.
 
-In one minute, there are twelve answers.
+Then, the problem starts. There are six oranges in the bowl. There are fourteen teachers in the school. At half past two, there are only two oranges left.
 
-"YES. Oscar said the same thing!!"
+Miss Cooper, who teaches Reception, takes one. Mr Okafor, who teaches Year Six, reaches for the last one at the same time.
 
-"Freddie says it was 'vampire food'."
+Their hands meet on the orange.
 
-"Lily wants it for her birthday party."
+"I think that's mine," says Miss Cooper.
 
-"Is this a Halloween thing? It's March."
+"I think I was here first," says Mr Okafor.
 
-One dad writes: "I am calling the school." Then a mum writes: "Me too." Then four more parents write it.
+They look at each other. They look at the orange. Neither of them lets go.
 
-James looks at Kate. "Should we call the school?"
+Mrs Patil watches from her desk. She has seen many things in twenty-two years. She has never seen two adults fight over an orange.
 
-"Everybody is calling the school," says Kate. "Mrs Atkins is having a very bad evening."
+She walks to the table. She takes the orange from both of them. She cuts it in half.
 
-Mia comes into the kitchen in her pyjamas.
+"One each," she says. "And next Friday, I'm bringing twelve."
 
-"Mia," says James carefully. "This blood. What did it look like?"
+On Monday morning, there is an envelope on Mrs Patil's desk. Inside, there are six five-pound notes. There is no name. Just a note: "For the oranges."
 
-Mia thinks. "Like an orange. But inside, it was red. Mrs Atkins said a special name."
+Mrs Patil smiles. She puts the money in her purse. On Friday, she brings twenty blood oranges. They are gone by eleven o'clock.
 
-"What name?"
+"I think," she tells her husband that evening, "that I have started something."
 
-"Blood… something. Blood oranges!"
+Her husband looks at her. "How much money did they give you?"
 
-James closes his eyes. Kate writes to the group: "Blood ORANGES. It's a fruit. Please stop calling the school."
+"Thirty pounds."
 
-But it is too late. The headteacher already has nineteen emails.
+"For oranges?"
 
-The next morning, there is a sign on the school gate: "Dear parents. Yesterday the children ate BLOOD ORANGES. They are a kind of orange. They are red inside. They are very healthy. Thank you for your interest."
+"For blood oranges. They're different."
 
-Next to the gate, Mrs Atkins is standing with a big box of blood oranges, cut into pieces.
+The following Friday, Miss Cooper brings a blood orange cake. Mr Harris makes blood orange juice. Mr Okafor brings a blood orange marmalade from a small Italian shop.
 
-"Good morning," she says to every parent. "Would you like to try one?"
+Mrs Patil looks at the staff room table. It is completely red.
 
-The parents look a little embarrassed. They take a piece. They taste it.
+"I only brought some fruit," she says.
 
-"Oh," says Oscar's dad. "That's very good."
+Score: Mrs Patil: 1. Staff room: converted.
 
-"Where can I buy these?" asks Lily's mum.
-
-That evening, the WhatsApp group is busy again. Thirty parents are sharing photos of blood oranges from four different supermarkets.
-
-James finds Mia in the kitchen. She is eating a blood orange. Her hands and face are completely red.
-
-"Daddy," she says. "Look. I'm a vampire."
-
-James takes a photo. He does not send it to the group.
+*Word count: 472*
 
 ---
 
-## 3. The Pomegranate Plan
+## 3. The Pomegranate Emergency
 
-Tom is twenty-eight, and tonight is very important.
+Neil is a careful man. He plans everything. He has a calendar on the wall and a list in his pocket. Every Sunday evening, he writes the list for the next week.
 
-His girlfriend, Hannah, is bringing her parents to his flat for dinner. It is the first time. Tom wants everything to be perfect.
+This Sunday, the list says: "Buy pomegranate. For Claire's salad."
 
-He is making a beautiful salad from a cookery programme, with pomegranate seeds on top.
+Claire is his wife. She has found a new recipe. The recipe needs pomegranate seeds. The recipe is "very simple," says Claire. This always means it is not simple.
 
-There is only one problem. Tom has never opened a pomegranate.
+On Monday, Neil goes to the supermarket. He finds the pomegranates. He has never bought one before. They are heavy and red, like small cannonballs.
 
-He looks at it. It is round, red and very hard.
+He buys one. He brings it home. He puts it on the kitchen counter.
 
-He finds a video online. A chef cuts a pomegranate in half. Then he hits it with a wooden spoon. The seeds fall into a bowl like red rain.
+"There you go," he says.
 
-"Easy," says Tom.
+Claire picks it up. "How do you open it?"
 
-It is six o'clock. The parents are coming at seven.
+"You cut it open. Like anything."
 
-He cuts the pomegranate in half. Red juice runs onto his white shirt.
+"Like anything?"
 
-"Okay," says Tom. "Not a problem."
+"Like an orange."
 
-He changes his shirt. He holds one half over the bowl and hits it with the wooden spoon.
+Claire cuts the pomegranate in half. Seeds fly across the kitchen like tiny red bullets. They hit the toaster, the window and the cat.
 
-Nothing happens.
+The cat's name is Brian. Brian does not enjoy this.
 
-He hits it harder.
+"That wasn't like an orange," says Claire.
 
-Three seeds fall into the bowl. Twenty seeds fly across the kitchen. They hit the wall, the fridge and the window. One lands in his ear.
+There is red juice on the counter, on Claire's hands and on her face. It looks like she has been in a very small war.
 
-Tom's cat, Pickles, runs in. Pickles loves things that roll. He chases a seed under the table. Then another one under the cooker.
+"I'll look it up," says Neil. He gets his phone.
 
-Tom hits the pomegranate again. And again. Seeds go everywhere. There are seeds on the ceiling. Tom does not know how.
+There are many videos. In every video, a calm person opens a pomegranate perfectly. No seeds fly anywhere. No cats are hit.
 
-At half past six, the kitchen looks like a crime scene. The bowl has eleven seeds in it.
+"You have to do it underwater," says Neil. "In a bowl of water."
 
-Tom puts on his third shirt.
+"Underwater?"
 
-At quarter to seven, the doorbell rings.
+"In a bowl."
 
-"They're early," Tom whispers to Pickles.
+Claire fills a bowl with water. She puts the other half in the water. She starts to pull it apart. The water turns red immediately.
 
-Hannah comes in first. She looks at the kitchen. She looks at Tom. She looks at the red walls.
+"I can't see anything," she says. "It's like looking into a crime scene."
 
-"What happened?"
+But it works. The seeds come out. They fall to the bottom. The white bits float.
 
-"Pomegranate," says Tom.
+After twenty minutes, they have one small bowl of pomegranate seeds. The kitchen is red. The water is red. Brian is sitting on top of the fridge, watching them with suspicion.
 
-Behind her is her dad, Richard. He is a tall, serious man. Tom really wants him to like him.
+Claire puts the seeds on the salad.
 
-Richard looks around the kitchen for a long time. There is a pomegranate seed on the light.
+They look at the salad. It is green, with little red jewels on top. It is very beautiful.
 
-Then he starts to laugh. He laughs so much that he has to sit down.
+"Was that worth it?" asks Neil.
 
-"1987," he says. "My first dinner with Hannah's grandparents. I tried to open a pomegranate. I broke a window."
+Claire takes a bite. Neil takes a bite.
 
-"A window?" says Tom.
+The seeds are sweet and sharp. They pop in your mouth. The salad is suddenly the best salad in the world.
 
-"A small window," says Hannah's mum, Liz. "But still."
+"Yes," says Claire. "That was worth it."
 
-Richard takes off his jacket. "Give me the other half," he says. "And a bowl of water."
+Neil gets a pen. He crosses "pomegranate" off this week's list. Then he adds it to next week's list.
 
-He shows Tom a better way. You open the pomegranate under the water, with your fingers. The seeds go down. The white bits come up. Nothing flies anywhere.
+Brian stays on the fridge until Tuesday.
 
-"Why don't they show this in the videos?" Tom asks.
-
-"Because it's boring," says Richard.
-
-They eat at eight o'clock. The salad is beautiful. Liz says it is the best salad of her year. Richard talks to Tom about football.
-
-At the door, Richard shakes Tom's hand. "Good evening, Tom. Very good evening."
-
-Later, Tom cleans the kitchen. It takes two hours.
-
-In March, he finds the last seed behind the toaster. He smiles and puts it in the bin.
+*Word count: 410*
 
 ---
 
-## 4. Gordon
+## 4. Fig Season
 
-Behind the office of Lloyd & Sons Builders, there is a small car park. It is grey. It is not beautiful. Nobody looks at it.
+Terry is retired. Every morning, he walks to the high street, buys a newspaper and sits on the bench outside the bakery.
 
-Then one day in May, Pete looks at it.
+This morning, there is a new shop. It is small and white. The sign says: "FIGS." That is all. Just "FIGS."
 
-"There's a tree," he says.
+Terry looks through the window. Inside, there are figs. Only figs. Fresh figs, dried figs, fig jam, fig cake, fig biscuits, fig chutney and fig ice cream.
 
-In the corner, between two bricks in the wall, there is a little tree. It has big green leaves, like hands.
+A young woman opens the door. She has short hair and a big smile.
 
-"That's a fig tree," says Maureen from the office. Maureen knows plants. She has forty-three of them at home.
+"Would you like to try a fig?" she asks.
 
-"Figs?" says Pete. "In a car park? In Swindon?"
+"I don't like figs," says Terry.
 
-"Yes. A bird probably dropped a seed."
+"Have you ever had one?"
 
-Everybody comes out to see: six builders, Maureen, and Mr Lloyd, the boss. They stand around the little tree and look at it.
+Terry thinks about this for a long time. "No," he says.
 
-"It needs water," says Maureen.
+"Then how do you know?"
 
-The next morning, there is a watering can next to the tree. Nobody knows who put it there.
+This is a very fair question. Terry does not have a good answer. He follows her inside.
 
-By June, the tree has a sign. Somebody has written on a piece of wood: "PLEASE DO NOT PARK HERE. TREE."
+Her name is Bella. She cuts a fresh fig in half and gives it to him on a small plate.
 
-By July, it has a name. The builders call it Gordon.
+It is purple on the outside and pink on the inside, with tiny seeds. It looks like something from a painting.
 
-Every morning, someone gives Gordon water. Pete talks to him in his tea break. Young Danny plays music to him on his phone. Maureen buys him special food from the garden centre. Even Mr Lloyd parks his car on the other side, so Gordon gets more sun.
+Terry takes a small bite. It is soft and sweet, like honey with fruit. It is nothing like what he expects.
 
-Then, in August, Danny runs into the office.
+"Oh," he says.
 
-"Gordon has a fig!"
+"Good oh, or bad oh?"
 
-Everyone runs outside. It is true. On one branch, there is one small green fig. Only one.
+"Good oh." He eats the other half. "Very good oh."
 
-Now the problem starts. Who gets the fig?
+He buys six figs. They cost three pounds.
 
-"I found the tree," says Pete.
+The next day, Terry comes back. He buys six more.
 
-"I gave it food," says Maureen.
+The day after that, he comes back with his friend, Malcolm.
 
-"I played it music," says Danny.
+"I don't like figs," says Malcolm.
 
-"I moved my car," says Mr Lloyd. "And it's my car park."
+"You've never had one," says Terry.
 
-For three weeks, they watch the fig. It grows bigger. It turns from green to purple. Every morning, someone checks it. Twice, Mr Lloyd checks it during an important phone call.
+"I know I don't—"
 
-Then, on a Friday in September, Maureen touches it gently.
+"Malcolm. Eat the fig."
 
-"It's ready," she says.
+Malcolm eats the fig. His face changes. He buys eight.
 
-Everybody stands around Gordon. Mr Lloyd picks the fig very carefully. In his big hand, it looks tiny.
+By Friday, Terry has brought seven people to the shop. Bella gives him a free fig every time. He now has a favourite type: the small dark ones from Turkey.
 
-"Right," he says. "We need to be fair."
+"You're my best customer," says Bella.
 
-They go into the office. Maureen gets a plate and a sharp knife. Mr Lloyd cuts the fig into nine pieces. Each piece is the size of a fingernail.
+"I'm your only customer," says Terry. "But give it time."
 
-They each take one piece. They eat at the same time.
+His wife, Dot, is confused. For forty years, Terry has eaten the same three things for breakfast: toast, marmalade and tea. Now there is a fig on his plate every morning.
 
-It is soft and sweet, like honey.
+"Since when do you eat figs?" she asks.
 
-Nobody says anything for a moment.
+"Since Tuesday," says Terry.
 
-"That," says Pete, "was the best piece of fruit in my life."
+"What happened on Tuesday?"
 
-"It was very small," says Danny.
+"I walked into a shop."
 
-"It was very good," says Maureen.
+"You walk into shops every day."
 
-Mr Lloyd looks out of the window at Gordon. "Next year," he says, "we buy him a pot. A big one."
+"Not like this one."
 
-It is the smallest party in the history of Lloyd & Sons. It is also the best.
+On Saturday, Dot comes to the shop with Terry. She tries the fig ice cream. She has two scoops.
+
+"I think," says Dot, "that I understand."
+
+Terry nods. He buys twelve figs and a jar of fig jam. He is a man who has found his fruit.
+
+Figs eaten before Tuesday: 0. Figs eaten since Tuesday: too many to count.
+
+*Word count: 436*
 
 ---
 
-## 5. Twelve Grapes at Midnight
+## 5. Twelve Grapes
 
-Debbie works in an office in Manchester. Her new colleague, Carmen, is from Madrid.
+Debbie works in an office in Leeds. Her colleague, Carmen, is from Madrid.
 
-In December, Carmen tells her about a Spanish New Year tradition.
+In December, Carmen tells her about a Spanish tradition.
 
-"At midnight, the clock rings twelve times," says Carmen. "With every ring, you eat one grape. Twelve rings, twelve grapes. Then you have good luck for the whole year."
+"At midnight on New Year's Eve, the clock rings twelve times. With every ring, you eat one grape. Twelve grapes, twelve months of good luck."
 
-Debbie loves this idea. Every New Year's Eve, her family does the same thing. They watch television, they sing a song, and Uncle Keith falls asleep at quarter to twelve.
+Debbie loves this. Every year, her family does the same thing on New Year's Eve: they watch television, eat crisps and Uncle Keith falls asleep at quarter to twelve.
 
-"This year," says Debbie, "we're doing grapes."
+"This year," Debbie announces at Sunday lunch, "we are doing the grapes."
 
-She buys four bags of green grapes. She puts twelve grapes in twelve little bowls. One bowl for everybody.
+She buys four bags. She puts twelve grapes in small bowls. One bowl per person.
 
-"Twelve grapes?" says her husband, Mark. "In twelve seconds?"
+"Twelve grapes in twelve seconds?" says her husband, Mark. "That's impossible."
 
-"It's tradition," says Debbie.
+"Spanish people do it every year."
 
-"It's not our tradition."
+"Spanish people are better at eating than we are."
 
-"It is now."
-
-At half past eleven, Debbie explains the rules. Her mum, Brenda, listens carefully. Her son, Josh, looks at his phone. Grandad Alan, who is eighty-eight, holds his bowl and nods.
-
-"One grape for each bong," says Debbie. "Not before. Not after."
-
-"What's a bong?" asks Grandad.
-
-"The sound of the clock, Dad."
-
-"I don't hear very well."
-
-"Just watch the rest of us."
-
-At one minute to midnight, everyone is standing in the living room. The television shows Big Ben. Even Uncle Keith is awake.
+At eleven fifty-nine, everyone stands in the living room. The television shows Big Ben. Debbie holds her bowl. Her mum, Brenda, holds her bowl. Even Uncle Keith is awake.
 
 BONG.
 
-Everyone eats a grape.
+Everyone eats a grape. No problem.
 
 BONG.
 
-Another grape. This is fine.
+Fine. Easy.
 
 BONG. BONG.
 
-Brenda is already behind. She has two grapes in her mouth.
+Brenda is behind. She has two grapes in her mouth and cannot close it.
 
 BONG.
 
-Mark is laughing. You cannot eat grapes and laugh at the same time. A grape flies out of his mouth and lands on the dog.
+Mark starts laughing. A grape flies out of his mouth and lands on the dog.
 
 BONG. BONG.
 
-Josh stops eating. He is filming everyone.
+Josh, their son, stops eating. He is filming everything on his phone.
 
 BONG.
 
-Uncle Keith eats three grapes at once. "Catching up!" he says, but it sounds like "Ka-ing uh!"
+Uncle Keith eats four at once. "Catching up!" he says, but it sounds like "Ka-ig uh!"
 
 BONG. BONG.
 
-Grandad Alan is eating very, very slowly. He is on grape number four. He is enjoying every one.
+Grandad Jim is on grape number five. He is chewing very carefully. He does not believe in rushing.
 
 BONG.
 
-Midnight. "Happy New Year!"
+"Happy New Year!"
 
-Debbie turns to kiss Mark. His mouth is full of grapes. Her mouth is full of grapes. They kiss anyway. It is not romantic. It is very sticky.
+Debbie turns to kiss Mark. Both their mouths are full of grapes. It is not romantic.
 
-Everyone sings. Everyone hugs. The dog eats the grape from the floor.
+Grandad Jim keeps eating. At five past twelve, he puts down his empty bowl.
 
-Then, at five past twelve, Grandad Alan holds up his empty bowl.
+"Done," he says.
 
-"Twelve," he says proudly.
+"Grandad, midnight was five minutes ago."
 
-"Dad, midnight was five minutes ago!"
+"Nobody said how fast. I want all twelve months."
 
-"Nobody said how fast."
+Nobody can argue with this.
 
-"Carmen said! One grape for each bong!"
+That night, the living room is full of grape skins and laughter. They sit together and watch a film. Nobody falls asleep. Not even Uncle Keith.
 
-"I don't hear very well," says Grandad. He smiles. "And I want all twelve months of good luck."
+The next morning, Debbie messages Carmen: "Total chaos. Everyone loved it."
 
-Debbie cannot argue with this.
+Carmen replies: "Same in Spain. That's the whole point."
 
-The next day, she sends Carmen a message: "We did the grapes! Total chaos. Everyone loved it."
+Josh puts the video online. Debbie's aunt in Newcastle watches it fourteen times. She phones on New Year's Day.
 
-Carmen sends back a laughing face. "In Spain it's chaos too. That's the tradition."
+"We're doing the grapes next year," she says. "How many grapes do I need for twenty people?"
 
-Next year, Grandad wants seedless grapes. And a slower clock.
+"Two hundred and forty," says Debbie. She has already done the maths.
+
+Mark looks at her. "This is going to become a thing, isn't it?"
+
+"It's already a thing."
+
+Next year, Grandad wants seedless grapes. And a louder clock.
+
+Grapes bought: 4 bags. Grapes eaten at the right speed: 0. New family tradition: 1.
+
+*Word count: 450*
 
 ---
 
-## 6. Gerald
+## 6. The Wonky Pear
 
-Alfie is five. He does not eat fruit.
+Alfie is five. He does not eat fruit. Not apples. Not bananas. Not anything.
 
-He does not eat apples, bananas or oranges. He does not eat anything green, or anything with a "funny skin". His mum, Gemma, has tried everything.
+His mum, Gemma, has tried everything: smoothies, fruit salad, fruit in pancakes, fruit hidden in cake.
 
-One Saturday, Gemma buys a bag of "wonky" fruit at the supermarket. It is cheaper because it looks strange.
+"He knows," says Gemma. "He always knows."
+
+One Saturday, she buys a bag of wonky fruit from the supermarket. It is cheaper because it looks funny.
 
 At home, Alfie looks in the bag. He takes out a pear.
 
-It is not a normal pear. It has a big round bottom and a long thin top. On one side, there is a little bump, like a nose. There is a small brown line that looks like a smile.
+This pear is not normal. It has a big round bottom and a long thin top. On one side, there is a bump like a nose. There is a small brown line that looks like a mouth.
 
-Alfie stares at it.
+"He looks like a man," says Alfie.
 
-"He looks like a man," he says.
+"It's a pear, love. You eat it."
 
-"It's a pear, darling," says Gemma. "You can eat it."
+"No." Alfie holds the pear close. "His name is Gerald."
 
-Alfie holds the pear close to his chest. "No. His name is Gerald."
+And Gerald joins the family.
 
-And so Gerald joins the family.
+Gerald sits next to Alfie at breakfast. Gerald watches television with him. Gerald goes to school in Alfie's bag. The teacher, Miss Bell, writes on the board: "Our visitor today: Gerald (pear)."
 
-Gerald sits next to Alfie at breakfast. Gerald watches television with him. Gerald goes in the car to Granny's house. Granny says, "Hello, Gerald," because Granny is very good at this.
+Alfie draws a picture of Gerald. He makes him a hat from paper. He introduces him to the cat.
 
-On Monday, Gerald goes to school. The teacher, Miss Bell, writes on the board: "Our visitor today: Gerald (a pear)."
+The cat is not interested.
 
-On Tuesday, Alfie draws a picture of Gerald. On Wednesday, Gerald gets a little paper hat.
-
-Alfie's dad, Rob, is worried. "Gem. He loves a pear."
+Alfie's dad, Rob, is worried. "Gem. He's in love with a pear."
 
 "I know."
 
-"Pears don't last for ever."
+"Pears don't last forever."
 
-"I know."
+By Thursday, Gerald is soft. By Friday, he is going brown.
 
-By Thursday, Gerald is soft. By Friday, he is going brown. He does not smile very much anymore.
+"Mummy. Gerald is poorly."
 
-On Friday evening, Alfie comes into the kitchen with Gerald in his hands.
+Gemma sits down. "Alfie. Gerald is a pear. Pears get old. Gerald is very old now. For a pear."
 
-"Mummy. Gerald doesn't look well."
+Alfie looks at Gerald for a long time.
 
-Gemma sits down next to him. "Alfie, Gerald is a pear. Pears get old very quickly. Gerald is very, very old now. For a pear."
+Then Gemma has an idea. "But inside Gerald, there are seeds. If we plant them, maybe we get a little Gerald tree."
 
-Alfie looks at Gerald for a long time. His bottom lip moves.
+Alfie's eyes go wide. "A Gerald tree?"
 
-Then Gemma has an idea. "But you know what? Inside Gerald, there are seeds. If we plant them, maybe a pear tree grows. And a pear tree makes lots of little Geralds."
+They cut Gerald open. Very carefully. Inside, there are five small seeds. But the pear is golden and soft and smells sweet.
 
-Alfie's eyes go big. "Lots of Geralds?"
+"It's a shame to waste it," says Gemma.
 
-"Maybe."
-
-So they cut Gerald open very carefully. Inside, there are six small black seeds. Alfie counts them twice.
-
-The pear is soft and golden. It smells sweet.
-
-"It's a bit sad to put it in the bin," says Gemma.
-
-Alfie thinks. Then, very slowly, he takes a tiny piece and puts it in his mouth.
+Alfie thinks. Very slowly, he takes a small piece and puts it in his mouth.
 
 He chews. His face changes.
 
 "Gerald is nice," he says, surprised.
 
-He eats the whole pear.
+He eats the whole pear. Then he licks his fingers.
 
-Rob comes into the kitchen. He sees his son with pear juice on his chin.
+Rob comes in. He sees Alfie with juice on his chin. Gemma shakes her head: don't say a word.
 
-"Did he just…?"
+They plant the seeds in a pot on the windowsill. Alfie waters them every morning before school.
 
-"Don't say anything," Gemma whispers.
+In April, one small green leaf comes out of the soil. Alfie runs into the kitchen.
 
-They plant the seeds in a pot on the windowsill. Alfie waters them every morning. In April, one small green leaf comes out of the soil.
+"Mummy! Gerald is back!"
 
-Alfie calls it Gerald the Second.
+Gemma looks at the tiny leaf. It is not really Gerald. But it is close enough.
 
-And now, every Saturday, he asks for wonky fruit.
+"Hello, Gerald the Second," she says.
 
----
+And every Saturday, Alfie asks for wonky fruit. He still does not eat bananas. He still does not eat apples. But pears — pears he eats.
 
-## 7. Granny Jean's Secret
-
-Everybody in the Morris family agrees on one thing. Granny Jean makes the best apple crumble in the world.
-
-It is golden on top and soft underneath. The apples are sweet, but not too sweet. With hot custard, it is perfect.
-
-And nobody knows the recipe.
-
-"It's a secret," says Granny Jean. "I'll tell you one day."
-
-She has said this for forty years.
-
-Her grandson, Josh, is nineteen. He wants to be a chef. He decides to find out.
-
-Plan A is simple. "Granny, can I help you make the crumble?"
-
-"How kind," says Granny. "You can wash the apples."
-
-Josh washes the apples. When he comes back, the crumble is already in the oven.
-
-Plan B. Josh hides his phone on the kitchen shelf. It is filming. He goes into the garden.
-
-Later, he watches the video. For forty minutes, it shows the back of the biscuit tin. Granny has moved it.
-
-Plan C. Josh looks in Granny's kitchen cupboards. He finds flour, sugar, butter, oats and apples. Very normal things. Nothing special.
-
-"There must be something," he tells his mum, Alison. "A special spice. A special apple. Something."
-
-"Maybe it's love," says Alison.
-
-"Mum. It's not love. It's an ingredient."
-
-Plan D. Josh makes his own crumble with flour, sugar, butter, oats and apples. He takes it to Granny's house.
-
-Granny tries a spoonful. She chews for a long time.
-
-"Very nice, love," she says. "It's not mine, though."
-
-Josh nearly cries.
-
-Then, at Christmas, his luck changes. Granny asks him to get the custard powder from the kitchen cupboard.
-
-He opens the cupboard. He moves the custard. Behind it, there is a big packet of oats. It is very old. The colours are not bright anymore.
-
-On the back of the packet, there is a recipe. "Classic Apple Crumble," it says.
-
-Josh reads it. Flour. Sugar. Butter. Oats. Apples. One small spoon of cinnamon. Forty minutes in the oven.
-
-He reads it again. He takes a photo. Then he walks slowly into the living room with the custard powder.
-
-Granny Jean looks at his face. She knows immediately.
-
-"You found the packet," she says.
-
-"Granny. The secret recipe is on the back of the oats."
-
-The whole family goes quiet. Then Alison starts to laugh. Then Uncle Steve laughs. Then Granny laughs so much that she has to hold the table.
-
-"It's a very good recipe," she says.
-
-"Forty years, Granny!"
-
-"Forty years of Sunday lunch," says Granny. "Every week. All of you, at my table. If I gave you the recipe, you'd make it at home."
-
-Josh opens his mouth. Then he closes it. Granny is right.
-
-On Boxing Day, Josh makes the crumble from the packet. Granny tries it.
-
-"Very nice, love," she says. "But it's not mine."
-
-"It's the same recipe, Granny!"
-
-Granny smiles and pats his hand. "Is it, love?"
-
-Josh still doesn't understand. But he comes for Sunday lunch every week.
+*Word count: 420*
 
 ---
 
-## 8. The Champion
+## 7. The Apple Test
 
-Graham is an accountant. He is quiet and careful. He wears a tie on Saturdays. He has never won anything in his life.
+Joyce is seventy-one. She has five grandchildren. Every Sunday, they come for lunch and she makes an apple pie.
 
-In July, his wife, Sue, takes him to the summer fair in their village. There is a cake stall, a dog show and a raffle. And there is a small sign: "CHERRY STONE SPITTING. £1."
+The apple pie is famous. Her grandchildren say it is the best apple pie in England. Her neighbour says it is the best apple pie in the world. Joyce says nothing, but she smiles.
 
-"No," says Graham.
+The secret is the apples. Joyce only uses Cox apples. She has used Cox apples for forty years. She will not use any other apple.
 
-"Go on," says Sue. "It's for the church roof."
+This October, the supermarket does not have Cox apples. They have Braeburn. They have Gala. They have Pink Lady. They have something called Jazz, which Joyce does not trust.
+
+"No Cox?" she asks the boy at the fruit counter.
+
+"Sorry. Season's finished."
+
+"The season is not finished. It is October."
+
+"I just work here."
+
+Joyce goes to the other supermarket. No Cox. She goes to the corner shop. No Cox. She drives to the farm shop. They have Cox, but they are small and sad and cost two pounds each.
+
+"Two pounds for an apple?"
+
+"They're organic."
+
+"They're tiny."
+
+She buys six. She is not happy about it.
+
+At home, she phones her daughter, Anne.
+
+"There are no Cox apples in this country."
+
+"Mum, there are millions of Cox apples."
+
+"Name one shop."
+
+"I'll bring some on Sunday."
+
+"What kind?"
+
+"Cox."
+
+"Promise me, Anne."
+
+"I promise."
+
+On Sunday, Anne arrives with a bag of apples. Joyce looks inside.
+
+"These are not Cox."
+
+"They are!"
+
+Joyce picks one up. She turns it. She smells it. She holds it to the light.
+
+"This is a Braeburn."
+
+"Mum, the bag says Cox."
+
+"The bag is wrong."
+
+Anne looks at the bag. It does say Cox. She looks at the apple. It looks like an apple.
+
+"How can you tell?"
+
+"I have made apple pie for forty years. I know a Cox. And this is not a Cox."
+
+Joyce will not make the pie. The grandchildren eat sandwiches. It is a dark day.
+
+On Monday, Anne goes back to the shop. She complains. The manager checks. He goes red.
+
+"You're right. The labels were wrong. These are Braeburn."
+
+Anne phones her mother. "You were right. They were Braeburn."
+
+"I know," says Joyce. "I told you."
+
+There is a long silence.
+
+"Mum?"
+
+"Yes?"
+
+"Would Braeburn be so terrible? Just once?"
+
+"Anne. I love you very much. But don't ever ask me that again."
+
+The next Sunday, Joyce finds Cox apples at the market. She makes the pie. The grandchildren eat it in four minutes.
+
+"Best pie ever, Granny," says the youngest.
+
+Joyce smiles. She knew it.
+
+Cox: correct. Braeburn: absolutely not.
+
+*Word count: 430*
+
+---
+
+## 8. The Cherry Champion
+
+Graham is an accountant. He wears a tie on Saturdays. He has never won anything in his life.
+
+In July, his wife, Sue, takes him to the village fair. There is a cake stall, a dog show and a small sign: "CHERRY STONE SPITTING COMPETITION — £1 ENTRY."
+
+"Absolutely not," says Graham.
+
+"It's for the church roof."
 
 Graham pays his pound. The man at the table, Mr Price, gives him a cherry.
 
-"Eat the cherry," he explains. "Keep the stone in your mouth. Stand behind the white line. Spit. The longest spit wins the trophy."
+"Eat the cherry. Keep the stone. Stand behind the white line. Spit. Longest spit wins the trophy."
 
-The trophy is small and gold. It has a little plastic cherry on top. Graham looks at it for a long time.
+The trophy is small and gold with a plastic cherry on top. Graham looks at it.
 
-First, a boy of ten spits. Four metres. Everyone claps.
+A boy of ten goes first. Three metres. Everyone claps.
 
-Then a big farmer called Dave spits. Six metres. Everyone cheers. Dave has won the trophy for three years. He waves at the crowd.
+Then Big Dave, the farmer, steps up. Six metres. The crowd cheers. Dave has won this for three years. He waves.
 
-Graham steps up to the line. He eats the cherry. It is very sweet. He keeps the stone in his mouth.
+Graham steps to the line. He eats the cherry. Sweet. He keeps the stone.
 
-He thinks about it like a problem at work. The angle. The wind. The power.
+He thinks about it like a maths problem. The angle. The power.
 
 He breathes in. He spits.
 
-The stone flies through the air. It flies past the boy's stone. It flies past Dave's stone. It lands next to the cake stall.
+The stone flies past the boy's mark. Past Dave's mark. It lands near the cake stall.
 
 Mr Price runs with his tape measure.
 
-"Seven metres forty!" he shouts.
+"Seven metres forty!"
 
-For a second, the crowd is silent. Then it goes crazy. People clap. Children jump up and down. A dog barks.
+The crowd goes silent. Then it goes very loud. Children jump. A dog barks.
 
-Sue stares at her husband. "Graham. What was that?"
+Sue stares at him. "Graham. What was that?"
 
-Graham is as surprised as anybody. "I have no idea."
+Graham is as surprised as anyone. "I have no idea."
 
-Dave walks over. He is a very big man. For a moment, Graham is worried. Then Dave shakes his hand.
+Dave walks over. He is very big. Graham is worried for a second. Then Dave shakes his hand.
 
-"Good spit, mate," he says. "Really good spit."
+"Good spit, mate. Really good spit."
 
-At home, Graham puts the trophy on the shelf above the fireplace, next to their wedding photo.
+At home, Graham puts the trophy on the shelf next to the wedding photo.
 
-"Really?" says Sue. "Next to our wedding?"
+"Next to our wedding?" says Sue.
 
-"Two very important days," says Graham.
+"Two important days," says Graham.
 
-After that, things change a little. On Sunday mornings, Graham practises in the garden. He buys cherries every week. He reads about the world record on the internet. It is more than twenty-eight metres.
+The next Sunday morning, Sue finds him in the garden with a bag of cherries.
+
+"Are you practising?"
+
+"I'm preparing."
+
+"Graham. The fair is eleven months away."
+
+"You can never start too early."
+
+He practises every weekend. He reads about the world record on the internet. It is twenty-eight metres.
 
 "Twenty-eight metres," he tells Sue. "Imagine."
 
-"Please don't imagine," says Sue.
+"Please don't imagine."
 
-The next summer, there is a crowd at the cherry stall before Graham arrives. Dave is there. He has been practising too.
+The next summer, there is a big crowd at the cherry stall. Dave is there. Graham takes off his tie. Sue has never seen him do this outside their house.
 
-"Ready, champion?" Dave asks.
+He spits eight metres ten.
 
-Graham takes off his tie. Sue has never seen him do this in public.
+There are now two trophies on the shelf. Sue has moved the wedding photo to the bedroom.
 
-This time, he spits eight metres ten.
+Graham does not mind. He has found his sport.
 
-Now there are two small gold trophies on the shelf above the fireplace.
+Cherries eaten: many. Cherries spat: more. Graham's dignity: still intact. Just about.
 
-Sue has moved the wedding photo to the middle.
+*Word count: 393*
 
 ---
 
-## 9. One Peach, Forty Minutes
+## 9. The Peach on the Bus
 
-It is Saturday morning at the market in Bath. Lucy is looking for a birthday present for her mum, Margaret. Today, Margaret is eighty.
+It is Saturday in Bath. Lucy is looking for a birthday present for her mum, Margaret. Today, Margaret is eighty.
 
-She has flowers already. But she wants something special too.
+At the market, Lucy sees it. On the fruit stall, in a little box, there is one peach.
 
-Then she sees it. On the fruit stall, in a little box of its own, there is one peach.
-
-It is perfect. It is big and round. It is pink and orange and gold. It looks like a sunset you can hold.
-
-"How much?" Lucy asks.
+It is perfect. Pink and gold and heavy. It looks like a sunset you can hold.
 
 "Four pounds," says the man.
 
 "For one peach?"
 
-"For that peach," says the man.
+"For that peach."
 
-Lucy pays four pounds.
+Lucy pays. Now there is a problem. Her mum lives forty minutes away by bus. And peaches are delicate.
 
-Now there is a problem. Her mum lives forty minutes away by bus. And peaches are very delicate.
+She gets on the bus. There are no seats. She stands and holds the box in front of her, like a birthday cake.
 
-Lucy gets on the bus. All the seats are taken. She stands and holds the box in front of her with both hands, like a birthday cake with candles.
+At the first stop, a man with a big backpack gets on. He turns. The backpack nearly hits the peach. Lucy steps back just in time.
 
-At the first stop, a man with a big backpack gets on. He turns around. The backpack nearly hits the peach. Lucy moves just in time.
+At the second stop, a small boy reaches for it. "No," says Lucy. "Not this one."
 
-At the second stop, a little boy sits near her. He looks at the peach. He reaches out his hand.
+At the third stop, the bus goes over a bump. Lucy lifts the box above her head.
 
-"No," says Lucy very kindly. "Not this one."
-
-At the third stop, the bus goes over a big bump. Everybody jumps. Lucy lifts the peach high above her head.
-
-"It's a present," she explains.
+"It's a present," she explains to the people watching.
 
 An old lady smiles. "Then sit down, dear." She gives Lucy her seat.
 
-For the rest of the journey, the whole bus helps. When the bus turns a corner, someone says, "Corner!" When a big man gets on, the old lady says, "Careful. Peach." The driver goes very slowly over the last bump.
+For the rest of the journey, the bus helps. "Corner!" someone calls. "Careful — peach," says the old lady to a large man. The driver goes slowly over the last bump.
 
-When Lucy gets off, three people wave goodbye.
+When Lucy gets off, three people wave.
 
-"Good luck with the peach!" the old lady calls.
+"Good luck with the peach!" calls the old lady.
 
-Lucy arrives at her mum's house. She gives Margaret the flowers and a kiss. Then, very carefully, she gives her the box.
+At her mum's house, Lucy gives Margaret the flowers. Then, very carefully, the box.
 
-Margaret opens it. She looks at the peach for a long time.
+Margaret opens it. She looks at the peach.
 
-"Oh, Lucy," she says. "It's beautiful. But I don't like peaches."
+"Oh, Lucy. It's beautiful." She pauses. "But I don't like peaches."
 
-Lucy's mouth falls open. "Since when?"
+"Since when?"
 
-"Since 1962. I ate a bad one on holiday in Weymouth."
+"Since 1962. A bad one on holiday in Weymouth."
 
 "Mum. I carried this peach for forty minutes. The whole bus helped."
 
-Margaret looks at her daughter's face. Then she looks at the peach again.
+Margaret looks at her daughter. She looks at the peach.
 
 "The whole bus?"
 
 "The whole bus."
 
-"Well," says Margaret. "Then I must try it."
+"Well. Then I must try it."
 
-She gets a plate and a knife. She cuts the peach in half. Juice runs onto the plate. The kitchen smells of summer.
+She cuts it in half. Juice runs onto the plate. The kitchen smells of summer.
 
-She takes a small bite. Then a bigger one.
-
-"Hmm," she says.
-
-She eats the whole half. Then she reaches for the other one.
+She takes a small bite. Then a bigger one. Then she reaches for the second half.
 
 "Mum! I thought we were sharing!"
 
-"I don't like peaches," says Margaret, with juice on her chin. "But I like this one."
+"I don't like peaches," says Margaret. "But I like this one."
 
-Lucy laughs. She makes the tea, and they sit in the garden with the flowers.
+They sit in the garden with tea and the flowers. Margaret tells Lucy about the bad peach in 1962. It was in a hotel in Weymouth. It was hard and sour and the stone was green.
 
-Next year, Margaret says, she would like a peach for her birthday again. And the same bus.
+"And after that, no peaches? For sixty years?"
+
+"Sixty-two years," says Margaret.
+
+"That's a long time to be angry at a fruit."
+
+Margaret looks at the plate. It is empty. "Perhaps," she says, "sixty-two years was enough."
+
+Next year, Margaret wants a peach again. And the same bus, if possible.
+
+*Word count: 420*
 
 ---
 
-## 10. Whose Plums?
+## 10. Our Plums
 
-Frank is seventy-nine. He has lived in the same house for fifty years. In his garden, there is an old plum tree. It is older than his car, older than his television, and almost older than Frank.
+Frank is seventy-nine. He has lived in his house for fifty years. In his garden, there is an old plum tree.
 
-In April, a young couple moves into the house next door. Their names are Jess and Ollie. They bring Frank a cake.
+In April, a young couple moves next door. Jess and Ollie. They bring Frank a cake. Frank likes them.
 
-Frank likes them very much. Until August.
+Until August.
 
-In August, the plums are ready. And half of the tree hangs over the fence. Into Jess and Ollie's garden.
+In August, the plums are ready. And half the tree hangs over the fence.
 
-One morning, Frank looks over the fence. Ollie is standing under the tree with a bowl.
+One morning, Frank looks over the fence. Ollie is under the tree with a bowl.
 
 "Excuse me," says Frank. "Those are my plums."
 
-Ollie smiles. "They're in our garden, Frank."
+"They're in our garden, Frank."
 
 "The tree is in my garden."
 
 "The plums are in our garden."
 
-They both look at the tree. The tree says nothing.
+The tree says nothing.
 
-That evening, Frank looks on the internet. It takes him two hours, because he types with one finger. But he finds the answer: in England, the fruit belongs to the owner of the tree.
+Frank looks on the internet. It takes two hours, because he types with one finger. He finds the answer: the fruit belongs to the owner of the tree.
 
-The next morning, he prints the page and holds it over the fence.
+The next morning, he holds the page over the fence.
 
-Jess reads it. Then she goes inside and comes back with her own piece of paper.
+Jess reads it. She goes inside and comes back with her own page.
 
-"It also says that neighbours can cut the branches over their fence," she says.
+"It also says we can cut the branches over our fence."
 
 Frank goes white. "You wouldn't."
 
-"We wouldn't," says Jess. "But we could."
+"We wouldn't. But we could."
 
-For one week, there is a cold war over the fence. Frank picks plums on his side at seven in the morning. Ollie picks plums on his side at seven in the evening. Nobody says hello.
+For one week, it is a cold war. Frank picks plums on his side at seven in the morning. Ollie picks plums on his side at seven in the evening. Nobody says hello.
 
-Then Frank's daughter visits. She finds him in the kitchen. There are plums everywhere: in bowls, in bags, in the sink.
+Then Frank's daughter visits. She finds him in the kitchen. There are plums in bowls, bags, boxes and the sink.
 
-"Dad, what are you going to do with all these?"
+"What are you going to do with all these?"
 
 "I don't know," says Frank. "Your mother always made the jam."
 
-On the other side of the fence, Jess and Ollie have the same problem. They have plums in bowls, in bags and in the bath. They want to make jam, but the videos look difficult.
+Next door, Jess and Ollie have the same problem. Plums everywhere. They want to make jam, but the videos look difficult.
 
-On Saturday, someone knocks on Frank's door. It is Jess. She is holding a bag of sugar.
+On Saturday, someone knocks on Frank's door. Jess. She is holding a bag of sugar.
 
-"Frank," she says, "do you know how to make plum jam?"
+"Frank. Do you know how to make plum jam?"
 
-Frank looks at the sugar. He thinks about his wife, Pam, and her big jam pan. It is still in the cupboard.
+Frank thinks about his wife, Pam, and her big jam pan. It is still in the cupboard.
 
-"I know how Pam made it," he says. "Come in."
+"Come in," he says.
 
-All afternoon, the three of them make jam in Frank's kitchen. Frank reads Pam's old recipe card. Ollie cuts the plums. Jess stirs the big pan. Frank tells stories about Pam.
+All afternoon, they make jam together. Frank reads Pam's recipe. Ollie cuts plums. Jess stirs the pan.
 
-At the end of the day, there are twenty jars of dark purple jam on the table.
+At the end of the day, there are twenty jars on the table.
 
 "We need labels," says Jess.
 
 Frank finds a pen. On every jar, in careful letters, he writes: OUR PLUMS.
 
-In spring, Ollie helps Frank cut the old tree. Not much. Just a little.
+In spring, Ollie helps Frank cut the tree. Not much. Just a little.
 
-"Good," says Frank. "Now there are more plums on my side."
+"Now there are more plums on my side," says Frank.
 
-Ollie smiles. "We'll see in August."
+"We'll see," says Ollie.
+
+Plum war: over. Jam: twenty jars. Plums on Frank's side: still more. He checked.
+
+*Word count: 384*
