@@ -1,0 +1,148 @@
+/* ==========================================================================
+   Variante A · „Buchhandlung“
+   Warmes Papier mit Körnung, echte 3D-Bücher, Holzregal mit Buchrücken,
+   Cover-Farben als Hintergründe. Wirkung: ein guter, alter Buchladen.
+   ========================================================================== */
+
+[data-skin="buch"] {
+  --paper: #f6efe2;
+  --paper-2: #efe4d0;
+  --paper-3: #e4d5bb;
+  --white: #fffaf1;
+  --line: #e0d2b9;
+  --line-2: #cbb796;
+  --ink: #241a12;
+  --ink-2: #4b3d2f;
+  --ink-3: #6c5d4c;
+  --green-950: #0c2614;
+  --green-900: #10331a;
+  --green-800: #164522;
+  --green-700: #1d5a2a;
+  --green-600: #2a7136;
+  --green-200: #cddfc3;
+  --green-100: #e1ebd6;
+  --green-50: #eef3e5;
+  --rose-700: #9a2e3a;
+  --rose-600: #b23c48;
+  --rose-100: #f4dfda;
+  --gold-600: #a37431;
+  --gold-100: #f1e2c6;
+  --wood-1: #8f5d35;
+  --wood-2: #6a4122;
+  --display-weight: 600;
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .32 0 0 0 0 .22 0 0 0 0 .1 0 0 0 .11 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+[data-skin="buch"] body { background: var(--paper) var(--grain); }
+[data-skin="buch"] .header { background: rgb(246 239 226 / 90%); }
+
+/* ---------- Hero ---------- */
+[data-skin="buch"] .hero { padding-block: clamp(36px, 5vw, 72px) clamp(60px, 7vw, 110px); isolation: isolate; }
+[data-skin="buch"] .hero::before { display: none; }
+[data-skin="buch"] .hero__bg { position: absolute; inset: 0; z-index: -1; overflow: hidden; }
+[data-skin="buch"] .blob { position: absolute; border-radius: 50%; filter: blur(70px); opacity: .55; }
+[data-skin="buch"] .blob--1 { width: 620px; height: 620px; right: -120px; top: -160px; background: #c9a4d3; }
+[data-skin="buch"] .blob--2 { width: 520px; height: 520px; left: -200px; bottom: -220px; background: #ecd2a8; }
+[data-skin="buch"] .blob--3 { width: 380px; height: 380px; right: 26%; bottom: -120px; background: #b9d3b0; opacity: .5; }
+[data-skin="buch"] .hero__grid { grid-template-columns: .95fr 1.05fr; gap: clamp(28px, 4vw, 64px); }
+[data-skin="buch"] .hero__title { font-size: clamp(2.6rem, 1.5rem + 3.9vw, 4.75rem); line-height: 1.02; letter-spacing: -0.025em; }
+[data-skin="buch"] .hero__title em { color: var(--green-700); font-weight: 500; }
+[data-skin="buch"] .hero__visual { height: 680px; }
+[data-skin="buch"] .hero__books { position: absolute; inset: 0; }
+[data-skin="buch"] .hb { z-index: 1; }
+[data-skin="buch"] .hb--1 { --bw: 214px; --bh: 321px; --bt: 32px; --ry: -26deg; right: 2%; top: 0; z-index: 3; }
+[data-skin="buch"] .hb--2 { --bw: 160px; --bh: 240px; --bt: 26px; --ry: -30deg; left: 34%; top: 34px; transform: rotate(-3deg); z-index: 2; }
+[data-skin="buch"] .hb--3 { --bw: 150px; --bh: 225px; --bt: 22px; --ry: -32deg; left: 13%; top: 64px; transform: rotate(-8deg); }
+[data-skin="buch"] .hb--4 { --bw: 150px; --bh: 225px; --bt: 24px; --ry: -20deg; right: -2%; top: 352px; transform: rotate(7deg); z-index: 6; }
+[data-skin="buch"] .hb--5 { --bw: 138px; --bh: 207px; --bt: 22px; --ry: -34deg; left: -4%; top: 128px; transform: rotate(-14deg); }
+[data-skin="buch"] .hero__page { position: absolute; left: 0; bottom: 0; width: 80%; margin: 0; z-index: 5; transform: rotate(-1.2deg); }
+[data-skin="buch"] .hero__page .bookpage { box-shadow: 0 1px 0 var(--line), 0 40px 70px -30px rgb(36 26 18 / 50%), inset 10px 0 18px -14px rgb(36 26 18 / 25%); }
+[data-skin="buch"] .hero__page .reader__fade { max-height: 226px; }
+[data-skin="buch"] .hero__page .legend { position: absolute; top: 100%; left: 8px; margin-top: 18px; white-space: nowrap; }
+[data-skin="buch"] .hero__note--1 { top: -14px; right: 22px; }
+@media (max-width: 960px) {
+  [data-skin="buch"] .hero__grid { grid-template-columns: 1fr; }
+  [data-skin="buch"] .hero__visual { height: auto; }
+  [data-skin="buch"] .hero__books { position: relative; height: 270px; margin-bottom: -40px; }
+  [data-skin="buch"] .hb--1 { --bw: 150px; --bh: 225px; --bt: 22px; right: 6%; }
+  [data-skin="buch"] .hb--2 { --bw: 118px; --bh: 177px; left: 38%; top: 30px; }
+  [data-skin="buch"] .hb--3 { --bw: 110px; --bh: 165px; left: 18%; top: 50px; }
+  [data-skin="buch"] .hb--4 { display: none; }
+  [data-skin="buch"] .hb--5 { --bw: 104px; --bh: 156px; left: 0; top: 76px; }
+  [data-skin="buch"] .hero__page { position: relative; width: 100%; transform: none; }
+  [data-skin="buch"] .hero__page .legend { position: static; white-space: normal; }
+}
+
+/* ---------- Kennzahlen ---------- */
+[data-skin="buch"] .stats { border-block: 1px solid var(--line-2); background: rgb(255 250 241 / 55%); position: relative; }
+[data-skin="buch"] .stats::before, [data-skin="buch"] .stats::after { content: ""; position: absolute; left: 0; right: 0; height: 1px; background: var(--line-2); }
+[data-skin="buch"] .stats::before { top: 4px; } [data-skin="buch"] .stats::after { bottom: 4px; }
+[data-skin="buch"] .stat__icon { background: var(--green-700); color: #f6efe2; }
+
+/* ---------- Sprachen ---------- */
+[data-skin="buch"] .section--langs { background: transparent; }
+[data-skin="buch"] .lang-card { background: var(--white); border-color: var(--line); box-shadow: 0 1px 0 var(--line), 0 18px 40px -30px rgb(36 26 18 / 40%); }
+[data-skin="buch"] .lang-card__covers { background: linear-gradient(180deg, color-mix(in srgb, var(--lc) 20%, var(--paper)) 0%, color-mix(in srgb, var(--lc) 8%, var(--white)) 100%); }
+
+/* ---------- Methode ---------- */
+[data-skin="buch"] .section--method { background: var(--paper-2) var(--grain); }
+[data-skin="buch"] .steps { position: relative; }
+[data-skin="buch"] .steps::before { content: ""; position: absolute; top: 46px; left: 40px; right: 18%; border-top: 2px dashed var(--line-2); }
+[data-skin="buch"] .step__num { position: relative; width: 84px; height: 84px; border-radius: 50%; display: grid; place-items: center; font-size: 2.75rem; font-style: italic; font-weight: 400; color: #fff8ec; background: var(--green-700); box-shadow: 0 0 0 8px var(--paper-2); margin-bottom: 22px; }
+[data-skin="buch"] .step:nth-child(2) .step__num { background: var(--rose-600); }
+[data-skin="buch"] .step:nth-child(3) .step__num { background: var(--gold-600); }
+[data-skin="buch"] .step__demo { background: #fffdf6; box-shadow: 0 14px 30px -24px rgb(36 26 18 / 50%); }
+
+/* ---------- Bücherregal ---------- */
+[data-skin="buch"] .section--shelf { background: radial-gradient(120% 90% at 50% 0%, #4a3122 0%, #2b1c12 62%, #22160e 100%); color: #f3e8d4; overflow: hidden; }
+[data-skin="buch"] .section--shelf h2 { color: #fbf3e4; }
+[data-skin="buch"] .section--shelf .section-head p { color: #cdbda4; }
+[data-skin="buch"] .section--shelf .eyebrow { color: #e3b96d; }
+[data-skin="buch"] .bookshelf { padding: 0 6px; border-radius: 8px; background: linear-gradient(#20150d, #2c1d13); box-shadow: inset 0 30px 50px -20px rgb(0 0 0 / 70%); }
+[data-skin="buch"] .bookshelf__row { pointer-events: none; padding-inline: 20px; }
+[data-skin="buch"] .spine { pointer-events: auto; }
+[data-skin="buch"] .bookshelf__plank { height: 26px; margin-inline: -6px; background: linear-gradient(180deg, #b07a4c 0, #8f5d35 3px, #74482a 60%, #5a361d 100%); border-top: 1px solid #c79062; }
+
+/* ---------- Karten / Regal mit Tabs ---------- */
+[data-skin="buch"] .card__media { background: color-mix(in srgb, var(--c, #e9dcc5) 26%, var(--paper)); perspective: 800px; }
+[data-skin="buch"] .card:hover .card__media { background: color-mix(in srgb, var(--c, #e9dcc5) 40%, var(--paper)); }
+[data-skin="buch"] .card__media img { transform: rotateX(var(--rx)) rotateY(var(--ry)); transition: transform .2s ease-out; }
+[data-skin="buch"] .card:hover .card__media img { transform: rotateX(var(--rx)) rotateY(var(--ry)) translateY(-6px) scale(1.02); }
+[data-skin="buch"] .section--picks { background: transparent; }
+[data-skin="buch"] .shelf-tabs { background: var(--paper-2); }
+
+/* ---------- Niveau als Treppe ---------- */
+[data-skin="buch"] .levels { align-items: end; }
+[data-skin="buch"] .level { background: var(--white); position: relative; overflow: hidden; }
+[data-skin="buch"] .level::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 5px; background: var(--green-700); opacity: .2; }
+[data-skin="buch"] .level:nth-child(1) { min-height: 250px; }
+[data-skin="buch"] .level:nth-child(2) { min-height: 282px; }
+[data-skin="buch"] .level:nth-child(3) { min-height: 314px; }
+[data-skin="buch"] .level:nth-child(4) { min-height: 346px; }
+[data-skin="buch"] .level:nth-child(4) { background: var(--green-800); border-color: var(--green-800); }
+[data-skin="buch"] .level:nth-child(4) .level__tag, [data-skin="buch"] .level:nth-child(4) p { color: #f6efe2; }
+[data-skin="buch"] .level:nth-child(4) .level__name { color: #e3b96d; }
+[data-skin="buch"] .level:nth-child(4) .meter i { background: rgb(255 255 255 / 20%); }
+[data-skin="buch"] .level:nth-child(4) .meter i.on { background: #e3b96d; }
+@media (max-width: 1000px) { [data-skin="buch"] .level:nth-child(n) { min-height: 0; } }
+
+/* ---------- Saison ---------- */
+[data-skin="buch"] .feature { position: relative; background: #8b2733; box-shadow: 0 40px 80px -40px rgb(90 20 30 / 60%); }
+[data-skin="buch"] .feature__deco { position: absolute; inset: 0; pointer-events: none; opacity: .5;
+  background-image: radial-gradient(circle, #f5d58e 1.2px, transparent 1.6px), radial-gradient(circle, #fff 1px, transparent 1.4px);
+  background-size: 46px 46px, 31px 31px; background-position: 0 0, 15px 20px; mask-image: linear-gradient(90deg, #000 0%, transparent 55%); }
+[data-skin="buch"] .feature__text { position: relative; }
+[data-skin="buch"] .feature__media { background: #f4e6d6; }
+
+/* ---------- Geschichte, Stimme, Footer ---------- */
+[data-skin="buch"] .section--story { background: var(--green-900) radial-gradient(80% 120% at 0% 0%, #1c4a29 0%, transparent 60%); }
+[data-skin="buch"] .story blockquote::before { color: #e3b96d; opacity: .9; }
+[data-skin="buch"] .fact { background: rgb(255 255 255 / 5%); border-color: rgb(227 185 109 / 25%); }
+[data-skin="buch"] .fact h3 { color: #f3dca8; }
+[data-skin="buch"] .quote-review { background: var(--white); border: 1px solid var(--line); border-radius: 28px; padding: clamp(24px, 4vw, 48px); box-shadow: 0 30px 60px -40px rgb(36 26 18 / 45%); }
+[data-skin="buch"] .quote-review__book { margin: 0 10px 0 20px; }
+[data-skin="buch"] .newsletter { background: var(--gold-100) var(--grain); border: 1px solid #e6cfa4; }
+[data-skin="buch"] .footer { background: var(--green-950); }
+
+/* ---------- Produktseite ---------- */
+[data-skin="buch"] .pdp-gallery__stage { background: radial-gradient(70% 70% at 50% 40%, #fff8ec 0%, color-mix(in srgb, #9662a5 22%, var(--paper)) 100%); }
+[data-skin="buch"] .pdp-gallery__stage .book3d { --bw: 54cqw; --bt: 6cqw; }

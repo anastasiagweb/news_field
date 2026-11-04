@@ -1,0 +1,21 @@
+/*
+Theme Name:   easyOriginal 2026
+Theme URI:    https://easyoriginal.com/
+Description:  Child-Theme für Divi 4 mit dem neuen easyOriginal-Design in drei Varianten (Buchhandlung, Journal, Bunt). Eigene Kopf- und Fußzeile, Startseiten-Vorlage, Shortcodes für den Divi Builder und WooCommerce-Anpassungen (Produktkarten, Niveau-Filter, Formatkarten, Leseprobe mit Audio).
+Author:       EasyOriginal Verlag e.U.
+Template:     Divi
+Version:      1.0.0
+Requires at least: 6.0
+Requires PHP: 7.4
+Text Domain:  easyoriginal
+License:      GNU General Public License v2 or later
+License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*
+  Die eigentlichen Styles liegen in assets/css/ (werden in inc/setup.php geladen):
+  - base.css           Struktur aller Komponenten
+  - skin-*.css         die drei Design-Varianten
+  - wp.css             Anpassungen an Divi, WordPress und WooCommerce
+  Eigene Ergänzungen bitte unten in diese Datei schreiben.
+*/

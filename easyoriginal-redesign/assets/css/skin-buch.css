@@ -55,7 +55,7 @@
 [data-skin="buch"] .hb--4 { --bw: 150px; --bh: 225px; --bt: 24px; --ry: -20deg; right: -2%; top: 352px; transform: rotate(7deg); z-index: 6; }
 [data-skin="buch"] .hb--5 { --bw: 138px; --bh: 207px; --bt: 22px; --ry: -34deg; left: -4%; top: 128px; transform: rotate(-14deg); }
 [data-skin="buch"] .hero__page { position: absolute; left: 0; bottom: 0; width: 80%; margin: 0; z-index: 5; transform: rotate(-1.2deg); }
-[data-skin="buch"] .hero__page .page { box-shadow: 0 1px 0 var(--line), 0 40px 70px -30px rgb(36 26 18 / 50%), inset 10px 0 18px -14px rgb(36 26 18 / 25%); }
+[data-skin="buch"] .hero__page .bookpage { box-shadow: 0 1px 0 var(--line), 0 40px 70px -30px rgb(36 26 18 / 50%), inset 10px 0 18px -14px rgb(36 26 18 / 25%); }
 [data-skin="buch"] .hero__page .reader__fade { max-height: 226px; }
 [data-skin="buch"] .hero__page .legend { position: absolute; top: 100%; left: 8px; margin-top: 18px; white-space: nowrap; }
 [data-skin="buch"] .hero__note--1 { top: -14px; right: 22px; }
@@ -138,11 +138,11 @@
 [data-skin="buch"] .story blockquote::before { color: #e3b96d; opacity: .9; }
 [data-skin="buch"] .fact { background: rgb(255 255 255 / 5%); border-color: rgb(227 185 109 / 25%); }
 [data-skin="buch"] .fact h3 { color: #f3dca8; }
-[data-skin="buch"] .review { background: var(--white); border: 1px solid var(--line); border-radius: 28px; padding: clamp(24px, 4vw, 48px); box-shadow: 0 30px 60px -40px rgb(36 26 18 / 45%); }
-[data-skin="buch"] .review__book { margin: 0 10px 0 20px; }
+[data-skin="buch"] .quote-review { background: var(--white); border: 1px solid var(--line); border-radius: 28px; padding: clamp(24px, 4vw, 48px); box-shadow: 0 30px 60px -40px rgb(36 26 18 / 45%); }
+[data-skin="buch"] .quote-review__book { margin: 0 10px 0 20px; }
 [data-skin="buch"] .newsletter { background: var(--gold-100) var(--grain); border: 1px solid #e6cfa4; }
 [data-skin="buch"] .footer { background: var(--green-950); }
 
 /* ---------- Produktseite ---------- */
-[data-skin="buch"] .gallery__stage { background: radial-gradient(70% 70% at 50% 40%, #fff8ec 0%, color-mix(in srgb, #9662a5 22%, var(--paper)) 100%); }
-[data-skin="buch"] .gallery__stage .book3d { --bw: 54cqw; --bt: 6cqw; }
+[data-skin="buch"] .pdp-gallery__stage { background: radial-gradient(70% 70% at 50% 40%, #fff8ec 0%, color-mix(in srgb, #9662a5 22%, var(--paper)) 100%); }
+[data-skin="buch"] .pdp-gallery__stage .book3d { --bw: 54cqw; --bt: 6cqw; }
