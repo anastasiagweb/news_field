@@ -1,4 +1,4 @@
-/* Produktdaten – automatisch aus easyoriginal.com übernommen (Stand: November 2026). */
+/* Produktdaten – automatisch aus easyoriginal.com übernommen (Stand: November 2026). c = Hauptfarbe des Covers. */
 window.EO_HOME = {
  "bestseller": [
   {
@@ -12,7 +12,8 @@ window.EO_HOME = {
    "sale": true,
    "img": "assets/covers/DSMB1_1080-2-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/10-spanische-krimi-lektuere-a1-a2-frank-lesemethode/"
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/10-spanische-krimi-lektuere-a1-a2-frank-lesemethode/",
+   "c": "#c9a782"
   },
   {
    "title": "Los Diamantes Desaparecidos",
@@ -25,7 +26,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/Los-Diamantes-Desaparecidos_printcover-240x360.webp",
    "square": false,
-   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/los-diamantes-desaparecidos-die-verschwundenen-diamanten/"
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/los-diamantes-desaparecidos-die-verschwundenen-diamanten/",
+   "c": "#d8b599"
   },
   {
    "title": "Italienisch mit Humor: 50 Tiergeschichten",
@@ -38,7 +40,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DIMB1-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/italienisch-mit-humor-50-tiergeschichten/"
+   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/italienisch-mit-humor-50-tiergeschichten/",
+   "c": "#785b3c"
   },
   {
    "title": "La Serenata de los Gatos",
@@ -51,7 +54,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/La-Serenata-de-los-Gatos_printcover-240x360.webp",
    "square": false,
-   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/la-serenata-de-los-gatos-das-katzenkonzert/"
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/la-serenata-de-los-gatos-das-katzenkonzert/",
+   "c": "#7a5151"
   },
   {
    "title": "Italienisch mit Spannung: 5 Krimis",
@@ -64,7 +68,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DIMB2-1-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/modern-italienisch-frank-a1-a2/italienisch-mit-spannung-5-krimis-a1-a2/"
+   "url": "https://easyoriginal.com/shop/modern-italienisch-frank-a1-a2/italienisch-mit-spannung-5-krimis-a1-a2/",
+   "c": "#a27f61"
   },
   {
    "title": "El Enigma del Fuego Azul",
@@ -77,7 +82,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/El-Enigma-del-Fuego-Azul_printcover-240x360.webp",
    "square": false,
-   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/el-enigma-del-fuego-azul-das-raetsel-des-blauen-feuers/"
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/el-enigma-del-fuego-azul-das-raetsel-des-blauen-feuers/",
+   "c": "#ab8d60"
   },
   {
    "title": "El Fantasma del Arrecife de Coral",
@@ -90,7 +96,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/El-Fantasma-del-Arrecife-de-Coral_printcover-240x360.webp",
    "square": false,
-   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/el-fantasma-del-arrecife-de-coral-das-geheimnis-des-korallenriffs/"
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/el-fantasma-del-arrecife-de-coral-das-geheimnis-des-korallenriffs/",
+   "c": "#45c7fa"
   },
   {
    "title": "Anna na scheje",
@@ -103,7 +110,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/Tschechow_Anna_am_Hals_printcover_2024-240x360.webp",
    "square": false,
-   "url": "https://easyoriginal.com/shop/russisch-deutsch/anna-na-scheje-anna-am-halse/"
+   "url": "https://easyoriginal.com/shop/russisch-deutsch/anna-na-scheje-anna-am-halse/",
+   "c": "#5b483e"
   },
   {
    "title": "El Susurro de las Olas",
@@ -116,7 +124,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/El_Susurro_de_las_Olas_printcover-240x360.webp",
    "square": false,
-   "url": "https://easyoriginal.com/shop/modern-spanisch-frank/el-susurro-de-las-olas-das-fluestern-der-wellen/"
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank/el-susurro-de-las-olas-das-fluestern-der-wellen/",
+   "c": "#07839f"
   },
   {
    "title": "L’Arrestation d’Arsène Lupin",
@@ -129,7 +138,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/leblanc_larrestation_darsene_lupin_cover-2-240x360.webp",
    "square": false,
-   "url": "https://easyoriginal.com/shop/franzoesisch-deutsch/arsene-lupin-1-larrestation-darsene-lupin-die-verhaftung-von-arsene-lupin/"
+   "url": "https://easyoriginal.com/shop/franzoesisch-deutsch/arsene-lupin-1-larrestation-darsene-lupin-die-verhaftung-von-arsene-lupin/",
+   "c": "#9662a5"
   },
   {
    "title": "Le parfum de la mémoire perdue",
@@ -142,7 +152,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/Le_parfum_de_la_memoire_perdue_printcover-240x360.webp",
    "square": false,
-   "url": "https://easyoriginal.com/shop/modern-franzoesisch-frank-a1-a2/le-parfum-de-la-memoire-perdue-der-duft-der-verlorenen-erinnerung/"
+   "url": "https://easyoriginal.com/shop/modern-franzoesisch-frank-a1-a2/le-parfum-de-la-memoire-perdue-der-duft-der-verlorenen-erinnerung/",
+   "c": "#a0b2bd"
   },
   {
    "title": "Le Mystère de la Lavande Bleue",
@@ -155,7 +166,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/Le-Mystere-de-la-Lavande-Bleue_printcover-240x360.webp",
    "square": false,
-   "url": "https://easyoriginal.com/shop/modern-franzoesisch-frank/le-mystere-de-la-lavande-bleue-das-geheimnis-der-blauen-lavendel/"
+   "url": "https://easyoriginal.com/shop/modern-franzoesisch-frank/le-mystere-de-la-lavande-bleue-das-geheimnis-der-blauen-lavendel/",
+   "c": "#4d6ca9"
   }
  ],
  "neu": [
@@ -170,7 +182,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DSMB10ENDCD-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/geschenkset-spanisch/geschenkset-weihnachten-in-spanien-a2-b1-cds/"
+   "url": "https://easyoriginal.com/shop/geschenkset-spanisch/geschenkset-weihnachten-in-spanien-a2-b1-cds/",
+   "c": "#a35725"
   },
   {
    "title": "Geschenkset",
@@ -183,7 +196,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DSMB10END-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/geschenkset-spanisch/geschenkset-weihnachten-in-spanien-a2-b1/"
+   "url": "https://easyoriginal.com/shop/geschenkset-spanisch/geschenkset-weihnachten-in-spanien-a2-b1/",
+   "c": "#a45624"
   },
   {
    "title": "Geschenkset",
@@ -196,7 +210,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DSMB9ENDCD-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/geschenkset-spanisch/geschenkset-weihnachten-in-spanien-frank-lesemethode-a1-a2-cds/"
+   "url": "https://easyoriginal.com/shop/geschenkset-spanisch/geschenkset-weihnachten-in-spanien-frank-lesemethode-a1-a2-cds/",
+   "c": "#bf7742"
   },
   {
    "title": "Geschenkset",
@@ -209,7 +224,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DSMB9END-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/geschenkset-spanisch/geschenkset-weihnachten-in-spanien-frank-lesemethode-a1-a2/"
+   "url": "https://easyoriginal.com/shop/geschenkset-spanisch/geschenkset-weihnachten-in-spanien-frank-lesemethode-a1-a2/",
+   "c": "#de7935"
   },
   {
    "title": "Weihnachten in Spanien",
@@ -222,7 +238,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DSMB10-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichten-worterklaerungen-a2-b1/weihnachten-in-spanien-a2-b1/"
+   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichten-worterklaerungen-a2-b1/weihnachten-in-spanien-a2-b1/",
+   "c": "#1f2735"
   },
   {
    "title": "Weihnachten in Spanien – Frank-Lesemethode",
@@ -235,7 +252,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DSMB9-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichtenfrank-a1-a2/weihnachten-in-spanien-frank-lesemethode-a1-a2/"
+   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichtenfrank-a1-a2/weihnachten-in-spanien-frank-lesemethode-a1-a2/",
+   "c": "#c17241"
   },
   {
    "title": "El Belén Más Grande del Mundo",
@@ -248,7 +266,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/El_Belen_Mas_Grande_del_Mundo_W_printcover-240x360.webp",
    "square": false,
-   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichten-worterklaerungen-a2-b1/el-belen-mas-grande-del-mundo-die-groesste-weihnachtskrippe-der-welt-a2-b1/"
+   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichten-worterklaerungen-a2-b1/el-belen-mas-grande-del-mundo-die-groesste-weihnachtskrippe-der-welt-a2-b1/",
+   "c": "#67441f"
   },
   {
    "title": "El Belén Más Grande del Mundo",
@@ -261,7 +280,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/El_Belen_Mas_Grande_del_Mundo_printcover-240x360.webp",
    "square": false,
-   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichtenfrank-a1-a2/el-belen-mas-grande-del-mundo-die-groesste-weihnachtskrippe-der-welt-a1-a2/"
+   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichtenfrank-a1-a2/el-belen-mas-grande-del-mundo-die-groesste-weihnachtskrippe-der-welt-a1-a2/",
+   "c": "#68441f"
   },
   {
    "title": "El Cuñado Experto",
@@ -274,7 +294,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/El_Cunado_Experto_W_printcover-240x360.webp",
    "square": false,
-   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichten-worterklaerungen-a2-b1/el-cunado-experto-der-schwager-der-alles-besser-weiss-a2-b1/"
+   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichten-worterklaerungen-a2-b1/el-cunado-experto-der-schwager-der-alles-besser-weiss-a2-b1/",
+   "c": "#d6914c"
   },
   {
    "title": "El Cuñado Experto",
@@ -287,7 +308,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/El_Cunado_Experto_printcover-240x360.webp",
    "square": false,
-   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichtenfrank-a1-a2/el-cunado-experto-der-schwager-der-alles-besser-weiss-a1-a2/"
+   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichtenfrank-a1-a2/el-cunado-experto-der-schwager-der-alles-besser-weiss-a1-a2/",
+   "c": "#ad5624"
   },
   {
    "title": "El primo de América",
@@ -300,7 +322,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/El_primo_de_America_W_printcover-240x360.webp",
    "square": false,
-   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichten-worterklaerungen-a2-b1/el-primo-de-america-der-cousin-aus-mexiko-a2-b1/"
+   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichten-worterklaerungen-a2-b1/el-primo-de-america-der-cousin-aus-mexiko-a2-b1/",
+   "c": "#b3723d"
   },
   {
    "title": "El primo de América",
@@ -313,7 +336,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/El_primo_de_America_printcover-240x360.webp",
    "square": false,
-   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichtenfrank-a1-a2/el-primo-de-america-der-cousin-aus-mexiko-a1-a2/"
+   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichtenfrank-a1-a2/el-primo-de-america-der-cousin-aus-mexiko-a1-a2/",
+   "c": "#b2723d"
   }
  ],
  "sets": [
@@ -328,7 +352,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DFMB10-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/franzoesisch-lustige-kurzgeschichten-worterklaerungen-a2-b1/weihnachten-in-frankreich-a2-b1/"
+   "url": "https://easyoriginal.com/shop/franzoesisch-lustige-kurzgeschichten-worterklaerungen-a2-b1/weihnachten-in-frankreich-a2-b1/",
+   "c": "#2e4566"
   },
   {
    "title": "Weihnachten in Frankreich – Frank-Lesemethode",
@@ -341,7 +366,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DFMB9-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/franzoesisch-lustige-kurzgeschichten-frank-a1-a2/weihnachten-in-frankreich-frank-lesemethode-a1-a2/"
+   "url": "https://easyoriginal.com/shop/franzoesisch-lustige-kurzgeschichten-frank-a1-a2/weihnachten-in-frankreich-frank-lesemethode-a1-a2/",
+   "c": "#c49f81"
   },
   {
    "title": "Weihnachten in Italien",
@@ -354,7 +380,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DIMB5-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichten-worterklaerungen-a2-b1/weihnachten-in-italien-a2-b1/"
+   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichten-worterklaerungen-a2-b1/weihnachten-in-italien-a2-b1/",
+   "c": "#52241e"
   },
   {
    "title": "Weihnachten in Italien – Frank-Lesemethode",
@@ -367,7 +394,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DIMB4-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/weihnachten-in-italien-frank-lesemethode-a1%e2%81%a0-%e2%81%a0a2/"
+   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/weihnachten-in-italien-frank-lesemethode-a1%e2%81%a0-%e2%81%a0a2/",
+   "c": "#5b402b"
   },
   {
    "title": "Italienisch mit Humor: 50 Geschichten am Meer",
@@ -380,7 +408,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DIMB3-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/italienisch-mit-humor-50-geschichten-am-meer/"
+   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/italienisch-mit-humor-50-geschichten-am-meer/",
+   "c": "#b68c7f"
   },
   {
    "title": "Englisch mit Humor: 50 Hundegeschichten",
@@ -393,7 +422,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DEMB5-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/englisch-lustige-kurzgeschichtenfrank-a2-b1/englisch-mit-humor-50-hundegeschichten/"
+   "url": "https://easyoriginal.com/shop/englisch-lustige-kurzgeschichtenfrank-a2-b1/englisch-mit-humor-50-hundegeschichten/",
+   "c": "#665a33"
   },
   {
    "title": "Französisch mit Humor: 50 Tiergeschichten",
@@ -406,7 +436,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DFMB8-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/franzoesisch-lustige-kurzgeschichten-frank-a1-a2/franzoesisch-mit-humor-50-tiergeschichten/"
+   "url": "https://easyoriginal.com/shop/franzoesisch-lustige-kurzgeschichten-frank-a1-a2/franzoesisch-mit-humor-50-tiergeschichten/",
+   "c": "#b09b8c"
   },
   {
    "title": "Spanisch mit Humor: 50 Tiergeschichten",
@@ -419,7 +450,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DSMB8-1-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichtenfrank-a1-a2/spanisch-mit-humor-50-tiergeschichten/"
+   "url": "https://easyoriginal.com/shop/spanisch-lustige-kurzgeschichtenfrank-a1-a2/spanisch-mit-humor-50-tiergeschichten/",
+   "c": "#7a5446"
   },
   {
    "title": "Französisch mit Spannung: 5 moderne Krimis",
@@ -432,7 +464,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DFMB7-1-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/modern-franzoesisch-frank/franzoesisch-mit-spannung-5-moderne-krimis-a2-b1/"
+   "url": "https://easyoriginal.com/shop/modern-franzoesisch-frank/franzoesisch-mit-spannung-5-moderne-krimis-a2-b1/",
+   "c": "#ad9085"
   },
   {
    "title": "Französisch mit Spannung: 5 moderne Krimis",
@@ -445,7 +478,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DFMB6-1-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/modern-franzoesisch-frank-a1-a2/franzoesisch-mit-spannung-5-moderne-krimis-a1-a2/"
+   "url": "https://easyoriginal.com/shop/modern-franzoesisch-frank-a1-a2/franzoesisch-mit-spannung-5-moderne-krimis-a1-a2/",
+   "c": "#bca28f"
   },
   {
    "title": "Spanisch mit Spannung: 5 moderne Krimis",
@@ -458,7 +492,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DSMB7-1-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/modern-spanisch-frank/spanisch-mit-spannung-5-moderne-krimis-a2-b1/"
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank/spanisch-mit-spannung-5-moderne-krimis-a2-b1/",
+   "c": "#ca915e"
   },
   {
    "title": "Spanisch am Meer: 5 Bücher",
@@ -471,7 +506,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DSMB6-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/spanisch-am-meer-5-buecher-a1-a2/"
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/spanisch-am-meer-5-buecher-a1-a2/",
+   "c": "#88c6da"
   },
   {
    "title": "Italienisch mit Spannung: 5 Krimis",
@@ -484,7 +520,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DIMB2-1-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/modern-italienisch-frank-a1-a2/italienisch-mit-spannung-5-krimis-a1-a2/"
+   "url": "https://easyoriginal.com/shop/modern-italienisch-frank-a1-a2/italienisch-mit-spannung-5-krimis-a1-a2/",
+   "c": "#a27f61"
   },
   {
    "title": "Italienisch mit Humor: 50 Tiergeschichten",
@@ -497,7 +534,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DIMB1-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/italienisch-mit-humor-50-tiergeschichten/"
+   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/italienisch-mit-humor-50-tiergeschichten/",
+   "c": "#785b3c"
   },
   {
    "title": "Grange Farm Mysteries – Staffel 1",
@@ -510,7 +548,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DEMB4-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/modern-englisch-frank-a1-a2/grange-farm-mysteries-staffel-1/"
+   "url": "https://easyoriginal.com/shop/modern-englisch-frank-a1-a2/grange-farm-mysteries-staffel-1/",
+   "c": "#3a3a26"
   },
   {
    "title": "Recetas y Intrigas – Staffel 1",
@@ -523,7 +562,8 @@ window.EO_HOME = {
    "sale": false,
    "img": "assets/covers/DSMB5_1080_V3-240x240.webp",
    "square": true,
-   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/recetas-y-intrigas-staffel-1/"
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/recetas-y-intrigas-staffel-1/",
+   "c": "#8a7856"
   }
  ]
 };
@@ -541,7 +581,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank-a1-a2/the-roaming-rocks-die-wandernden-steine/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#212624"
  },
  {
   "title": "The Midnight Moonflower",
@@ -556,7 +597,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank-a1-a2/the-midnight-moonflower-die-mitternachts-mondblume/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#8c9598"
  },
  {
   "title": "The Disappearing Honey Bees",
@@ -571,7 +613,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank-a1-a2/the-disappearing-honey-bees-die-verschwundenen-honigbienen/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#e6a01f"
  },
  {
   "title": "The Vanishing Village",
@@ -586,7 +629,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank-a1-a2/the-vanishing-village-das-verschwundene-dorf/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#206482"
  },
  {
   "title": "Grange Farm Mysteries – Staffel 1",
@@ -601,7 +645,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank-a1-a2/grange-farm-mysteries-staffel-1/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#3a3a26"
  },
  {
   "title": "The Colourful Creek",
@@ -616,7 +661,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank-a1-a2/the-colourful-creek-der-bunte-bach/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#c49e3c"
  },
  {
   "title": "The Midnight Moo-ver",
@@ -631,7 +677,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank-a1-a2/the-midnight-moo-ver-der-mitternaechtliche-ausreisser/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#ccc7a9"
  },
  {
   "title": "The Vanishing Vegetables",
@@ -646,7 +693,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank-a1-a2/the-vanishing-vegetables-das-verschwinden-der-gemuese/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#a73c4d"
  },
  {
   "title": "10 Englische Krimi-Lektüre – Frank-Lesemethode",
@@ -661,7 +709,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank/10-englische-krimi-lektuere-a2-b1-frank-lesemethode/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#9b826f"
  },
  {
   "title": "The Midnight Rose",
@@ -676,7 +725,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank/the-midnight-rose-die-mitternachtsrose/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#7e719d"
  },
  {
   "title": "The Missing Roman Coin",
@@ -691,7 +741,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank/the-missing-roman-coin-die-verschwundene-roemische-muenze/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#9e8270"
  },
  {
   "title": "The Silenced Stitch",
@@ -706,7 +757,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank/the-silenced-stitch-die-verstummte-naht/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#c08658"
  },
  {
   "title": "Steep in Time",
@@ -721,7 +773,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank/steep-in-time-steil-in-die-zeit/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#e3d5b6"
  },
  {
   "title": "The Lighthouse Shadow",
@@ -736,7 +789,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank/the-lighthouse-shadow-der-leuchtturmschatten/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#3a786d"
  },
  {
   "title": "The Influencer’s Predicament",
@@ -751,7 +805,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank/the-influencers-predicament-die-not-der-influencerin/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#372d20"
  },
  {
   "title": "The Pigment of Imagination",
@@ -766,7 +821,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank/the-pigment-of-imagination-das-pigment-der-fantasie/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#684437"
  },
  {
   "title": "The Bioluminescent Blackout",
@@ -781,7 +837,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank/the-bioluminescent-blackout-der-biolumineszente-blackout/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#0376d6"
  },
  {
   "title": "The Siren’s Shells",
@@ -796,7 +853,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank/the-sirens-shells-die-muscheln-der-sirene/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#673a43"
  },
  {
   "title": "The Unexpected Dancer",
@@ -811,7 +869,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank/the-unexpected-dancer-die-unerwartete-taenzerin/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#d8c9b7"
  },
  {
   "title": "The Druid’s Whisper",
@@ -826,7 +885,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank/the-druids-whisper-das-fluestern-des-druiden/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#7c5685"
  },
  {
   "title": "The Whispering Petals",
@@ -841,7 +901,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-englisch-frank/the-whispering-petals-die-fluesternden-bluetenblaetter/",
   "series": "Moderne Lektüre",
-  "method": "frank"
+  "method": "frank",
+  "c": "#90322e"
  },
  {
   "title": "Nine Lives in the Bookshop",
@@ -856,7 +917,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-lustige-kurzgeschichtenfrank-a1-a2/nine-lives-in-the-bookshop-neun-leben-in-der-buchhandlung/",
   "series": "Kurzgeschichten",
-  "method": "frank"
+  "method": "frank",
+  "c": "#b68255"
  },
  {
   "title": "The Whippet Who Wouldn’t Walk",
@@ -871,7 +933,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-lustige-kurzgeschichtenfrank-a1-a2/the-whippet-who-wouldnt-walk-der-whippet-der-nicht-laufen-wollte/",
   "series": "Kurzgeschichten",
-  "method": "frank"
+  "method": "frank",
+  "c": "#6a4c3f"
  },
  {
   "title": "The Therapy Alpacas of Truro",
@@ -886,7 +949,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-lustige-kurzgeschichtenfrank-a2-b1/the-therapy-alpacas-of-truro-die-therapie-alpakas-von-truro/",
   "series": "Kurzgeschichten",
-  "method": "frank"
+  "method": "frank",
+  "c": "#866732"
  },
  {
   "title": "Englisch mit Humor: 50 Hundegeschichten",
@@ -901,7 +965,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-lustige-kurzgeschichtenfrank-a2-b1/englisch-mit-humor-50-hundegeschichten/",
   "series": "Kurzgeschichten",
-  "method": "frank"
+  "method": "frank",
+  "c": "#665a33"
  },
  {
   "title": "The Dog Who Understood Everything",
@@ -916,7 +981,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-lustige-kurzgeschichtenfrank-a2-b1/the-dog-who-understood-everything-der-hund-der-alles-verstand/",
   "series": "Kurzgeschichten",
-  "method": "frank"
+  "method": "frank",
+  "c": "#b27f50"
  },
  {
   "title": "Grandma’s Yorkshire Terrier",
@@ -931,7 +997,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-lustige-kurzgeschichtenfrank-a2-b1/grandmas-yorkshire-terrier-omas-yorkshire-terrier/",
   "series": "Kurzgeschichten",
-  "method": "frank"
+  "method": "frank",
+  "c": "#323118"
  },
  {
   "title": "Diaries from Doggy Daycare",
@@ -946,7 +1013,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-lustige-kurzgeschichtenfrank-a2-b1/diaries-from-doggy-daycare-tagebuch-aus-der-hundetagesstaette/",
   "series": "Kurzgeschichten",
-  "method": "frank"
+  "method": "frank",
+  "c": "#caad68"
  },
  {
   "title": "Border Collie Country",
@@ -961,7 +1029,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-lustige-kurzgeschichtenfrank-a2-b1/border-collie-country-im-land-der-border-collies/",
   "series": "Kurzgeschichten",
-  "method": "frank"
+  "method": "frank",
+  "c": "#b0d4e8"
  },
  {
   "title": "The Village Basset Hound",
@@ -976,7 +1045,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-lustige-kurzgeschichtenfrank-a2-b1/the-village-basset-hound-der-basset-von-little-mossley/",
   "series": "Kurzgeschichten",
-  "method": "frank"
+  "method": "frank",
+  "c": "#634832"
  },
  {
   "title": "The Peony Chronicles",
@@ -991,7 +1061,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/reflections-b1-b2-mit-worterklaerungen/the-peony-chronicles-b1-b2/",
   "series": "Reflections",
-  "method": "woerter"
+  "method": "woerter",
+  "c": "#ebacc5"
  },
  {
   "title": "When Life Gives You Lemons",
@@ -1006,7 +1077,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/reflections-b1-b2-mit-worterklaerungen/when-life-gives-you-lemons-b1-b2/",
   "series": "Reflections",
-  "method": "woerter"
+  "method": "woerter",
+  "c": "#bf9d31"
  },
  {
   "title": "The Daily Brew",
@@ -1021,7 +1093,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/english-reflections-a2-b1-mit-worterklaerungen/the-daily-brew-a2-b1/",
   "series": "Reflections",
-  "method": "woerter"
+  "method": "woerter",
+  "c": "#b89b7b"
  },
  {
   "title": "Sky Stories",
@@ -1036,7 +1109,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/reflections-b1-b2-mit-worterklaerungen/sky-stories-b1-b2/",
   "series": "Reflections",
-  "method": "woerter"
+  "method": "woerter",
+  "c": "#edc2aa"
  },
  {
   "title": "The Silenced Stitch",
@@ -1051,7 +1125,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-worterklaerungen-englisch-b1-b2/the-silenced-stitch-b1-b2/",
   "series": "Moderne Lektüre",
-  "method": "woerter"
+  "method": "woerter",
+  "c": "#bf8758"
  },
  {
   "title": "The Lighthouse Shadow",
@@ -1066,7 +1141,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-worterklaerungen-englisch-b1-b2/the-lighthouse-shadow-b1-b2/",
   "series": "Moderne Lektüre",
-  "method": "woerter"
+  "method": "woerter",
+  "c": "#1e504c"
  },
  {
   "title": "The Siren’s Shells",
@@ -1081,7 +1157,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-worterklaerungen-englisch-b1-b2/the-sirens-shells-b1-b2/",
   "series": "Moderne Lektüre",
-  "method": "woerter"
+  "method": "woerter",
+  "c": "#673a42"
  },
  {
   "title": "The Bioluminescent Blackout",
@@ -1096,7 +1173,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-worterklaerungen-englisch-b1-b2/the-bioluminescent-blackout-b1-b2/",
   "series": "Moderne Lektüre",
-  "method": "woerter"
+  "method": "woerter",
+  "c": "#0376d6"
  },
  {
   "title": "The Missing Roman Coin",
@@ -1111,7 +1189,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-worterklaerungen-englisch-b1-b2/the-missing-roman-coin-b1-b2/",
   "series": "Moderne Lektüre",
-  "method": "woerter"
+  "method": "woerter",
+  "c": "#c39b79"
  },
  {
   "title": "Steep in Time",
@@ -1126,7 +1205,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-worterklaerungen-englisch-b1-b2/steep-in-time-b1-b2/",
   "series": "Moderne Lektüre",
-  "method": "woerter"
+  "method": "woerter",
+  "c": "#e3d5b6"
  },
  {
   "title": "The Whispering Petals",
@@ -1141,7 +1221,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/modern-worterklaerungen-englisch-b1-b2/the-whispering-petals-b1-b2/",
   "series": "Moderne Lektüre",
-  "method": "woerter"
+  "method": "woerter",
+  "c": "#90322e"
  },
  {
   "title": "Englisch für Anfänger",
@@ -1156,7 +1237,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/englisch-fuer-anfaenger/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#fdc762"
  },
  {
   "title": "Sherlock Holmes Kollektion",
@@ -1171,7 +1253,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/sherlock-holmes-kollektion/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#257640"
  },
  {
   "title": "Pride and Prejudice",
@@ -1186,7 +1269,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/pride-and-prejudice-stolz-und-vorurteil-6-teile/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#c78673"
  },
  {
   "title": "Englische Kurzgeschichten",
@@ -1201,7 +1285,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/englische-kurzgeschichten/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#21753d"
  },
  {
   "title": "Jane Austen Kollektion",
@@ -1216,7 +1301,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/jane-austen-kollektion/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#21753d"
  },
  {
   "title": "11 Sakis Kurzgeschichten",
@@ -1231,7 +1317,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/11-sakis-kurzgeschichten/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#ddc8ae"
  },
  {
   "title": "Kinder Klassiker Kollektion",
@@ -1246,7 +1333,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/kinder-klassiker-kollektion/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#257e43"
  },
  {
   "title": "Crime, Ghosts & Horror Kollektion",
@@ -1261,7 +1349,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/crime-ghosts-horror-kollektion/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#298046"
  },
  {
   "title": "Jane Austen Meisterwerke",
@@ -1276,7 +1365,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/jane-austen-meisterwerke/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#1c532c"
  },
  {
   "title": "George Orwell & H.G. Wells",
@@ -1291,7 +1381,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/george-orwell-h-g-wells/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#dc5c65"
  },
  {
   "title": "Jane Austen & Charles Dickens",
@@ -1306,7 +1397,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/jane-austen-charles-dickens/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#dad3be"
  },
  {
   "title": "Englische Kinderbücher Kollektion",
@@ -1321,7 +1413,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/englische-kinderbuecher-kollektion/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#e6c373"
  },
  {
   "title": "30 englische Bücher",
@@ -1336,7 +1429,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/30-englische-buecher-2/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#c7bc8f"
  },
  {
   "title": "Emma – Teile 1-8",
@@ -1351,7 +1445,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/emma-teile-1-8/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#dacbc1"
  },
  {
   "title": "Klassiker des 20. Jahrhunderts",
@@ -1366,7 +1461,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/klassiker-des-20-jahrhunderts/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#492b43"
  },
  {
   "title": "Englische Erzählungen",
@@ -1381,7 +1477,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/englische-erzaehlungen/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#23763e"
  },
  {
   "title": "Große Meisterwerke Kollektion",
@@ -1396,7 +1493,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch-bundle/grosse-meisterwerke-kollektion/",
   "series": "Bücher-Sets",
-  "method": "frank"
+  "method": "frank",
+  "c": "#cba895"
  },
  {
   "title": "The Canterville Ghost",
@@ -1411,7 +1509,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-canterville-ghost-das-gespenst-von-canterville/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#667c70"
  },
  {
   "title": "Laura",
@@ -1426,7 +1525,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/laura/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#7b664e"
  },
  {
   "title": "The Red-headed League",
@@ -1441,7 +1541,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-red-headed-league-die-liga-der-rothaarigen/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#247e42"
  },
  {
   "title": "A Christmas Carol",
@@ -1456,7 +1557,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/a-christmas-carol-ein-weihnachtslied/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#d1c7a9"
  },
  {
   "title": "Kurzgeschichten – Band 1",
@@ -1471,7 +1573,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/saki-kurzgeschichten-band-1/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#237d41"
  },
  {
   "title": "The Story-Teller",
@@ -1486,7 +1589,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-story-teller-der-erzaehler/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#df7139"
  },
  {
   "title": "Legend of Sagenfeld, in Germany",
@@ -1501,7 +1605,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/legend-of-sagenfeld-in-germany-die-legende-von-sagenfeld-in-deutschland/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#523118"
  },
  {
   "title": "Alice’s Adventures in Wonderland",
@@ -1516,7 +1621,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/alices-adventures-in-wonderland-alice-abenteuer-im-wunderland/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#cfc9b3"
  },
  {
   "title": "Pride and Prejudice",
@@ -1531,7 +1637,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/pride-and-prejudice-stolz-und-vorurteil-teil-1/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#247e42"
  },
  {
   "title": "The Flying Stars",
@@ -1546,7 +1653,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-flying-stars-die-fliegenden-sterne-father-brown-collection/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#237c41"
  },
  {
   "title": "A Scandal in Bohemia",
@@ -1561,7 +1669,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/a-scandal-in-bohemia-ein-skandal-in-boehmen/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#3a1e2d"
  },
  {
   "title": "The Country of the Blind",
@@ -1576,7 +1685,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-country-of-the-blind-das-land-der-blinden/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#cf9a38"
  },
  {
   "title": "The Wonderful Wizard of Oz",
@@ -1591,7 +1701,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-wonderful-wizard-of-oz-der-wunderbare-zauberer-von-oz-2-teile/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#407344"
  },
  {
   "title": "The Black Cat",
@@ -1606,7 +1717,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-black-cat-der-schwarze-kater/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#73a39f"
  },
  {
   "title": "The Great Gatsby",
@@ -1621,7 +1733,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-great-gatsby-der-grosse-gatsby-2-teile/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#711059"
  },
  {
   "title": "Pride and Prejudice",
@@ -1636,7 +1749,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/pride-and-prejudice-stolz-und-vorurteil-teil-2/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#247e42"
  },
  {
   "title": "Tobermory",
@@ -1651,7 +1765,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/tobermory/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#4e3420"
  },
  {
   "title": "Animal Farm",
@@ -1666,7 +1781,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/animal-farm-farm-der-tiere-2-teile/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#cb585f"
  },
  {
   "title": "Lady Susan",
@@ -1681,7 +1797,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/lady-susan/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#715f4e"
  },
  {
   "title": "Tea",
@@ -1696,7 +1813,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/tea-tee/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#dabc91"
  },
  {
   "title": "Rip Van Winkle",
@@ -1711,7 +1829,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/rip-van-winkle/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#172f4e"
  },
  {
   "title": "Emma – Teil 1",
@@ -1726,7 +1845,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/emma-teil-1/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#237d41"
  },
  {
   "title": "The Wonderful Wizard of Oz",
@@ -1741,7 +1861,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-wonderful-wizard-of-oz-der-wunderbare-zauberer-von-oz-teil-1/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#3d6d44"
  },
  {
   "title": "The Lumber Room",
@@ -1756,7 +1877,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-lumber-room-die-abstellkammer/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#9b8b46"
  },
  {
   "title": "Emma – Teil 8",
@@ -1771,7 +1893,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/emma-teil-8/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#237d41"
  },
  {
   "title": "Emma – Teil 7",
@@ -1786,7 +1909,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/emma-teil-7/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#237d41"
  },
  {
   "title": "Emma – Teil 6",
@@ -1801,7 +1925,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/emma-teil-6/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#237d41"
  },
  {
   "title": "Emma – Teil 5",
@@ -1816,7 +1941,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/emma-teil-5/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#237d41"
  },
  {
   "title": "The Speckled Band",
@@ -1831,7 +1957,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-speckled-band-das-gefleckte-band/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#237c41"
  },
  {
   "title": "Emma – Teile 1-4",
@@ -1846,7 +1973,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/emma-teile-1-4/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#0d461e"
  },
  {
   "title": "Emma – Teil 4",
@@ -1861,7 +1989,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/emma-teil-4/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#237d41"
  },
  {
   "title": "Emma – Teil 3",
@@ -1876,7 +2005,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/emma-teil-3/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#237d41"
  },
  {
   "title": "Emma – Teil 2",
@@ -1891,7 +2021,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/emma-teil-2/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#237d41"
  },
  {
   "title": "Pride and Prejudice",
@@ -1906,7 +2037,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/pride-and-prejudice-stolz-und-vorurteil-teil-3/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#247e42"
  },
  {
   "title": "The King of the Golden River",
@@ -1921,7 +2053,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-king-of-the-golden-river-der-koenig-des-goldenenen-flusses/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#c28031"
  },
  {
   "title": "The Wolves of Cernogratz",
@@ -1936,7 +2069,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-wolves-of-cernogratz-die-woelfe-von-cernogratz/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#514e4f"
  },
  {
   "title": "The Seven Cream Jugs",
@@ -1951,7 +2085,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-seven-cream-jugs/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#d2a573"
  },
  {
   "title": "Morlvera",
@@ -1966,7 +2101,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/morlvera/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#dbbe9e"
  },
  {
   "title": "Shock Tactics",
@@ -1981,7 +2117,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/shock-tactics-schock-taktik/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#c3b281"
  },
  {
   "title": "The Philanthropist and the Happy Cat",
@@ -1996,7 +2133,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-philanthropist-and-the-happy-cat-der-menschenfreund-und-die-glueckliche-katze/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#80664e"
  },
  {
   "title": "Sredni Vashtar",
@@ -2011,7 +2149,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/sredni-vashtar/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#58698d"
  },
  {
   "title": "Emma – Teile 5-8",
@@ -2026,7 +2165,8 @@ window.EO_CATALOG_EN = [
   "square": true,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/emma-teile-5-8/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#0d451e"
  },
  {
   "title": "The Adventure of the Blue Carbuncle",
@@ -2041,7 +2181,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-adventure-of-the-blue-carbuncle-das-abenteuer-des-blauen-karfunkel/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#237c41"
  },
  {
   "title": "The Great Gatsby",
@@ -2056,7 +2197,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-great-gatsby-der-grosse-gatsby-teil-2/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#481e3d"
  },
  {
   "title": "The Great Gatsby",
@@ -2071,7 +2213,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-great-gatsby-der-grosse-gatsby-teil-1/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#cb0f6c"
  },
  {
   "title": "The Man with the Twisted Lip",
@@ -2086,7 +2229,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-man-with-the-twisted-lip-der-mann-mit-der-verdrehten-lippe/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#237c41"
  },
  {
   "title": "Animal Farm",
@@ -2101,7 +2245,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/animal-farm-farm-der-tiere-teil-2/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#783136"
  },
  {
   "title": "Animal Farm",
@@ -2116,7 +2261,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/animal-farm-farm-der-tiere-teil-1/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#aa3841"
  },
  {
   "title": "The Wonderful Wizard of Oz",
@@ -2131,7 +2277,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-wonderful-wizard-of-oz-der-wunderbare-zauberer-von-oz-teil-2/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#20653d"
  },
  {
   "title": "Pride and Prejudice",
@@ -2146,7 +2293,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/pride-and-prejudice-stolz-und-vorurteil-teil-6/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#247e42"
  },
  {
   "title": "Pride and Prejudice",
@@ -2161,7 +2309,8 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/pride-and-prejudice-stolz-und-vorurteil-teil-5/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#237c41"
  },
  {
   "title": "Pride and Prejudice",
@@ -2176,6 +2325,1154 @@ window.EO_CATALOG_EN = [
   "square": false,
   "url": "https://easyoriginal.com/shop/englisch-deutsch/pride-and-prejudice-stolz-und-vorurteil-teil-4/",
   "series": "Klassiker",
-  "method": "frank"
+  "method": "frank",
+  "c": "#237c41"
  }
 ];
+window.EO_SHOWCASE = {
+ "hero": [
+  {
+   "title": "L’Arrestation d’Arsène Lupin",
+   "de": "Die Verhaftung von Arsène Lupin",
+   "author": "Maurice Leblanc",
+   "level": null,
+   "lang": "fr",
+   "from": 9.99,
+   "to": 20.99,
+   "img": "assets/covers/leblanc_larrestation_darsene_lupin_cover-2-240x360.webp",
+   "url": "https://easyoriginal.com/shop/franzoesisch-deutsch/arsene-lupin-1-larrestation-darsene-lupin-die-verhaftung-von-arsene-lupin/",
+   "c": "#9662a5",
+   "square": false,
+   "series": null,
+   "sale": false
+  },
+  {
+   "title": "A Christmas Carol",
+   "de": "Ein Weihnachtslied",
+   "author": "Charles Dickens",
+   "level": null,
+   "lang": "en",
+   "from": 17.99,
+   "to": 46.99,
+   "img": "assets/covers/dickens_a_christmas_carol_cover_2025-240x360.webp",
+   "url": "https://easyoriginal.com/shop/englisch-deutsch/a-christmas-carol-ein-weihnachtslied/",
+   "c": "#d1c7a9",
+   "square": false,
+   "series": "Klassiker",
+   "sale": false
+  },
+  {
+   "title": "Pikovaya Dama",
+   "de": "Pique Dame",
+   "author": "Alexander Puschkin",
+   "level": null,
+   "lang": "ru",
+   "from": 12.99,
+   "to": 24.99,
+   "img": "assets/covers/puschkin_pique_dame_cover_2024-240x360.webp",
+   "url": "https://easyoriginal.com/shop/russisch-deutsch/pikovaya-dama-pique-dame/",
+   "c": "#31271c",
+   "square": false,
+   "series": null,
+   "sale": null
+  },
+  {
+   "title": "La Guerra del Gelato",
+   "de": "Der Krieg um das Eis",
+   "author": null,
+   "level": null,
+   "lang": "it",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/La_Guerra_del_Gelato_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/la-guerra-del-gelato-der-krieg-um-das-eis/",
+   "c": "#5e303e",
+   "square": false,
+   "series": null,
+   "sale": null
+  },
+  {
+   "title": "Los Diamantes Desaparecidos",
+   "de": "Die verschwundenen Diamanten",
+   "author": null,
+   "level": "A1–A2",
+   "lang": "es",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/Los-Diamantes-Desaparecidos_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/los-diamantes-desaparecidos-die-verschwundenen-diamanten/",
+   "c": "#d8b599",
+   "square": false,
+   "series": null,
+   "sale": false
+  }
+ ],
+ "langs": {
+  "en": [
+   {
+    "title": "A Christmas Carol",
+    "de": "Ein Weihnachtslied",
+    "author": "Charles Dickens",
+    "level": null,
+    "lang": "en",
+    "from": 17.99,
+    "to": 46.99,
+    "img": "assets/covers/dickens_a_christmas_carol_cover_2025-240x360.webp",
+    "url": "https://easyoriginal.com/shop/englisch-deutsch/a-christmas-carol-ein-weihnachtslied/",
+    "c": "#d1c7a9",
+    "square": false,
+    "series": "Klassiker",
+    "sale": false
+   },
+   {
+    "title": "Pride and Prejudice",
+    "de": "Stolz und Vorurteil – Teil 1",
+    "author": "Jane Austen",
+    "level": null,
+    "lang": "en",
+    "from": 14.99,
+    "to": 40.99,
+    "img": "assets/covers/austen_pride_and_prejudice_part1-1-240x360.webp",
+    "url": "https://easyoriginal.com/shop/englisch-deutsch/pride-and-prejudice-stolz-und-vorurteil-teil-1/",
+    "c": "#247e42",
+    "square": false,
+    "series": "Klassiker",
+    "sale": false
+   },
+   {
+    "title": "The Roaming Rocks",
+    "de": "Die wandernden Steine",
+    "author": null,
+    "level": "A1–A2",
+    "lang": "en",
+    "from": 6.99,
+    "to": 15.99,
+    "img": "assets/covers/The_Roaming_Rocks_printcover-240x360.webp",
+    "url": "https://easyoriginal.com/shop/modern-englisch-frank-a1-a2/the-roaming-rocks-die-wandernden-steine/",
+    "c": "#212624",
+    "square": false,
+    "series": "Moderne Lektüre",
+    "sale": false
+   }
+  ],
+  "fr": [
+   {
+    "title": "L’Arrestation d’Arsène Lupin",
+    "de": "Die Verhaftung von Arsène Lupin",
+    "author": "Maurice Leblanc",
+    "level": null,
+    "lang": "fr",
+    "from": 9.99,
+    "to": 20.99,
+    "img": "assets/covers/leblanc_larrestation_darsene_lupin_cover-2-240x360.webp",
+    "url": "https://easyoriginal.com/shop/franzoesisch-deutsch/arsene-lupin-1-larrestation-darsene-lupin-die-verhaftung-von-arsene-lupin/",
+    "c": "#9662a5",
+    "square": false,
+    "series": null,
+    "sale": false
+   },
+   {
+    "title": "Le Mystère de la Lavande Bleue",
+    "de": "Das Geheimnis der blauen Lavendel",
+    "author": null,
+    "level": "A2–B1",
+    "lang": "fr",
+    "from": 6.99,
+    "to": 15.99,
+    "img": "assets/covers/Le-Mystere-de-la-Lavande-Bleue_printcover-240x360.webp",
+    "url": "https://easyoriginal.com/shop/modern-franzoesisch-frank/le-mystere-de-la-lavande-bleue-das-geheimnis-der-blauen-lavendel/",
+    "c": "#4d6ca9",
+    "square": false,
+    "series": null,
+    "sale": false
+   },
+   {
+    "title": "Le Cheval Blanc de Camargue",
+    "de": "Das weiße Pferd der Camargue",
+    "author": null,
+    "level": null,
+    "lang": "fr",
+    "from": 7.99,
+    "to": 17.99,
+    "img": "assets/covers/Le_cheval_blanc_de_camargue_printcover-240x360.webp",
+    "url": "https://easyoriginal.com/shop/franzoesisch-lustige-kurzgeschichten-frank-a1-a2/le-cheval-blanc-de-camargue-das-weisse-pferd-der-camargue/",
+    "c": "#beaba1",
+    "square": false,
+    "series": null,
+    "sale": null
+   }
+  ],
+  "it": [
+   {
+    "title": "La Guerra del Gelato",
+    "de": "Der Krieg um das Eis",
+    "author": null,
+    "level": null,
+    "lang": "it",
+    "from": 6.99,
+    "to": 15.99,
+    "img": "assets/covers/La_Guerra_del_Gelato_printcover-240x360.webp",
+    "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/la-guerra-del-gelato-der-krieg-um-das-eis/",
+    "c": "#5e303e",
+    "square": false,
+    "series": null,
+    "sale": null
+   },
+   {
+    "title": "L’Asino di Positano",
+    "de": "Der Esel von Positano",
+    "author": null,
+    "level": null,
+    "lang": "it",
+    "from": 7.99,
+    "to": 17.99,
+    "img": "assets/covers/LAsino_di_Positano_printcover-240x360.webp",
+    "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/lasino-di-positano-der-esel-von-positano/",
+    "c": "#b18e67",
+    "square": false,
+    "series": null,
+    "sale": null
+   },
+   {
+    "title": "Il cinema sotto le stelle",
+    "de": "Das Kino unter den Sternen",
+    "author": null,
+    "level": null,
+    "lang": "it",
+    "from": 7.99,
+    "to": 17.99,
+    "img": "assets/covers/Il_cinema_sotto_le_stelle_printcover-240x360.webp",
+    "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/il-cinema-sotto-le-stelle-das-kino-unter-den-sternen/",
+    "c": "#efc568",
+    "square": false,
+    "series": null,
+    "sale": null
+   }
+  ],
+  "es": [
+   {
+    "title": "Los Diamantes Desaparecidos",
+    "de": "Die verschwundenen Diamanten",
+    "author": null,
+    "level": "A1–A2",
+    "lang": "es",
+    "from": 6.99,
+    "to": 15.99,
+    "img": "assets/covers/Los-Diamantes-Desaparecidos_printcover-240x360.webp",
+    "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/los-diamantes-desaparecidos-die-verschwundenen-diamanten/",
+    "c": "#d8b599",
+    "square": false,
+    "series": null,
+    "sale": false
+   },
+   {
+    "title": "La Serenata de los Gatos",
+    "de": "Das Katzenkonzert",
+    "author": null,
+    "level": "A1–A2",
+    "lang": "es",
+    "from": 5.99,
+    "to": 14.99,
+    "img": "assets/covers/La-Serenata-de-los-Gatos_printcover-240x360.webp",
+    "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/la-serenata-de-los-gatos-das-katzenkonzert/",
+    "c": "#7a5151",
+    "square": false,
+    "series": null,
+    "sale": false
+   },
+   {
+    "title": "El Enigma del Fuego Azul",
+    "de": "Das Rätsel des Blauen Feuers",
+    "author": null,
+    "level": "A1–A2",
+    "lang": "es",
+    "from": 6.99,
+    "to": 15.99,
+    "img": "assets/covers/El-Enigma-del-Fuego-Azul_printcover-240x360.webp",
+    "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/el-enigma-del-fuego-azul-das-raetsel-des-blauen-feuers/",
+    "c": "#ab8d60",
+    "square": false,
+    "series": null,
+    "sale": false
+   }
+  ],
+  "ru": [
+   {
+    "title": "Anna na scheje",
+    "de": "Anna am Halse",
+    "author": "Anton Tschechow",
+    "level": null,
+    "lang": "ru",
+    "from": 7.99,
+    "to": 17.99,
+    "img": "assets/covers/Tschechow_Anna_am_Hals_printcover_2024-240x360.webp",
+    "url": "https://easyoriginal.com/shop/russisch-deutsch/anna-na-scheje-anna-am-halse/",
+    "c": "#5b483e",
+    "square": false,
+    "series": null,
+    "sale": false
+   },
+   {
+    "title": "Pikovaya Dama",
+    "de": "Pique Dame",
+    "author": "Alexander Puschkin",
+    "level": null,
+    "lang": "ru",
+    "from": 12.99,
+    "to": 24.99,
+    "img": "assets/covers/puschkin_pique_dame_cover_2024-240x360.webp",
+    "url": "https://easyoriginal.com/shop/russisch-deutsch/pikovaya-dama-pique-dame/",
+    "c": "#31271c",
+    "square": false,
+    "series": null,
+    "sale": null
+   },
+   {
+    "title": "Nos",
+    "de": "Die Nase",
+    "author": "Nikolai Gogol",
+    "level": null,
+    "lang": "ru",
+    "from": 12.99,
+    "to": 24.99,
+    "img": "assets/covers/gogol_nos_cover_2024-240x360.webp",
+    "url": "https://easyoriginal.com/shop/russisch-deutsch/nos-die-nase/",
+    "c": "#233c4d",
+    "square": false,
+    "series": null,
+    "sale": null
+   }
+  ],
+  "de": [
+   {
+    "title": "Späte Rosen",
+    "de": "Late Roses",
+    "author": "Theodor Storm",
+    "level": null,
+    "lang": "de",
+    "from": 7.99,
+    "to": 17.99,
+    "img": "assets/covers/Storm_Spaete_Rosen_EN_printcover-240x360.webp",
+    "url": "https://easyoriginal.com/shop/deutsch-englisch/spaete-rosen-late-roses/",
+    "c": "#3b7269",
+    "square": false,
+    "series": null,
+    "sale": null
+   }
+  ]
+ },
+ "spines": [
+  {
+   "title": "Pride and Prejudice",
+   "de": "Stolz und Vorurteil – Teil 1",
+   "author": "Jane Austen",
+   "level": null,
+   "lang": "en",
+   "from": 14.99,
+   "to": 40.99,
+   "img": "assets/covers/austen_pride_and_prejudice_part1-1-240x360.webp",
+   "url": "https://easyoriginal.com/shop/englisch-deutsch/pride-and-prejudice-stolz-und-vorurteil-teil-1/",
+   "c": "#247e42",
+   "square": false,
+   "series": "Klassiker",
+   "sale": false,
+   "h": 181,
+   "w": 50
+  },
+  {
+   "title": "L’Arrestation d’Arsène Lupin",
+   "de": "Die Verhaftung von Arsène Lupin",
+   "author": "Maurice Leblanc",
+   "level": null,
+   "lang": "fr",
+   "from": 9.99,
+   "to": 20.99,
+   "img": "assets/covers/leblanc_larrestation_darsene_lupin_cover-2-240x360.webp",
+   "url": "https://easyoriginal.com/shop/franzoesisch-deutsch/arsene-lupin-1-larrestation-darsene-lupin-die-verhaftung-von-arsene-lupin/",
+   "c": "#9662a5",
+   "square": false,
+   "series": null,
+   "sale": false,
+   "h": 201,
+   "w": 41
+  },
+  {
+   "title": "La Guerra del Gelato",
+   "de": "Der Krieg um das Eis",
+   "author": null,
+   "level": null,
+   "lang": "it",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/La_Guerra_del_Gelato_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/la-guerra-del-gelato-der-krieg-um-das-eis/",
+   "c": "#5e303e",
+   "square": false,
+   "series": null,
+   "sale": null,
+   "h": 192,
+   "w": 36
+  },
+  {
+   "title": "A Christmas Carol",
+   "de": "Ein Weihnachtslied",
+   "author": "Charles Dickens",
+   "level": null,
+   "lang": "en",
+   "from": 17.99,
+   "to": 46.99,
+   "img": "assets/covers/dickens_a_christmas_carol_cover_2025-240x360.webp",
+   "url": "https://easyoriginal.com/shop/englisch-deutsch/a-christmas-carol-ein-weihnachtslied/",
+   "c": "#d1c7a9",
+   "square": false,
+   "series": "Klassiker",
+   "sale": false,
+   "h": 153,
+   "w": 50
+  },
+  {
+   "title": "Anna na scheje",
+   "de": "Anna am Halse",
+   "author": "Anton Tschechow",
+   "level": null,
+   "lang": "ru",
+   "from": 7.99,
+   "to": 17.99,
+   "img": "assets/covers/Tschechow_Anna_am_Hals_printcover_2024-240x360.webp",
+   "url": "https://easyoriginal.com/shop/russisch-deutsch/anna-na-scheje-anna-am-halse/",
+   "c": "#5b483e",
+   "square": false,
+   "series": null,
+   "sale": false,
+   "h": 159,
+   "w": 38
+  },
+  {
+   "title": "Los Diamantes Desaparecidos",
+   "de": "Die verschwundenen Diamanten",
+   "author": null,
+   "level": "A1–A2",
+   "lang": "es",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/Los-Diamantes-Desaparecidos_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/los-diamantes-desaparecidos-die-verschwundenen-diamanten/",
+   "c": "#d8b599",
+   "square": false,
+   "series": null,
+   "sale": false,
+   "h": 196,
+   "w": 36
+  },
+  {
+   "title": "The Canterville Ghost",
+   "de": "Das Gespenst von Canterville",
+   "author": "Oscar Wilde",
+   "level": null,
+   "lang": "en",
+   "from": 12.99,
+   "to": 24.99,
+   "img": "assets/covers/wilde_the_canterville_ghost_cover_2024-240x360.webp",
+   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-canterville-ghost-das-gespenst-von-canterville/",
+   "c": "#667c70",
+   "square": false,
+   "series": "Klassiker",
+   "sale": false,
+   "h": 184,
+   "w": 44
+  },
+  {
+   "title": "Le Mystère de la Lavande Bleue",
+   "de": "Das Geheimnis der blauen Lavendel",
+   "author": null,
+   "level": "A2–B1",
+   "lang": "fr",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/Le-Mystere-de-la-Lavande-Bleue_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-franzoesisch-frank/le-mystere-de-la-lavande-bleue-das-geheimnis-der-blauen-lavendel/",
+   "c": "#4d6ca9",
+   "square": false,
+   "series": null,
+   "sale": false,
+   "h": 151,
+   "w": 36
+  },
+  {
+   "title": "Pikovaya Dama",
+   "de": "Pique Dame",
+   "author": "Alexander Puschkin",
+   "level": null,
+   "lang": "ru",
+   "from": 12.99,
+   "to": 24.99,
+   "img": "assets/covers/puschkin_pique_dame_cover_2024-240x360.webp",
+   "url": "https://easyoriginal.com/shop/russisch-deutsch/pikovaya-dama-pique-dame/",
+   "c": "#31271c",
+   "square": false,
+   "series": null,
+   "sale": null,
+   "h": 188,
+   "w": 44
+  },
+  {
+   "title": "Alice’s Adventures in Wonderland",
+   "de": "Alice’ Abenteuer im Wunderland",
+   "author": "Lewis Carroll",
+   "level": null,
+   "lang": "en",
+   "from": 15.99,
+   "to": 44.99,
+   "img": "assets/covers/carroll_alices_adventures_in_wonderland_cover_2025-240x360.webp",
+   "url": "https://easyoriginal.com/shop/englisch-deutsch/alices-adventures-in-wonderland-alice-abenteuer-im-wunderland/",
+   "c": "#cfc9b3",
+   "square": false,
+   "series": "Klassiker",
+   "sale": false,
+   "h": 160,
+   "w": 50
+  },
+  {
+   "title": "L’Asino di Positano",
+   "de": "Der Esel von Positano",
+   "author": null,
+   "level": null,
+   "lang": "it",
+   "from": 7.99,
+   "to": 17.99,
+   "img": "assets/covers/LAsino_di_Positano_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/lasino-di-positano-der-esel-von-positano/",
+   "c": "#b18e67",
+   "square": false,
+   "series": null,
+   "sale": null,
+   "h": 156,
+   "w": 38
+  },
+  {
+   "title": "The Red-headed League",
+   "de": "Die Liga der Rothaarigen",
+   "author": "Arthur Conan Doyle",
+   "level": null,
+   "lang": "en",
+   "from": 9.99,
+   "to": 20.99,
+   "img": "assets/covers/doyle_the_red_headed_league_cover-2-240x360.webp",
+   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-red-headed-league-die-liga-der-rothaarigen/",
+   "c": "#247e42",
+   "square": false,
+   "series": "Klassiker",
+   "sale": false,
+   "h": 171,
+   "w": 41
+  },
+  {
+   "title": "La Serenata de los Gatos",
+   "de": "Das Katzenkonzert",
+   "author": null,
+   "level": "A1–A2",
+   "lang": "es",
+   "from": 5.99,
+   "to": 14.99,
+   "img": "assets/covers/La-Serenata-de-los-Gatos_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/la-serenata-de-los-gatos-das-katzenkonzert/",
+   "c": "#7a5151",
+   "square": false,
+   "series": null,
+   "sale": false,
+   "h": 192,
+   "w": 35
+  },
+  {
+   "title": "Nos",
+   "de": "Die Nase",
+   "author": "Nikolai Gogol",
+   "level": null,
+   "lang": "ru",
+   "from": 12.99,
+   "to": 24.99,
+   "img": "assets/covers/gogol_nos_cover_2024-240x360.webp",
+   "url": "https://easyoriginal.com/shop/russisch-deutsch/nos-die-nase/",
+   "c": "#233c4d",
+   "square": false,
+   "series": null,
+   "sale": null,
+   "h": 169,
+   "w": 44
+  },
+  {
+   "title": "The Roaming Rocks",
+   "de": "Die wandernden Steine",
+   "author": null,
+   "level": "A1–A2",
+   "lang": "en",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/The_Roaming_Rocks_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-englisch-frank-a1-a2/the-roaming-rocks-die-wandernden-steine/",
+   "c": "#212624",
+   "square": false,
+   "series": "Moderne Lektüre",
+   "sale": false,
+   "h": 168,
+   "w": 36
+  },
+  {
+   "title": "Le parfum de la mémoire perdue",
+   "de": "Der Duft der verlorenen Erinnerung",
+   "author": null,
+   "level": "A1–A2",
+   "lang": "fr",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/Le_parfum_de_la_memoire_perdue_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-franzoesisch-frank-a1-a2/le-parfum-de-la-memoire-perdue-der-duft-der-verlorenen-erinnerung/",
+   "c": "#a0b2bd",
+   "square": false,
+   "series": null,
+   "sale": false,
+   "h": 185,
+   "w": 36
+  },
+  {
+   "title": "Animal Farm",
+   "de": "Farm der Tiere – Teil 1",
+   "author": "George Orwell",
+   "level": null,
+   "lang": "en",
+   "from": 14.99,
+   "to": 30.99,
+   "img": "assets/covers/Orwell_Animal_Farm_1_printcover_2025-240x360.webp",
+   "url": "https://easyoriginal.com/shop/englisch-deutsch/animal-farm-farm-der-tiere-teil-1/",
+   "c": "#aa3841",
+   "square": false,
+   "series": "Klassiker",
+   "sale": false,
+   "h": 174,
+   "w": 50
+  },
+  {
+   "title": "Il cinema sotto le stelle",
+   "de": "Das Kino unter den Sternen",
+   "author": null,
+   "level": null,
+   "lang": "it",
+   "from": 7.99,
+   "to": 17.99,
+   "img": "assets/covers/Il_cinema_sotto_le_stelle_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/il-cinema-sotto-le-stelle-das-kino-unter-den-sternen/",
+   "c": "#efc568",
+   "square": false,
+   "series": null,
+   "sale": null,
+   "h": 180,
+   "w": 38
+  },
+  {
+   "title": "El Enigma del Fuego Azul",
+   "de": "Das Rätsel des Blauen Feuers",
+   "author": null,
+   "level": "A1–A2",
+   "lang": "es",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/El-Enigma-del-Fuego-Azul_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/el-enigma-del-fuego-azul-das-raetsel-des-blauen-feuers/",
+   "c": "#ab8d60",
+   "square": false,
+   "series": null,
+   "sale": false,
+   "h": 181,
+   "w": 36
+  },
+  {
+   "title": "Dama s Sobatschkoi",
+   "de": "Die Dame mit dem Hündchen",
+   "author": "Anton Tschechow",
+   "level": null,
+   "lang": "ru",
+   "from": 9.99,
+   "to": 20.99,
+   "img": "assets/covers/tschechow_dama_s_sobatschkoi_cover_2024-240x360.webp",
+   "url": "https://easyoriginal.com/shop/russisch-deutsch/dama-s-sobatschkoi-die-dame-mit-dem-huendchen/",
+   "c": "#776252",
+   "square": false,
+   "series": null,
+   "sale": null,
+   "h": 166,
+   "w": 41
+  },
+  {
+   "title": "The Great Gatsby",
+   "de": "Der große Gatsby – Teil 1",
+   "author": "F. Scott Fitzgerald",
+   "level": null,
+   "lang": "en",
+   "from": 15.99,
+   "to": 33.99,
+   "img": "assets/covers/Fitzgerald_The_Great_Gatsby_part1_printcover_2025-240x360.webp",
+   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-great-gatsby-der-grosse-gatsby-teil-1/",
+   "c": "#cb0f6c",
+   "square": false,
+   "series": "Klassiker",
+   "sale": false,
+   "h": 160,
+   "w": 50
+  },
+  {
+   "title": "Le Diamant Noir",
+   "de": "Der schwarze Diamant",
+   "author": null,
+   "level": null,
+   "lang": "fr",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/Le_Diamant_Noir_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-franzoesisch-frank-a1-a2/le-diamant-noir-der-schwarze-diamant/",
+   "c": "#cebdb3",
+   "square": false,
+   "series": null,
+   "sale": null,
+   "h": 150,
+   "w": 36
+  },
+  {
+   "title": "The Black Cat",
+   "de": "Der schwarze Kater",
+   "author": "Edgar Allan Poe",
+   "level": null,
+   "lang": "en",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/poe_the_black_cat_cover_2024-240x360.webp",
+   "url": "https://easyoriginal.com/shop/englisch-deutsch/the-black-cat-der-schwarze-kater/",
+   "c": "#73a39f",
+   "square": false,
+   "series": "Klassiker",
+   "sale": false,
+   "h": 188,
+   "w": 36
+  },
+  {
+   "title": "Sombras del Flamenco",
+   "de": "Schatten des Flamenco",
+   "author": null,
+   "level": null,
+   "lang": "es",
+   "from": 9.99,
+   "to": 20.99,
+   "img": "assets/covers/Sombras_del_Flamenco_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank/sombras-del-flamenco-schatten-des-flamenco/",
+   "c": "#612b27",
+   "square": false,
+   "series": null,
+   "sale": null,
+   "h": 189,
+   "w": 41
+  },
+  {
+   "title": "Pervaja ljubov",
+   "de": "Erste Liebe",
+   "author": "Iwan Turgenew",
+   "level": null,
+   "lang": "ru",
+   "from": 15.99,
+   "to": 44.99,
+   "img": "assets/covers/turgenew_pervaja_ljubov_cover-1-240x360.webp",
+   "url": "https://easyoriginal.com/shop/russisch-deutsch/pervaja-ljubov-erste-liebe/",
+   "c": "#0f7199",
+   "square": false,
+   "series": null,
+   "sale": null,
+   "h": 199,
+   "w": 50
+  },
+  {
+   "title": "The Lighthouse Shadow",
+   "de": "Der Leuchtturmschatten",
+   "author": null,
+   "level": "A2–B1",
+   "lang": "en",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/The-Lighthouse-Shadow_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-englisch-frank/the-lighthouse-shadow-der-leuchtturmschatten/",
+   "c": "#3a786d",
+   "square": false,
+   "series": "Moderne Lektüre",
+   "sale": false,
+   "h": 201,
+   "w": 36
+  },
+  {
+   "title": "Il siero rubato",
+   "de": "Das gestohlene Serum",
+   "author": null,
+   "level": null,
+   "lang": "it",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/Il_Siero_Rubato_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-italienisch-frank-a1-a2/il-siero-rubato-das-gestohlene-serum/",
+   "c": "#95745c",
+   "square": false,
+   "series": null,
+   "sale": null,
+   "h": 191,
+   "w": 36
+  },
+  {
+   "title": "La Vague mortelle",
+   "de": "Die tödliche Welle",
+   "author": null,
+   "level": null,
+   "lang": "fr",
+   "from": 7.99,
+   "to": 17.99,
+   "img": "assets/covers/La-Vague-Mortelle_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-franzoesisch-frank/la-vague-mortelle-die-toedliche-welle/",
+   "c": "#c47d51",
+   "square": false,
+   "series": null,
+   "sale": null,
+   "h": 170,
+   "w": 38
+  },
+  {
+   "title": "Späte Rosen",
+   "de": "Late Roses",
+   "author": "Theodor Storm",
+   "level": null,
+   "lang": "de",
+   "from": 7.99,
+   "to": 17.99,
+   "img": "assets/covers/Storm_Spaete_Rosen_EN_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/deutsch-englisch/spaete-rosen-late-roses/",
+   "c": "#3b7269",
+   "square": false,
+   "series": null,
+   "sale": null,
+   "h": 191,
+   "w": 38
+  },
+  {
+   "title": "Tobermory",
+   "de": null,
+   "author": "Saki",
+   "level": null,
+   "lang": "en",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/saki_tobermory_printcover-1-240x360.webp",
+   "url": "https://easyoriginal.com/shop/englisch-deutsch/tobermory/",
+   "c": "#4e3420",
+   "square": false,
+   "series": "Klassiker",
+   "sale": false,
+   "h": 165,
+   "w": 36
+  }
+ ],
+ "marquee": [
+  {
+   "title": "La Guerra del Gelato",
+   "de": "Der Krieg um das Eis",
+   "author": null,
+   "level": null,
+   "lang": "it",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/La_Guerra_del_Gelato_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/la-guerra-del-gelato-der-krieg-um-das-eis/",
+   "c": "#5e303e",
+   "square": false,
+   "series": null,
+   "sale": null
+  },
+  {
+   "title": "The Roaming Rocks",
+   "de": "Die wandernden Steine",
+   "author": null,
+   "level": "A1–A2",
+   "lang": "en",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/The_Roaming_Rocks_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-englisch-frank-a1-a2/the-roaming-rocks-die-wandernden-steine/",
+   "c": "#212624",
+   "square": false,
+   "series": "Moderne Lektüre",
+   "sale": false
+  },
+  {
+   "title": "Le Cheval Blanc de Camargue",
+   "de": "Das weiße Pferd der Camargue",
+   "author": null,
+   "level": null,
+   "lang": "fr",
+   "from": 7.99,
+   "to": 17.99,
+   "img": "assets/covers/Le_cheval_blanc_de_camargue_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/franzoesisch-lustige-kurzgeschichten-frank-a1-a2/le-cheval-blanc-de-camargue-das-weisse-pferd-der-camargue/",
+   "c": "#beaba1",
+   "square": false,
+   "series": null,
+   "sale": null
+  },
+  {
+   "title": "Los Diamantes Desaparecidos",
+   "de": "Die verschwundenen Diamanten",
+   "author": null,
+   "level": "A1–A2",
+   "lang": "es",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/Los-Diamantes-Desaparecidos_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/los-diamantes-desaparecidos-die-verschwundenen-diamanten/",
+   "c": "#d8b599",
+   "square": false,
+   "series": null,
+   "sale": false
+  },
+  {
+   "title": "Pikovaya Dama",
+   "de": "Pique Dame",
+   "author": "Alexander Puschkin",
+   "level": null,
+   "lang": "ru",
+   "from": 12.99,
+   "to": 24.99,
+   "img": "assets/covers/puschkin_pique_dame_cover_2024-240x360.webp",
+   "url": "https://easyoriginal.com/shop/russisch-deutsch/pikovaya-dama-pique-dame/",
+   "c": "#31271c",
+   "square": false,
+   "series": null,
+   "sale": null
+  },
+  {
+   "title": "Storie di cani",
+   "de": "Hundegeschichten",
+   "author": null,
+   "level": null,
+   "lang": "it",
+   "from": 7.99,
+   "to": 17.99,
+   "img": "assets/covers/Storie_di_cani_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/storie-di-cani-hundegeschichten/",
+   "c": "#c1d9d1",
+   "square": false,
+   "series": null,
+   "sale": null
+  },
+  {
+   "title": "Nine Lives in the Bookshop",
+   "de": "Neun Leben in der Buchhandlung",
+   "author": null,
+   "level": "A1–A2",
+   "lang": "en",
+   "from": 7.99,
+   "to": 17.99,
+   "img": "assets/covers/Nine_Lives_in_the_Bookshop_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/englisch-lustige-kurzgeschichtenfrank-a1-a2/nine-lives-in-the-bookshop-neun-leben-in-der-buchhandlung/",
+   "c": "#b68255",
+   "square": false,
+   "series": "Kurzgeschichten",
+   "sale": false
+  },
+  {
+   "title": "La Marmotte des Alpes",
+   "de": "Das Murmeltier aus den Alpen",
+   "author": null,
+   "level": null,
+   "lang": "fr",
+   "from": 7.99,
+   "to": 17.99,
+   "img": "assets/covers/La_Marmotte_des_Alpes_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/franzoesisch-lustige-kurzgeschichten-frank-a1-a2/la-marmotte-des-alpes-das-murmeltier-aus-den-alpen/",
+   "c": "#7fc1ea",
+   "square": false,
+   "series": null,
+   "sale": null
+  },
+  {
+   "title": "La Serenata de los Gatos",
+   "de": "Das Katzenkonzert",
+   "author": null,
+   "level": "A1–A2",
+   "lang": "es",
+   "from": 5.99,
+   "to": 14.99,
+   "img": "assets/covers/La-Serenata-de-los-Gatos_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/la-serenata-de-los-gatos-das-katzenkonzert/",
+   "c": "#7a5151",
+   "square": false,
+   "series": null,
+   "sale": false
+  },
+  {
+   "title": "The Whippet Who Wouldn’t Walk",
+   "de": "Der Whippet, der nicht laufen wollte",
+   "author": null,
+   "level": "A1–A2",
+   "lang": "en",
+   "from": 7.99,
+   "to": 19.99,
+   "img": "assets/covers/The_Whippet_Who_Wouldnt_Walk_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/englisch-lustige-kurzgeschichtenfrank-a1-a2/the-whippet-who-wouldnt-walk-der-whippet-der-nicht-laufen-wollte/",
+   "c": "#6a4c3f",
+   "square": false,
+   "series": "Kurzgeschichten",
+   "sale": false
+  },
+  {
+   "title": "L’Asino di Positano",
+   "de": "Der Esel von Positano",
+   "author": null,
+   "level": null,
+   "lang": "it",
+   "from": 7.99,
+   "to": 17.99,
+   "img": "assets/covers/LAsino_di_Positano_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/lasino-di-positano-der-esel-von-positano/",
+   "c": "#b18e67",
+   "square": false,
+   "series": null,
+   "sale": null
+  },
+  {
+   "title": "El Misterio del Eco Perdido",
+   "de": "Das Geheimnis des verlorenen Echos",
+   "author": null,
+   "level": null,
+   "lang": "es",
+   "from": 5.99,
+   "to": 14.99,
+   "img": "assets/covers/El-Misterio-del-Eco-Perdido_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank-a1-a2/el-misterio-del-eco-perdido-das-geheimnis-des-verlorenen-echos/",
+   "c": "#bf7d66",
+   "square": false,
+   "series": null,
+   "sale": null
+  },
+  {
+   "title": "The Therapy Alpacas of Truro",
+   "de": "Die Therapie-Alpakas von Truro",
+   "author": null,
+   "level": "A2–B1",
+   "lang": "en",
+   "from": 7.99,
+   "to": 17.99,
+   "img": "assets/covers/Therapy_Alpacas_of_Truro_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/englisch-lustige-kurzgeschichtenfrank-a2-b1/the-therapy-alpacas-of-truro-die-therapie-alpakas-von-truro/",
+   "c": "#866732",
+   "square": false,
+   "series": "Kurzgeschichten",
+   "sale": false
+  },
+  {
+   "title": "La scuola dei pappagalli",
+   "de": "Die Schule der Papageien",
+   "author": null,
+   "level": null,
+   "lang": "it",
+   "from": 7.99,
+   "to": 17.99,
+   "img": "assets/covers/La_Scuola_dei_Pappagalli_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/la-scuola-dei-pappagalli-die-schule-der-papageien/",
+   "c": "#7ed7f6",
+   "square": false,
+   "series": null,
+   "sale": null
+  },
+  {
+   "title": "Alice’s Adventures in Wonderland",
+   "de": "Alice’ Abenteuer im Wunderland",
+   "author": "Lewis Carroll",
+   "level": null,
+   "lang": "en",
+   "from": 15.99,
+   "to": 44.99,
+   "img": "assets/covers/carroll_alices_adventures_in_wonderland_cover_2025-240x360.webp",
+   "url": "https://easyoriginal.com/shop/englisch-deutsch/alices-adventures-in-wonderland-alice-abenteuer-im-wunderland/",
+   "c": "#cfc9b3",
+   "square": false,
+   "series": "Klassiker",
+   "sale": false
+  },
+  {
+   "title": "Le Mystère de la Lavande Bleue",
+   "de": "Das Geheimnis der blauen Lavendel",
+   "author": null,
+   "level": "A2–B1",
+   "lang": "fr",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/Le-Mystere-de-la-Lavande-Bleue_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-franzoesisch-frank/le-mystere-de-la-lavande-bleue-das-geheimnis-der-blauen-lavendel/",
+   "c": "#4d6ca9",
+   "square": false,
+   "series": null,
+   "sale": false
+  },
+  {
+   "title": "Veneno en el viñedo",
+   "de": "Gift im Weinberg",
+   "author": null,
+   "level": null,
+   "lang": "es",
+   "from": 9.99,
+   "to": 20.99,
+   "img": "assets/covers/Veneno_en_el_Vinedo_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-spanisch-frank/veneno-en-el-vinedo-gift-im-weinberg/",
+   "c": "#643933",
+   "square": false,
+   "series": null,
+   "sale": null
+  },
+  {
+   "title": "The Midnight Moonflower",
+   "de": "Die Mitternachts-Mondblume",
+   "author": null,
+   "level": "A1–A2",
+   "lang": "en",
+   "from": 6.99,
+   "to": 15.99,
+   "img": "assets/covers/The_Midnight_Moonflower_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/modern-englisch-frank-a1-a2/the-midnight-moonflower-die-mitternachts-mondblume/",
+   "c": "#8c9598",
+   "square": false,
+   "series": "Moderne Lektüre",
+   "sale": false
+  },
+  {
+   "title": "Nos",
+   "de": "Die Nase",
+   "author": "Nikolai Gogol",
+   "level": null,
+   "lang": "ru",
+   "from": 12.99,
+   "to": 24.99,
+   "img": "assets/covers/gogol_nos_cover_2024-240x360.webp",
+   "url": "https://easyoriginal.com/shop/russisch-deutsch/nos-die-nase/",
+   "c": "#233c4d",
+   "square": false,
+   "series": null,
+   "sale": null
+  },
+  {
+   "title": "Il cinema sotto le stelle",
+   "de": "Das Kino unter den Sternen",
+   "author": null,
+   "level": null,
+   "lang": "it",
+   "from": 7.99,
+   "to": 17.99,
+   "img": "assets/covers/Il_cinema_sotto_le_stelle_printcover-240x360.webp",
+   "url": "https://easyoriginal.com/shop/italienisch-lustige-kurzgeschichtenfrank-a1-a2/il-cinema-sotto-le-stelle-das-kino-unter-den-sternen/",
+   "c": "#efc568",
+   "square": false,
+   "series": null,
+   "sale": null
+  }
+ ]
+};

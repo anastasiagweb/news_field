@@ -1,0 +1,19 @@
+  <meta name="theme-color" content="#f7f1e6">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/skin-buch.css">
+  <link rel="stylesheet" href="assets/css/skin-journal.css">
+  <link rel="stylesheet" href="assets/css/skin-bunt.css">
+  <script>
+    /* Design-Variante (nur Prototyp): ?v=buch|journal|bunt – wird im Browser gemerkt.
+       Im WordPress-Theme wird die Variante im Customizer gewählt. */
+    (function () {
+      var d = document.documentElement, v;
+      d.className += ' js';
+      try { v = new URLSearchParams(location.search).get('v') || localStorage.getItem('eo-skin'); } catch (e) {}
+      if (['buch', 'journal', 'bunt'].indexOf(v) < 0) v = 'buch';
+      d.setAttribute('data-skin', v);
+    })();
+  </script>

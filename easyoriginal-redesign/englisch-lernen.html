@@ -1,16 +1,30 @@
 <!doctype html>
 <!-- Generiert aus _src/englisch-lernen.html – bitte dort bearbeiten und `python3 build.py` ausführen. -->
-<html lang="de">
+<html lang="de" data-skin="buch">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Englisch lernen mit zweisprachigen Büchern | easyOriginal</title>
   <meta name="description" content="Zweisprachige Bücher Englisch–Deutsch nach der Frank-Lesemethode: moderne Krimis ab A1, Kurzgeschichten und Klassiker wie Jane Austen und Sherlock Holmes im Original.">
-  <meta name="theme-color" content="#fbf8f2">
+  <meta name="theme-color" content="#f7f1e6">
   <link rel="icon" href="assets/img/favicon.png">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="stylesheet" href="assets/css/fonts.css">
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/skin-buch.css">
+  <link rel="stylesheet" href="assets/css/skin-journal.css">
+  <link rel="stylesheet" href="assets/css/skin-bunt.css">
+  <script>
+    /* Design-Variante (nur Prototyp): ?v=buch|journal|bunt – wird im Browser gemerkt.
+       Im WordPress-Theme wird die Variante im Customizer gewählt. */
+    (function () {
+      var d = document.documentElement, v;
+      d.className += ' js';
+      try { v = new URLSearchParams(location.search).get('v') || localStorage.getItem('eo-skin'); } catch (e) {}
+      if (['buch', 'journal', 'bunt'].indexOf(v) < 0) v = 'buch';
+      d.setAttribute('data-skin', v);
+    })();
+  </script>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -32,6 +46,8 @@
     <symbol id="i-file" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M6.5 3h7.5l4.5 4.5V21h-12z"/><path d="M14 3v4.5h4.5M9.5 13h5M9.5 16.5h5"/></symbol>
     <symbol id="i-headphones" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="5" height="7" rx="1.5"/><rect x="16" y="14" width="5" height="7" rx="1.5"/></symbol>
     <symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 6.5C10 5 7 4.5 3.5 5v13.5c3.5-.5 6.5 0 8.5 1.5 2-1.5 5-2 8.5-1.5V5C17 4.5 14 5 12 6.5zM12 6.5V20"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></symbol>
+    <symbol id="i-stairs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M3 20h4v-4h4v-4h4V8h4V4"/><path d="M3 20h18"/></symbol>
     <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M13.5 21v-7.5H16l.5-3h-3V8.6c0-.9.3-1.6 1.6-1.6h1.6V4.3c-.3 0-1.3-.1-2.4-.1-2.4 0-3.9 1.4-3.9 4v2.3H7.7v3h2.6V21z" fill="currentColor"/></symbol>
     <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".9" fill="currentColor" stroke="none"/></symbol>
   </defs>
@@ -383,6 +399,13 @@
     <button class="btn btn--ghost" type="button" data-consent="notwendig">Nur notwendige</button>
     <button class="settings" type="button" data-consent="einstellungen">Einstellungen anpassen</button>
   </div>
+</div>
+
+<div class="skin-switch" role="group" aria-label="Design-Variante (Prototyp)">
+  <span>Design-Variante</span>
+  <button type="button" data-skin-set="buch" aria-pressed="false">A<span class="long"> · Buchhandlung</span></button>
+  <button type="button" data-skin-set="journal" aria-pressed="false">B<span class="long"> · Journal</span></button>
+  <button type="button" data-skin-set="bunt" aria-pressed="false">C<span class="long"> · Bunt</span></button>
 </div>
 
 <script src="assets/js/data.js"></script>

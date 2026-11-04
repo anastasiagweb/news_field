@@ -48,7 +48,7 @@
       (p.to && p.to !== p.from ? '<small>ab</small> ' + euro(p.from) : euro(p.from));
     var ext = href.indexOf('http') === 0 ? ' target="_blank" rel="noopener"' : '';
     return '' +
-      '<article class="card">' +
+      '<article class="card' + (p.lang ? ' lang-' + p.lang : '') + '"' + (p.c ? ' style="--c:' + esc(p.c) + '"' : '') + '>' +
         '<div class="card__media' + (p.square ? ' card__media--square' : '') + '">' +
           (badges ? '<div class="card__badges">' + badges + '</div>' : '') +
           (p.img ? '<img src="' + esc(p.img) + '" alt="" loading="lazy" decoding="async">' : '') +
@@ -318,7 +318,9 @@
     var sticky = $('.sticky-buy');
     if (sticky && 'IntersectionObserver' in window) {
       new IntersectionObserver(function (entries) {
-        sticky.classList.toggle('is-visible', !entries[0].isIntersecting && entries[0].boundingClientRect.top < 0);
+        var on = !entries[0].isIntersecting && entries[0].boundingClientRect.top < 0;
+        sticky.classList.toggle('is-visible', on);
+        document.body.classList.toggle('has-sticky-buy', on && window.matchMedia('(max-width: 960px)').matches);
       }).observe($('.buy', buy));
     }
     update();
@@ -339,6 +341,97 @@
       form.closest('.newsletter').classList.add('is-done');
     });
   });
+
+  /* ---------- Design-Varianten (Prototyp) ---------- */
+  var root = document.documentElement;
+  var setSkin = function (v) {
+    root.setAttribute('data-skin', v);
+    store.set('eo-skin', v);
+    $$('[data-skin-set]').forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-skin-set') === v)); });
+    try {
+      var u = new URL(window.location.href);
+      u.searchParams.set('v', v);
+      history.replaceState(null, '', u.pathname + u.search + u.hash);
+    } catch (e) { /* file:// */ }
+  };
+  $$('[data-skin-set]').forEach(function (b) {
+    b.setAttribute('aria-pressed', String(b.getAttribute('data-skin-set') === root.getAttribute('data-skin')));
+    b.addEventListener('click', function () { setSkin(b.getAttribute('data-skin-set')); });
+  });
+  // Interne Links behalten die gewählte Variante
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href$=".html"], a[href*=".html?"], a[href*=".html#"]');
+    if (!a || a.target) return;
+    var v = root.getAttribute('data-skin');
+    if (v === 'buch') return;
+    var href = a.getAttribute('href');
+    if (/[?&]v=/.test(href)) return;
+    var parts = href.split('#');
+    a.setAttribute('href', parts[0] + (parts[0].indexOf('?') > -1 ? '&' : '?') + 'v=' + v + (parts[1] ? '#' + parts[1] : ''));
+  }, true);
+
+  var SC = window.EO_SHOWCASE;
+
+  /* ---------- Bücherregal: Buchrücken ---------- */
+  var spinesEl = $('#spines');
+  if (spinesEl && SC) {
+    var ink = function (hex) {
+      var n = parseInt(hex.slice(1), 16), r = n >> 16, g = (n >> 8) & 255, b = n & 255;
+      return (0.299 * r + 0.587 * g + 0.114 * b) > 150 ? '#1e1b17' : '#fff8ec';
+    };
+    spinesEl.innerHTML = SC.spines.map(function (p) {
+      var href = LOCAL_PAGES[p.url] || p.url;
+      var lang = LANGS[p.lang] || { code: '' };
+      var label = p.title + (p.author ? ' – ' + p.author : '') + (p.de ? ' (' + p.de + ')' : '');
+      return '<a class="spine lang-' + p.lang + '" href="' + esc(href) + '"' + (href.indexOf('http') === 0 ? ' target="_blank" rel="noopener"' : '') +
+        ' style="--c:' + p.c + ';--spine-ink:' + ink(p.c) + ';--w:' + p.w + 'px;--h:' + p.h + 'px" aria-label="' + esc(label) + '">' +
+        '<span class="spine__title">' + esc(p.title) + '</span><span class="spine__code">' + lang.code + '</span>' +
+        '<span class="spine__peek" aria-hidden="true"><img src="' + esc(p.img) + '" alt="" loading="lazy"><small>' + esc(p.title) + (p.from ? ' · ab ' + euro(p.from) : '') + '</small></span></a>';
+    }).join('');
+  }
+
+  /* ---------- Cover-Laufband ---------- */
+  $$('[data-marquee]').forEach(function (row) {
+    if (!SC) return;
+    var half = Math.ceil(SC.marquee.length / 2);
+    var list = row.getAttribute('data-marquee') === '0' ? SC.marquee.slice(0, half) : SC.marquee.slice(half);
+    var html = list.map(function (p) {
+      return '<a href="' + esc(LOCAL_PAGES[p.url] || p.url) + '" tabindex="-1" target="_blank" rel="noopener"><img src="' + esc(p.img) + '" alt="" loading="lazy"></a>';
+    }).join('');
+    row.innerHTML = html + html; // doppelt für nahtlose Schleife
+  });
+
+  /* ---------- Audio-Wellenform (Dekor) ---------- */
+  $$('.wave').forEach(function (w) {
+    var h = [10, 18, 26, 14, 30, 22, 12, 28, 34, 20, 16, 26, 12, 22, 30, 18, 10, 24, 32, 16, 26, 14, 20, 28, 12, 18, 24, 10];
+    w.innerHTML = h.map(function (x) { return '<span style="height:' + x + 'px"></span>'; }).join('');
+  });
+
+  /* ---------- Einblenden beim Scrollen ---------- */
+  var revealEls = $$('[data-reveal]');
+  if ('IntersectionObserver' in window && revealEls.length) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); } });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    revealEls.forEach(function (el) { io.observe(el); });
+  } else {
+    revealEls.forEach(function (el) { el.classList.add('is-in'); });
+  }
+
+  /* ---------- 3D-Neigung der Cover (nur Maus) ---------- */
+  if (window.matchMedia('(hover: hover) and (prefers-reduced-motion: no-preference)').matches) {
+    document.addEventListener('pointermove', function (e) {
+      var m = e.target.closest && e.target.closest('.card__media');
+      if (!m) return;
+      var r = m.getBoundingClientRect();
+      m.style.setProperty('--ry', ((e.clientX - r.left) / r.width - 0.5) * 14 + 'deg');
+      m.style.setProperty('--rx', (0.5 - (e.clientY - r.top) / r.height) * 10 + 'deg');
+    });
+    document.addEventListener('pointerout', function (e) {
+      var m = e.target.closest && e.target.closest('.card__media');
+      if (m && !m.contains(e.relatedTarget)) { m.style.setProperty('--ry', '0deg'); m.style.setProperty('--rx', '0deg'); }
+    });
+  }
 
   /* ---------- Cookie-Hinweis ---------- */
   var consent = $('#consent');
