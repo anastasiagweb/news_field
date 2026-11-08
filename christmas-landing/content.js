@@ -260,6 +260,70 @@ window.EO = {
           wort:  "https://easyoriginal1.s3.eu-central-1.amazonaws.com/spanisch/s51w/01.mp3"
         }
       }
+    },
+    {
+      code: "en",
+      intro: ["Ein Weihnachtspullover mit eingebauten Glöckchen. Zwei Familien zwischen feiner Lebensart und Karaoke. Eine Theatergruppe, deren Pferd sich nicht auf eine Richtung einigen kann.", "Drei britische Weihnachtskomödien mit je zehn verbundenen Episoden – für gemütliche Lesestunden, neue Lieblingsfiguren und einen unterhaltsamen Einstieg ins englische Lesen."],
+      name: "Englisch",
+      country: "Großbritannien",
+      greeting: "Merry Christmas!",
+      color: "#1E6B41",
+      setName: "Weihnachten in Großbritannien",
+      claim: "Britischer Humor zum Verschenken.",
+      tint: "#7FCB98", cover: "img/cover-en-jumper-frank.webp",
+      places: "Pullover · Dorftheater · Familienfest",
+      set: {
+        frank: { id: 19273, vars: { print: 19275, cd: 19276, pdf: 19277, epub: 19278 } },
+        wort:  { id: 19274, vars: { print: 19279, cd: 19280, pdf: 19281, epub: 19282 } }
+      },
+      gift: {
+        schreibset: "Eleganz der Natur",
+        schreibsetText: "Eine goldschimmernde Blüte, Blütenblätter wie aus Licht gewoben. Drumherum Blätter in Bernstein, Blau und zartem Grün.",
+        schreibsetImg: "img/schreibset-natur.webp",
+        frank: { online: 19289, cd: 19290 },
+        wort:  { online: 19291, cd: 19292 }
+      },
+      books: [
+        { key: "jumper", title: "The Ugliest Jumper in Britain", de: "Der hässlichste Weihnachtspullover Großbritanniens", place: "Familie Fletcher",
+          hook: "Ein Weihnachtspullover, den niemand vergisst.",
+          desc: ["Jedes Jahr im November greift Grandma Maureen zu den Stricknadeln. Die Familienregel lautet: Pullover anziehen, lächeln und sagen, wie schön er ist. Leicht ist das nicht – Maureen liebt gewagte Farben, eigenwillige Motive und Glöckchen, die bei jeder Bewegung klingeln.", "Graham schont die Gefühle seiner Mutter, Onkel Peter plant den Aufstand, und die sechzehnjährige Emily fürchtet das nächste Familienfoto. Dann entdeckt Emily einen Wettbewerb für handgestrickte Weihnachtspullover. Eine heimliche Anmeldung scheint die Lösung – nur lässt sich der Geschmack einer Jury schlecht vorhersagen."],
+          cast: ["Maureen", "Graham", "Peter", "Emily"],
+          frank: { id: 19203, vars: { print: 19207, cd: 19208, pdf: 19209, epub: 19210 } },
+          wort:  { id: 19204, vars: { print: 19211, cd: 19212, pdf: 19213, epub: 19214 } } },
+        { key: "twofam", title: "Two Families, One Christmas", de: "Zwei Familien, ein Weihnachtsfest", place: "Sophie & James",
+          hook: "Eine Familie bringt Dickens mit. Die andere die Karaokeanlage.",
+          desc: ["Sophie und James wünschen sich ein ruhiges erstes gemeinsames Weihnachten. Um niemanden zu enttäuschen, laden sie beide Familien ein: die Harringtons mit klassischer Musik und sorgfältig abgestimmtem Menü, die Brennans mit großen Portionen, lauten Spielen und Karaoke.", "James beginnt vorsichtshalber mit einer Tabelle. Bald ist der Weihnachtsbaum zur Hälfte elegant und zur Hälfte bunt, es gibt zwei Sorten Rosenkohl, einen Streit um Knoblauch – und Nana Pat, die mit einer einzigen Bemerkung jede Sitzordnung durcheinanderbringt."],
+          cast: ["Sophie", "James", "Nana Pat"],
+          frank: { id: 19226, vars: { print: 19228, cd: 19229, pdf: 19230, epub: 19231 } },
+          wort:  { id: 19227, vars: { print: 19232, cd: 19233, pdf: 19234, epub: 19235 } } },
+        { key: "panto", title: "The Christmas Panto", de: "Vorhang auf fürs Weihnachtschaos", place: "Millbrook",
+          hook: "Cinderella möchte zum Ball. Gerald möchte nur die Premiere überleben.",
+          desc: ["Gerald Humphries leitet das Amateurtheater von Millbrook. Dieses Jahr soll die Weihnachtsaufführung von Cinderella endlich nach Plan laufen. Zum Vorsprechen erscheinen sieben Menschen für zwölf Rollen, und Dave soll ausgerechnet die hintere Hälfte eines Pferdes spielen.", "Dann kommt Malcolm, pensionierter Buchhalter, und will unbedingt die böse Stiefmutter spielen – mit Kleid, Perücke und großem Auftritt. Ein Kleid reißt, die Drehbühne funktioniert nur in der Garage ihres Erbauers, und im Pferdekostüm wird über würdevolles Gehen gestritten."],
+          cast: ["Gerald", "Karen", "Brenda", "Dave", "Malcolm"],
+          frank: { id: 19205, vars: { print: 19215, cd: 19216, pdf: 19217, epub: 19218 } },
+          wort:  { id: 19206, vars: { print: 19219, cd: 19220, pdf: 19221, epub: 19222 } } }
+      ],
+      sample: {
+        title: "The First Jumper",
+        frank: [
+          ["Every year", "jedes Jahr"],
+          [", in early November", "Anfang November: „im frühen November“"],
+          [", Grandma Maureen started knitting", "Oma Maureen fing an zu stricken"],
+          [". Nobody asked her to", "niemand bat sie darum"],
+          [". Nobody wanted her to", "niemand wollte, dass sie es tat"],
+          [". But every year", "aber jedes Jahr"],
+          [", like the rain and the dark evenings", "wie der Regen und die dunklen Abende"],
+          [", the knitting began", "das Stricken begann"],
+          [".", null]
+        ],
+        plain: "Every year, in early November, Grandma Maureen started knitting. Nobody asked her to. Nobody wanted her to. But every year, like the rain and the dark evenings, the knitting began.",
+        wort: "Every year, in early November, Grandma Maureen started knitting[2].",
+        notes: [null, "to knit – stricken"],
+        audio: {
+          frank: "https://easyoriginal1.s3.eu-central-1.amazonaws.com/englisch/e104/001.mp3",
+          wort:  "https://easyoriginal1.s3.eu-central-1.amazonaws.com/englisch/e104w/01.mp3"
+        }
+      }
     }
   ],
 

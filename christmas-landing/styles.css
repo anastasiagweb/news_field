@@ -20,6 +20,7 @@
   --it: #C4262E;
   --fr: #7B4699;
   --es: #D2691E;
+  --en: #1E6B41;
   --lang: var(--it);
   --font-display: "DM Serif Display", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
   --font-body: "Manrope", "Segoe UI", system-ui, -apple-system, sans-serif;
@@ -50,7 +51,7 @@ button { font: inherit; color: inherit; }
 
 .script { font-family: var(--font-script); font-weight: 400; }
 .foil { background: var(--foil); -webkit-background-clip: text; background-clip: text; color: transparent; }
-.t-it { color: #F07A80; } .t-fr { color: #CDA2E6; } .t-es { color: #F6A866; }
+.t-it { color: #F07A80; } .t-fr { color: #CDA2E6; } .t-es { color: #F6A866; } .t-en { color: #8FD3A6; }
 .eyebrow { text-transform: uppercase; letter-spacing: .16em; font-size: .76rem; font-weight: 800; color: var(--gold); }
 
 /* ---------- Buttons ---------- */
@@ -97,7 +98,7 @@ button { font: inherit; color: inherit; }
 .hero h1 { font-size: clamp(2.4rem, 5.2vw, 4rem); line-height: 1.05; }
 .hero h1 em { font-style: italic; }
 .hero .foil { background: linear-gradient(100deg, #8F6420 0%, #C9973F 35%, #A87421 60%, #D4A24C 80%, #8F6420 100%); -webkit-background-clip: text; background-clip: text; }
-.hero .t-it { color: var(--it); } .hero .t-fr { color: var(--fr); } .hero .t-es { color: var(--es); }
+.hero .t-it { color: var(--it); } .hero .t-fr { color: var(--fr); } .hero .t-es { color: var(--es); } .hero .t-en { color: var(--en); }
 .hero__lead { margin-top: 1.3rem; font-size: 1.15rem; color: var(--muted); max-width: 33em; }
 .hero__cta { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.9rem; }
 .hero__cta--center { justify-content: center; }
@@ -134,8 +135,8 @@ button { font: inherit; color: inherit; }
 
 
 /* ---------- Postcards (language choice) ---------- */
-.postcards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1.75rem; }
-.postcard { --c: var(--it); position: relative; overflow: hidden; border: 0; padding: 0; cursor: pointer; text-align: left; border-radius: 16px; aspect-ratio: 16 / 10; color: #fff; background: #222; box-shadow: 0 20px 40px -26px rgba(0,0,0,.6); transition: transform .25s ease, box-shadow .25s ease; }
+.postcards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1.75rem; }
+.postcard { --c: var(--it); position: relative; overflow: hidden; border: 0; padding: 0; cursor: pointer; text-align: left; border-radius: 16px; aspect-ratio: 4 / 3; color: #fff; background: #222; box-shadow: 0 20px 40px -26px rgba(0,0,0,.6); transition: transform .25s ease, box-shadow .25s ease; }
 .postcard img { position: absolute; top: 0; left: 0; width: 118%; max-width: none; height: 100%; object-fit: cover; object-position: 50% 22%; transition: transform .6s ease, filter .3s; }
 .postcard::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 25%, rgba(10,10,10,.8) 100%); }
 .postcard__txt { position: absolute; left: 1rem; right: 1rem; bottom: .85rem; z-index: 1; display: grid; }
@@ -356,8 +357,8 @@ button { font: inherit; color: inherit; }
 }
 @media (max-width: 720px) {
   .sec { padding-block: 3.5rem; }
-  .postcards { gap: .55rem; }
-  .postcard { aspect-ratio: 3 / 4; border-radius: 12px; }
+  .postcards { gap: .6rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .postcard { aspect-ratio: 4 / 3; border-radius: 12px; }
   .postcard__txt { left: .6rem; right: .6rem; bottom: .6rem; }
   .postcard__greet { font-size: 1.15rem; }
   .postcard__name { font-size: 1.1rem; }
