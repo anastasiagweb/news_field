@@ -73,6 +73,14 @@ UTM-метки и `fbclid` из рекламной ссылки передают
 - Netlify, Vercel или Cloudflare Pages: перетащить папку `christmas-landing`;
 - GitHub Pages.
 
+## Обновление на сайте и кеш Cloudflare
+
+Cloudflare и браузеры кешируют `.js` и `.css` надолго (до года). Поэтому `index.html` подключает их с версией: `app.js?v=20261114`.
+После любой правки `app.js`, `content.js` или `styles.css`:
+1. увеличьте номер `?v=` в `index.html` (например, на сегодняшнюю дату);
+2. загрузите изменённые файлы вместе с `index.html`;
+3. в Cloudflare сбросьте кеш только для `https://easyoriginal.com/weihnachten/` и `https://easyoriginal.com/weihnachten`.
+
 ## Как менять содержимое
 
 Всё лежит в `content.js`: цены, ID товаров, тексты, FAQ и пробы.
