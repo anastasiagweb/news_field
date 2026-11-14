@@ -32,15 +32,21 @@ https://easyoriginal.com/warenkorb/?add-to-cart=<товар>&variation_id=<ва�
 Проверено на трёх типах товаров: комплект, отдельная книга и подарочный набор (наборы раскладываются в корзине на компоненты).
 UTM-метки и `fbclid` из рекламной ссылки передаются в корзину, поэтому атрибуция сохраняется.
 
-## Пиксель Meta
+## Статистика
 
-- Используется пиксель магазина `1076640955760504` (`content.js` → `metaPixelId`).
-- Пиксель загружается **только после согласия** в cookie-баннере (требование GDPR для DE/AT).
-- События:
-  - `PageView` и `ViewContent` при загрузке;
-  - `AddToCart` с `value`, `currency: EUR` и ID вариации на каждой кнопке покупки;
-  - кастомные `Sprachwahl`, `Ausgabewahl`, `Hoerprobe` и `CTA`.
-- `Purchase` отправляет сам магазин, пиксель там уже стоит.
+Аналитика включается только после согласия в cookie-баннере. Если посетитель уже дал согласие в баннере магазина (Complianz, cookies `cmplz_statistics` и `cmplz_marketing`), второй баннер не показывается.
+
+- **Google Analytics 4** `G-8DD18GFBLT` (тот же, что в магазине; `content.js` → `gaId`). События:
+  - `page_view`, `view_item_list` при загрузке;
+  - `select_language` (параметр `sprache`) и `select_edition` (`ausgabe`);
+  - `read_description` (`name`): какое описание раскрыли;
+  - `play_sample`: прослушали аудиопробу;
+  - `cta_click` (`position`);
+  - `add_to_cart` с `value`, `currency: EUR` и товаром (`item_name`, язык в `item_category`, издание в `item_variant`).
+- **Пиксель Meta** `1076640955760504` (`content.js` → `metaPixelId`):
+  - `PageView`, `ViewContent`, `AddToCart` (со стоимостью);
+  - кастомные `Sprachwahl`, `Ausgabewahl`, `Hoerprobe`, `Beschreibung`, `CTA`.
+- **Покупки** считает сам магазин. UTM-метки из рекламы передаются в корзину, поэтому WooCommerce (Order Attribution) показывает источник у каждого заказа.
 
 ## Ссылки для рекламы
 

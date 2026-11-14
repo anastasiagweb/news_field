@@ -9,6 +9,7 @@ window.EO = {
   shop: "https://easyoriginal.com",
   cartPath: "/warenkorb/",
   metaPixelId: "1076640955760504",   // Pixel aus dem Shop
+  gaId: "G-8DD18GFBLT",              // Google Analytics 4 aus dem Shop
   freeShippingFrom: 39,
   shippingFlat: 6.9,
 

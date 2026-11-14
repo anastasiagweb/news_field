@@ -38,11 +38,32 @@
   }
   function cartUrlSimple(id) { return D.shop + D.cartPath + "?add-to-cart=" + id + passthrough(); }
 
-  // ---------- Meta Pixel (nur nach Zustimmung) ----------
-  var CONSENT_KEY = "eo_consent_meta";
-  function getConsent() { try { return localStorage.getItem(CONSENT_KEY); } catch (e) { return null; } }
+  // ---------- Statistik: Google Analytics 4 + Meta Pixel (nur nach Zustimmung) ----------
+  var CONSENT_KEY = "eo_consent";
+  function getConsent() {
+    try { return localStorage.getItem(CONSENT_KEY) || localStorage.getItem("eo_consent_meta"); } catch (e) { return null; }
+  }
   function setConsent(v) { try { localStorage.setItem(CONSENT_KEY, v); } catch (e) {} }
-  var pixelOn = false;
+  // Zustimmung aus dem Cookie-Banner des Shops (Complianz) übernehmen: gleiche Domain
+  function cookie(name) { var m = document.cookie.match(new RegExp("(?:^|; )" + name + "=([^;]*)")); return m ? decodeURIComponent(m[1]) : null; }
+  function shopConsent() {
+    var st = cookie("cmplz_statistics"), mk = cookie("cmplz_marketing");
+    if (!st && !mk) return null;
+    return { stats: st === "allow", ads: mk === "allow" };
+  }
+
+  var gaOn = false, pixelOn = false;
+  function loadGA() {
+    if (gaOn || !D.gaId) return;
+    gaOn = true;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    var s = document.createElement("script"); s.async = true; s.src = "https://www.googletagmanager.com/gtag/js?id=" + D.gaId;
+    document.head.appendChild(s);
+    window.gtag("js", new Date());
+    window.gtag("config", D.gaId, { page_title: "Weihnachten Landingpage", content_group: "Weihnachten Landingpage" });
+    window.gtag("event", "view_item_list", { item_list_id: "weihnachten", item_list_name: "Weihnachten Landingpage", language_selected: L().name });
+  }
   function loadPixel() {
     if (pixelOn || !D.metaPixelId) return;
     pixelOn = true;
@@ -53,24 +74,33 @@
     window.fbq("track", "PageView");
     window.fbq("track", "ViewContent", { content_name: "Weihnachten Landingpage", content_category: "Weihnachten", content_type: "product_group" });
   }
-  var STANDARD = ["PageView", "ViewContent", "AddToCart"];
+
+  // Ereignisnamen: Meta (links) → Google Analytics 4 (rechts)
+  var GA_NAMES = { AddToCart: "add_to_cart", Sprachwahl: "select_language", Ausgabewahl: "select_edition", Hoerprobe: "play_sample", Beschreibung: "read_description", CTA: "cta_click" };
+  var META_STANDARD = ["PageView", "ViewContent", "AddToCart"];
   function track(event, data) {
-    if (pixelOn && window.fbq) window.fbq(STANDARD.indexOf(event) >= 0 ? "track" : "trackCustom", event, data || {});
-    if (window.dataLayer) window.dataLayer.push(Object.assign({ event: "eo_" + event }, data || {}));
+    data = data || {};
+    if (pixelOn && window.fbq) window.fbq(META_STANDARD.indexOf(event) >= 0 ? "track" : "trackCustom", event, data.meta || data);
+    if (gaOn && window.gtag && GA_NAMES[event]) window.gtag("event", GA_NAMES[event], data.ga || data);
   }
   function initConsent() {
     var c = getConsent();
-    if (c === "yes") { loadPixel(); return; }
+    if (c === "yes") { loadGA(); loadPixel(); return; }
     if (c === "no") return;
+    var shop = shopConsent();
+    if (shop) { if (shop.stats) loadGA(); if (shop.ads) loadPixel(); return; }
     var box = $("#consent");
     box.hidden = false;
-    $("#consent-yes").addEventListener("click", function () { setConsent("yes"); box.hidden = true; loadPixel(); });
+    $("#consent-yes").addEventListener("click", function () { setConsent("yes"); box.hidden = true; loadGA(); loadPixel(); });
     $("#consent-no").addEventListener("click", function () { setConsent("no"); box.hidden = true; });
   }
   function wireBuy(a, info) {
     a.addEventListener("click", function () {
       var i = typeof info === "function" ? info() : info;
-      track("AddToCart", { content_ids: [String(i.id)], content_name: i.name, content_type: "product", value: i.value, currency: "EUR" });
+      track("AddToCart", {
+        meta: { content_ids: [String(i.id)], content_name: i.name, content_type: "product", value: i.value, currency: "EUR" },
+        ga: { currency: "EUR", value: i.value, items: [{ item_id: String(i.id), item_name: i.name, item_category: L().name, item_variant: E().name, price: i.value, quantity: 1 }] }
+      });
     });
   }
 
@@ -341,6 +371,13 @@
     var tr = e.target.closest("[data-track]");
     if (tr) track("CTA", { position: tr.getAttribute("data-track") });
   });
+  // Welche Beschreibungen werden aufgeklappt?
+  document.addEventListener("toggle", function (e) {
+    var d = e.target;
+    if (!d.classList || !d.classList.contains("more") || !d.open) return;
+    var book = d.closest(".book"), name = book ? book.querySelector("h4").textContent : d.closest("#gift") ? "Geschenkset " + L().setName : "Set " + L().setName;
+    track("Beschreibung", { name: name, sprache: L().name });
+  }, true);
   document.addEventListener("change", function (e) {
     var t = e.target;
     if (t.name === "setfmt") { state.setFormat = t.value; renderSet(); var a = $("#setfmt-" + t.value); if (a) a.focus(); }
